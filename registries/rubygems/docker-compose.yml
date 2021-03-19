@@ -1,0 +1,14 @@
+version: '3'
+services:
+    rubygems-mirror:
+        build: ./
+        image: osssanitizer/rubygems-mirror
+        volumes:
+            - ${MIRROR_DIR}:/data/rubygems/
+        environment:
+            - INIT=${INIT}
+        restart: always
+        deploy:
+            resources:
+                limits:
+                    memory: ${MAX_DOCKER_MEMORY}
