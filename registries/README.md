@@ -14,6 +14,11 @@ as well as for speeding up data downloading in analysis phase.
 
 # HowTo #
 
+- See BUILD.md
+
+
+# Reference #
+
 - [latest registry stats](http://www.modulecounts.com)
 - [add package manager to libraries.io](https://github.com/librariesio/libraries.io/blob/ffbb032c53b3f8354d9245d67163869d97606c82/docs/add-a-package-manager.md)
 - mirror npm: use download_npm.py
