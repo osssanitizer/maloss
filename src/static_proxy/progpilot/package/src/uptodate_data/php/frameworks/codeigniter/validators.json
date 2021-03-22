@@ -1,0 +1,13 @@
+{
+    "validators": [
+        {"name": "xss_clean", "instanceof": "CI_Controller->security", "language": "php", "parameters": 
+            [
+                {"id": 1, "conditions": "valid"},
+                {"id": 2, "conditions": "equals", "values": 
+                    [
+                        {"value" : "true"}
+                    ]}
+            ]
+        }
+		]
+}

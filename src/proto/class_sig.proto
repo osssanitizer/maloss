@@ -1,0 +1,191 @@
+syntax = "proto3";
+import "ast.proto";
+package proto;
+
+
+/*
+ * For a class, it has:
+ * 	-- parent class
+ * 	-- implemented interfaces
+ *  -- outer class
+ *
+ *  -- static fields
+ *  -- instance fields
+ *  -- methods
+ *
+ * For a method, it has:
+ *	-- prototype: parameters, return type
+ *  -- local variables
+ *  -- statements
+ *
+ * Statements we care about:
+ * 	-- AssignStmt: left value, right value
+ *	-- InvokeStmt: InvokeExpr
+ *
+ * Left Value:
+ *  -- array_ref, instance_field_ref, static_field_ref, local
+ *
+ * Right Value:
+ *  -- array_ref, constant, instance_field_ref, static_field_ref, local, expr
+ *
+ * Expr:
+ *  -- cast_expr, instance_of_expr, invoke_expr, new_array_expr, new_expr, new_multi_array_expr
+ *
+ * InvokeExpr:
+ *  -- interface_invoke_expr, special_invoke_expr, static_invoke_expr, virtual_invoke_expr
+ *
+ * Different relations between Class A and Class B
+ */
+
+// Centroid and BasicBlock: http://dl.acm.org/citation.cfm?id=2568286
+message Centroid {
+	double x = 1;
+	double y = 2;
+	double z = 3;
+	int32 w = 4;
+}
+
+message BasicBlockProto {
+	// x, sequence number, use deterministic depth-first traversal to assign sequence number
+	int32 sequence_number = 1;
+	// incoming edges, in degree is the number of incoming edges for a basic block
+	int32 in_degree = 2;
+	// y, outgoing edges, out degree is the number of outgoing edges in basic block
+	int32 out_degree = 3;
+	// incoming edges, doesn't include exceptional edges
+	int32 in_degree_unexceptional = 4;
+	// y, outgoing edges, doesn't include exceptional edges
+	int32 out_degree_unexceptional = 5;
+	// z, loop depth of the node, depth is the depth of loop
+	int32 loop_depth = 6;
+	// w, number of statements, total number of statements
+	int32 stmt_count = 7;
+	// w', list of invoked method signatures
+	repeated string invoked_method_signatures = 8;
+	// predecessors, represented using sequence number
+	repeated int32 predecessors = 9;
+	// successors, represented using sequence number
+	repeated int32 successors = 10;
+	// the dominator sequence number, used for debugging!
+	int32 dominator_sequence_number = 11;
+}
+
+message MethodAttributeProto {
+	string class_name = 1;
+	string method_name =2;
+	string method_signature = 3;
+	string method_subsignature = 4;
+	repeated string paramter_types = 5;
+	string return_type = 6;
+	repeated string local_types = 7;
+	repeated string string_constants = 8;
+	// The methods that this method invokes, specially we want to check if it is a API method
+	repeated string invoked_method_signatures = 9;
+	repeated string resource_refs = 10;
+	repeated string statements = 11;
+	string modifiers = 12;
+	Centroid centroid = 13;
+	Centroid centroid_with_invoke = 14;
+	repeated BasicBlockProto blocks = 15;
+}
+
+message ClassAttributeProto {
+	string class_name = 1;
+	string super_class_name = 2;
+	repeated string interface_class_names = 3;
+	string package_name = 4;
+	bool is_entry_point = 5;
+	repeated string static_field_strings = 6;
+	repeated string instance_field_strings = 7;
+	repeated string permission_strings = 8;
+	repeated MethodAttributeProto methods = 9;
+	string outer_class_name = 10;
+	string modifiers = 11;
+}
+
+message ClassRelationProto {
+	string classname1 = 1;
+	string classname2 = 2;
+	// This should be consistent with ClassRelation.java
+	enum RelationType {
+		INHERITANCE = 0;
+		STATIC_ARRAY_FIELD = 1;
+		STATIC__FIELD = 2;
+		INSTANCE_ARRAY_FIELD = 3;
+		INSTANCE_FIELD = 4;
+		METHOD_ARRAY_PARAMERTER = 5;
+		METHOD_PARAMETER = 6;
+		METHOD_ARRAY_RETURN = 7;
+		METHOD_RETURN = 8;
+		METHOD_ARRAY_LOCAL = 9;
+		METHOD_LOCAL = 10;
+
+		STMT_ARRAY_REF = 11;
+		STMT_INSTANCE_FIELD_REF = 12;
+		STMT_STATIC_FIELD_REF = 13;
+		STMT_LOCAL_REF = 14;
+
+		CAST_EXPR = 15;
+		INSTANCE_OF_EXPR = 16;
+		NEW_EXPR = 17;
+		NEW_ARRAY_EXPR = 18;
+		NEW_MULTI_ARRAY_EXPR = 19;
+
+		INVOKE_EXPR = 20;
+		ICC = 21;
+
+		IMPL = 22;
+		OUTER_CLASS = 23;
+
+		ClassRelationNone = 24;
+	}
+	message RelationCounter {
+		RelationType relation_type = 1;
+		int32 relation_count = 2;
+	}
+	repeated RelationCounter relation_counters = 3;
+	// classname1 is absolutely application class, because we need to inspect the implementation to get
+	// the relationship between classname1 and classname2.
+	// but classname2 can be non-application classes and can require permissions.
+	bool classname2_is_application_class = 4;
+	// classname2 can require permissions, only record this if classname2 is not application class
+	repeated string classname2_permissions = 5;
+}
+
+
+message MethodRelationProto {
+    string methodname1 = 1;
+    string methodname2 = 2;
+}
+
+message ClassMethodRelationProto {
+    string classname1 = 1;
+    string methodname2 = 2;
+}
+
+message MethodClassRelationProto {
+    string methodname1 = 1;
+    string classname2 = 2;
+}
+
+message PkgClassMethodResult {
+	// Package information
+	string pkg_name = 1;
+	string pkg_version = 2;
+	Language language = 3;
+    string input_path = 4;
+
+	// Generic feature result. Note, java wraps everything in classes, so methods related fields are empty.
+    repeated ClassAttributeProto classes = 5;
+    repeated MethodAttributeProto methods = 6;
+    repeated ClassRelationProto class_pairs = 7;
+    repeated MethodRelationProto method_pairs = 8;
+    repeated ClassMethodRelationProto class_method_pairs = 9;
+    repeated MethodClassRelationProto method_class_pairs = 10;
+    uint64 timestamp = 11;
+}
+
+message PkgClassMethodResults {
+	repeated PkgClassMethodResult pkgs = 1;
+	uint64 timestamp = 2;
+}

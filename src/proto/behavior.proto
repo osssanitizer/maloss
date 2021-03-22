@@ -1,0 +1,116 @@
+syntax = "proto3";
+import "info.proto";
+import "module.proto";
+package proto;
+
+enum ExecutionType {
+    // Install the package
+    INSTALL = 0;
+    // Run the main binaries or executables of a package
+    MAIN = 1;
+    // Import and interact with a package
+    EXERCISE = 2;
+    // Run test script of a package
+    TEST = 3;
+}
+
+enum AnalysisType {
+    API_USAGE = 0;
+    REACHABILITY = 1;
+    TAINT_TRACKING = 2;
+    SYMBOLIC = 3;
+}
+
+message NetworkActivity {
+    // Query domain or contact specific IPs
+    string domain = 1;
+    string url = 2;
+    string ip = 3;
+    int32 port = 4;
+    // ICMP, UDP, TCP
+    string protocol = 5;
+    string send_content = 6;
+    int32 send_content_size = 7;
+    string receive_content = 8;
+    int32 receive_content_size = 9;
+}
+
+message FileActivity {
+    string filename = 1;
+    string filepath = 2;
+    string mode = 3;
+    string permission = 4;
+    // Read information.
+    string read_content = 5;
+    string read_content_size = 6;
+    // Write to outside own folder.
+    string add_content = 7;
+    int32 add_content_size = 8;
+    // Remove files outside own folder.
+    string remove_content = 9;
+    int32 remove_content_size = 10;
+    // Encrypt files outside own folder.
+    string modify_content = 11;
+    int32 modify_content_size = 12;
+}
+
+message SensitivenActivity {
+    // FIXME: Read/Write sensitive information  or performing privileged operations via specific system calls
+    string pid = 1;
+    string cmdline = 2;
+    string exe = 3;
+    string cwd = 4;
+    string root = 5;
+    string ppid = 6;
+    string user = 7;
+    string syscall = 8;
+}
+
+message ProcessActivity {
+    // Start new processes
+    string pid = 1;
+    string cmdline = 2;
+    string exe = 3;
+    string cwd = 4;
+    string root = 5;
+    string ppid = 6;
+    string user = 7;
+    string permission = 8;
+    bool main_process = 9;
+    repeated NetworkActivity network_activities = 10;
+    repeated FileActivity file_activities = 11;
+    repeated ProcessActivity child_process_activities = 12;
+    repeated SensitivenActivity sensitive_activities = 13;
+}
+
+message DynamicAnalysis {
+    AnalysisType analysis_type = 1;
+    ExecutionType exe_type = 2;
+    // User running the program, e.g. root, maloss etc.
+    string exe_user = 3;
+    string timestamp = 4;
+    string end_timestamp = 5;
+    ProcessActivity process_activity = 6;
+}
+
+message StaticAnalysis {
+    AnalysisType analysis_type = 1;
+    string timestamp = 2;
+    ModuleStatic code_activity = 3;
+}
+
+message ConcolicAnalysis {
+    AnalysisType analysis_type = 1;
+    ExecutionType exe_type = 2;
+    string exe_user = 3;
+    string timestamp = 4;
+    string end_timestamp = 5;
+    ProcessActivity process_activity = 6;
+}
+
+message AnalysisResult {
+    PackageInfo package_info = 1;
+    repeated DynamicAnalysis dynamic_results = 2;
+    repeated StaticAnalysis static_results = 3;
+    repeated ConcolicAnalysis concolic_results = 4;
+}

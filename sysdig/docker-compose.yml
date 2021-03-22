@@ -1,0 +1,16 @@
+version: '3'
+services:
+    sysdig:
+        image: sysdig/sysdig:0.27.1
+        container_name: sysdig
+        privileged: true
+        restart: always
+        volumes:
+            - /var/run/docker.sock:/host/var/run/docker.sock
+            - /dev:/host/dev
+            - /proc:/host/proc:ro
+            - /boot:/host/boot:ro
+            - /lib/modules:/host/lib/modules:ro
+            - /usr:/host/usr:ro
+            - ${TRACEDIR}:${TRACEDIR}
+        command: bash -c "sysdig -z -C 2048 -qw ${TRACEPATH}.$$(date +'%Y%m%d-%H%M%S').scap.gz container.id != host and container.image = malossscan/maloss"

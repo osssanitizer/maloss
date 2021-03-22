@@ -1,0 +1,4 @@
+Package/Class,Method,Classification,Type,Resource,Potential Exploit(s)
+javax.xml.xpath.XPath,evaluate(),Source/Questionable,SINK_DATABASE,CodeMaster,XPath Injection
+javax.xml.xpath.XPathExpression,evaluate(),Source/Questionable,SINK_DATABASE,CodeMaster,XPath Injection
+javax.xml.xpath.XPath,compile(),Sink/Questionable,SINK_DATABASE,CodeMaster,Command Injection;XPath Injection

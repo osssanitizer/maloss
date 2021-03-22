@@ -1,0 +1,10 @@
+# the latest version has known bug, revert to older versions.
+# https://github.com/celery/celery/issues/5047
+celery==4.1.1
+tornado==5.1.1
+progressbar==2.5
+docker==4.0.1
+psutil==5.4.7
+python-crontab==2.3.5
+python-dateutil==2.7.5
+python-dotenv==0.10.3

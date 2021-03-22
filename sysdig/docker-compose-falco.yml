@@ -1,0 +1,18 @@
+version: '3'
+services:
+    falco:
+        image: falcosecurity/falco:0.27.0
+        container_name: falco
+        privileged: true
+        environment:
+            - SYSDIG_SKIP_LOAD=${SYSDIG_SKIP_LOAD}
+        volumes:
+            - /var/run/docker.sock:/host/var/run/docker.sock
+            - /dev:/host/dev
+            - /proc:/host/proc:ro
+            - /boot:/host/boot:ro
+            - /lib/modules:/host/lib/modules:ro
+            - /usr:/host/usr:ro
+            - ${DATADIR}:${DATADIR}
+            - ${FALCODIR}:/etc/falco
+        command: bash -c "/etc/falco/falco_cmd.sh /etc/falco/falco.yaml ${DATADIR} ${PROCESS}"

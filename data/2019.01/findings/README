@@ -1,0 +1,13 @@
+The domains files contain the domains for respective package managers.
+
+   ruby_domains:   RubyGems
+   python_domains: PyPi
+   npmjs_domains:  npm
+   php_domains:    composer
+
+ In the server, they are located at the following location:
+
+  ruby_domains: /data/maloss/sysdig/ruby.latest.finding/ip/domain/ruby_domains
+  php_domains: /data/maloss/sysdig/php.latest.finding/domain/php_domains
+  python_domains: /data/maloss/sysdig/python.latest.finding/ip/domain/python_domains
+  npmjs_domains: /data/maloss/sysdig/npmjs_domains

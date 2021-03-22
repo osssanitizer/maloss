@@ -1,0 +1,47 @@
+{
+  "info": "A toolkit of support libraries and Ruby core extensions extracted from the Rails framework. Rich support for multibyte strings, internationalization, time zones, and testing.", 
+  "changelog_uri": "https://github.com/rails/rails/blob/v5.2.1/activesupport/CHANGELOG.md", 
+  "project_uri": "https://rubygems.org/gems/activesupport", 
+  "name": "activesupport", 
+  "sha": "829a480f2cf3747b5e94429d983dfb1645a27d506b365642d08ecc3066373e7e", 
+  "downloads": 210208440, 
+  "version_downloads": 1878423, 
+  "gem_uri": "https://rubygems.org/gems/activesupport-5.2.1.gem", 
+  "bug_tracker_uri": null, 
+  "platform": "ruby", 
+  "version": "5.2.1", 
+  "documentation_uri": "http://www.rubydoc.info/gems/activesupport/5.2.1", 
+  "source_code_uri": "https://github.com/rails/rails/tree/v5.2.1/activesupport", 
+  "authors": "David Heinemeier Hansson", 
+  "licenses": [
+    "MIT"
+  ], 
+  "wiki_uri": null, 
+  "homepage_uri": "http://rubyonrails.org", 
+  "mailing_list_uri": null, 
+  "dependencies": {
+    "development": [], 
+    "runtime": [
+      {
+        "requirements": ">= 1.0.2, ~> 1.0", 
+        "name": "concurrent-ruby"
+      }, 
+      {
+        "requirements": "< 2, >= 0.7", 
+        "name": "i18n"
+      }, 
+      {
+        "requirements": "~> 5.1", 
+        "name": "minitest"
+      }, 
+      {
+        "requirements": "~> 1.1", 
+        "name": "tzinfo"
+      }
+    ]
+  }, 
+  "metadata": {
+    "changelog_uri": "https://github.com/rails/rails/blob/v5.2.1/activesupport/CHANGELOG.md", 
+    "source_code_uri": "https://github.com/rails/rails/tree/v5.2.1/activesupport"
+  }
+}

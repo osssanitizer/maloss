@@ -1,0 +1,11 @@
+Package/Class,Method,Classification,Type,Resource
+java.util.Locale,getCountry(),Source,SOURCE_DATABASE,FlowDroid
+java.util.Calendar,getTimeZone(),Source,SOURCE_CALENDAR,FlowDroid
+java.util.Base64.Decoder,decode(),Source,SOURCE_OBFUSCATION,Java SE 10 JavaDoc
+java.time.LocalTime,now(),Source_Weak,,Java SE 10 JavaDoc
+java.time.LocalTime,query(),Source_Weak,,Java SE 10 JavaDoc
+java.time.LocalDateTime,now(),Source_Weak,,Java SE 10 JavaDoc
+java.time.LocalDateTime,query(),Source_Weak,,Java SE 10 JavaDoc
+java.time.LocalDate,now(),Source_Weak,,Java SE 10 JavaDoc
+java.time.LocalDate,query(),Source_Weak,,Java SE 10 JavaDoc
+java.time.ZonedDateTime,now(),Source_Weak,,Java SE 10 JavaDoc

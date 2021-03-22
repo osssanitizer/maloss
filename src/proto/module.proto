@@ -1,0 +1,91 @@
+syntax = "proto3";
+import "ast.proto";
+import "info.proto";
+package proto;
+
+
+message ModuleSource {
+    AstNode node = 1;
+    repeated AstNode reachable_sources = 2;
+}
+
+message ModuleSink {
+    AstNode node = 1;
+    repeated AstNode reachable_sinks = 2;
+}
+
+/**
+ * Rule-based summaries proposed by StubDroid.
+ * id = 0, means the this/self pointer of the object, or the first arg.
+ * id = -1, means the return value of the function.
+ *
+ * For example, if arg0 is tainted, then return value is tainted can be encoded as: {cause: id=0, effects: [id=-1]}
+ * 
+ * Reference: 
+ * format of module summary
+ * https://github.com/secure-software-engineering/FlowDroid/blob/develop/soot-infoflow-summaries/schema/ClassSummary.xsd
+ * https://github.com/secure-software-engineering/FlowDroid/blob/develop/soot-infoflow-summaries/schema/SummaryMetaData.xsd
+ * FIXME: convert xsd to proto and update the taint wrapper here.
+ * http://tranchis.github.io/xsd2thrift/
+ */
+message ModuleTaintWrapper {
+    message TaintPoint {
+        int32 id = 1;
+        repeated string access_paths = 2;
+    }
+    message TaintRule {
+        TaintPoint cause = 1;
+        repeated TaintPoint effects = 2;
+    }
+    AstNode node = 1;
+    repeated TaintRule rules = 2;
+}
+
+/**
+ * FIXME: label flows/dangers as stealer, backdoor and sabotage behaviors.
+ * stealer can be: read from sensitive locations and send to internet
+ * backdoor can be: read information from file or internet and evaluate/execute
+ * sabotage can be: remove/encrypt files outside own folder
+ */
+message ModuleFlow {
+    message FlowInfo {
+        string name = 1;
+        string cwe = 2;
+        string type = 3;
+    }
+    AstNode source = 1;
+    repeated AstNode hops = 2;
+    AstNode sink = 3;
+    FlowInfo info = 4;
+}
+
+message ModuleDanger {
+    AstNode danger = 1;
+    repeated AstNode slices = 2;
+}
+
+// Summarize new sources, sinks and taint wrappers exposed by the current package, to enable module-based taint analysis
+message ModuleSummary {
+    PackageInfo package_info = 1;
+    repeated ModuleSource sources = 2;
+    repeated ModuleSink sinks = 3;
+    repeated ModuleTaintWrapper taint_wrappers = 4;
+}
+
+// Lists the identified taint flows for the specified module
+message ModuleResult {
+    PackageInfo package_info = 1;
+    repeated ModuleFlow flows = 2;
+    repeated ModuleDanger dangers = 3;
+}
+
+// Wraps summary and result in a single message, this is intended for all static analysis results for the module.
+message ModuleStatic {
+    PackageInfo package_info = 1;
+    repeated ModuleFlow flows = 2;
+    repeated ModuleDanger dangers = 3;
+    repeated ModuleSource sources = 4;
+    repeated ModuleSink sinks = 5;
+    repeated ModuleTaintWrapper taint_wrappers = 6;
+}
+

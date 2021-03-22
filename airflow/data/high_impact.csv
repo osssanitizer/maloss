@@ -1,0 +1,21 @@
+Package Name,Package Manager,Installs,Dependents,Email,Comments
+ssh-decorate,pypi,4124,,,
+event-stream,npmjs,189917375,,,
+eslint-scope,npmjs,441731365,,,
+eslint-config-eslint,npmjs,329054,,,
+eslint-config-airbnb-standard,npmjs,114027,,,
+bootstrap-sass,rubygems,29873436,,"https://github.com/dgb
+https://www.linkedin.com/in/andrewswerlick/
+https://www.linkedin.com/in/thomas-mcdonald-ab523ba2/
+https://www.linkedin.com/in/glebm/",https://github.com/twbs/bootstrap-sass/issues/1195
+paranoid2,rubygems,94312,,,
+strong_password,rubygems,253723,,https://twitter.com/rafaelfranca,https://news.ycombinator.com/item?id=20377136
+mailparser,npmjs,9437868,,https://github.com/nodemailer/mailparser,
+kraken-api,npmjs,145624,,,
+electron-native-notify,npmjs,5197,,,
+komodo platform,N/A,,,,electron-native-notify snuck into komodo's build-chain and turned malicious later.
+load-from-cwd-or-npm,npmjs,123599,,,
+rate-map,npmjs,114189,,,
+simple_captcha2,rubygems,236813,,,
+datagrid,rubygems,479927,,,
+rest-client,rubygems,114503763,,,

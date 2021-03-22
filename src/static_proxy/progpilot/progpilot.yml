@@ -1,0 +1,40 @@
+inputs:
+    setDev: false
+    setLanguages: 
+        - php
+    setFrameworks: 
+        - suitecrm
+        - codeigniter
+        - wordpress
+    setSources: ~
+    setSinks: ~
+    setValidators: ~
+    setSanitizers: ~
+    setCustomRules: ~
+    setIncludes: ~
+    setExcludes: 
+        exclude_folders: 
+            - "./projects/"
+            - ".git/"
+            - "./package/src/progpilot/Transformations/Js/"
+    setFolder: ~
+    setFile: ~
+    setCode: ~
+    setResolvedIncludes: ~
+    setFalsePositives: ~
+    
+outputs:
+    taintedFlow: false
+    resolveIncludes: false
+    resolveIncludesFile: ~
+    
+options:
+    setAnalyzeIncludes: true
+    setAnalyzeFunctions: true
+    setAnalyzeHardRules: true
+    setPrintFile: false
+    setPrintWarning: false
+    setPrettyPrint: true
+    setLimitTime: 10
+    setLimitDefs: 3000
+    setLimitSize: 500000

@@ -1,0 +1,46 @@
+inputs:
+    setDev: false
+    setLanguages: 
+        - php
+    setFrameworks: 
+        - suitecrm
+        - codeigniter
+        - wordpress
+        - prestashop
+        - symfony
+    setSources: ~
+    setSinks: ~
+    setValidators: ~
+    setSanitizers: ~
+    setCustomRules: ~
+    setIncludes: ~
+    setExcludes: 
+        exclude_files:
+            - "/srv/www/htdocs/phpMyAdmin/libraries/tcpdf/fonts/dejavusans.php"
+        exclude_folders: 
+            - "/srv/www/htdocs/phpMyAdmin/themes/original/"
+            - "/home/eric/Téléchargements/prestashop/vendor/"
+            - "/home/eric/Téléchargements/prestashop/localization/"
+    setFolder: "/home/eric/Téléchargements/drupal-8.6.1/"
+    setFile: ~
+    setCode: ~
+    setResolvedIncludes: ~
+    setFalsePositives: ~
+    
+outputs:
+    taintedFlow: true
+    resolveIncludes: false
+    resolveIncludesFile: ~
+    setOutfile: ./output.json
+    
+options:
+    setAnalyzeIncludes: true
+    setAnalyzeFunctions: true
+    setAnalyzeHardRules: true
+    setPrintFile: true
+    setPrintWarning: false
+    setPrettyPrint: true
+    setLimitTime: 10000
+    setLimitDefs: 3000000
+    setLimitSize: 500000000
+

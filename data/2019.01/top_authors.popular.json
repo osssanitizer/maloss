@@ -1,0 +1,2777 @@
+{
+  "rsreusser@gmail.com": {
+    "pkg_count": 37, 
+    "javascript_pkg_count": 37, 
+    "use_count": 7385, 
+    "javascript_use_count": 7385, 
+    "javascript_download_count": 68956539, 
+    "download_count": 68956539
+  }, 
+  "rhyneandrew@gmail.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 150042, 
+    "javascript_use_count": 150042, 
+    "javascript_download_count": 1741970826, 
+    "download_count": 1741970826
+  }, 
+  "openstack-dev@lists.openstack.org": {
+    "pkg_count": 93, 
+    "use_count": 3775, 
+    "python_download_count": 9866492, 
+    "python_pkg_count": 93, 
+    "download_count": 9866492, 
+    "python_use_count": 3775
+  }, 
+  "djberg96@gmail.com": {
+    "ruby_download_count": 45127811, 
+    "pkg_count": 40, 
+    "ruby_pkg_count": 40, 
+    "ruby_use_count": 663, 
+    "use_count": 663, 
+    "download_count": 45127811
+  }, 
+  "mathias@qiwi.be": {
+    "pkg_count": 214, 
+    "javascript_pkg_count": 214, 
+    "use_count": 744062, 
+    "javascript_use_count": 744062, 
+    "javascript_download_count": 11354770040, 
+    "download_count": 11354770040
+  }, 
+  "steve@opscode.com": {
+    "ruby_download_count": 126339981, 
+    "pkg_count": 50, 
+    "ruby_pkg_count": 50, 
+    "ruby_use_count": 5634, 
+    "use_count": 5634, 
+    "download_count": 126339981
+  }, 
+  "aws-dr-rubygems@amazon.com": {
+    "ruby_download_count": 2044151669, 
+    "pkg_count": 181, 
+    "ruby_pkg_count": 181, 
+    "ruby_use_count": 205595, 
+    "use_count": 205595, 
+    "download_count": 2044151669
+  }, 
+  "jean@lauliac.com": {
+    "pkg_count": 33, 
+    "javascript_pkg_count": 33, 
+    "use_count": 102576, 
+    "javascript_use_count": 102576, 
+    "javascript_download_count": 3036368380, 
+    "download_count": 3036368380
+  }, 
+  "kaspth@gmail.com": {
+    "ruby_download_count": 2866041399, 
+    "pkg_count": 46, 
+    "ruby_pkg_count": 43, 
+    "ruby_use_count": 233297, 
+    "javascript_pkg_count": 3, 
+    "use_count": 233318, 
+    "javascript_use_count": 21, 
+    "javascript_download_count": 18458823, 
+    "download_count": 2884500222
+  }, 
+  "cowboy@rj3.net": {
+    "pkg_count": 32, 
+    "javascript_pkg_count": 32, 
+    "use_count": 49561, 
+    "javascript_use_count": 49561, 
+    "javascript_download_count": 1052622193, 
+    "download_count": 1052622193
+  }, 
+  "npm@jameside.com": {
+    "pkg_count": 33, 
+    "javascript_pkg_count": 33, 
+    "use_count": 3609, 
+    "javascript_use_count": 3609, 
+    "javascript_download_count": 128428811, 
+    "download_count": 128428811
+  }, 
+  "zertosh@gmail.com": {
+    "pkg_count": 38, 
+    "javascript_pkg_count": 38, 
+    "use_count": 292786, 
+    "javascript_use_count": 292786, 
+    "javascript_download_count": 3247062343, 
+    "download_count": 3247062343
+  }, 
+  "john.david.dalton@gmail.com": {
+    "pkg_count": 210, 
+    "javascript_pkg_count": 210, 
+    "use_count": 442591, 
+    "javascript_use_count": 442591, 
+    "javascript_download_count": 8989285242, 
+    "download_count": 8989285242
+  }, 
+  "morgan.herlocker@gmail.com": {
+    "pkg_count": 103, 
+    "javascript_pkg_count": 103, 
+    "use_count": 10565, 
+    "javascript_use_count": 10565, 
+    "javascript_download_count": 190953187, 
+    "download_count": 190953187
+  }, 
+  "git@cfware.com": {
+    "pkg_count": 11, 
+    "javascript_pkg_count": 11, 
+    "use_count": 44506, 
+    "javascript_use_count": 44506, 
+    "javascript_download_count": 1338775922, 
+    "download_count": 1338775922
+  }, 
+  "patrick.f.mooney@gmail.com": {
+    "pkg_count": 3, 
+    "javascript_pkg_count": 3, 
+    "use_count": 130319, 
+    "javascript_use_count": 130319, 
+    "javascript_download_count": 1278514114, 
+    "download_count": 1278514114
+  }, 
+  "antshort@gmail.com": {
+    "pkg_count": 16, 
+    "javascript_pkg_count": 16, 
+    "use_count": 108031, 
+    "javascript_use_count": 108031, 
+    "javascript_download_count": 976966421, 
+    "download_count": 976966421
+  }, 
+  "tj@vision-media.ca": {
+    "ruby_download_count": 40324348, 
+    "pkg_count": 118, 
+    "ruby_pkg_count": 7, 
+    "ruby_use_count": 1612, 
+    "javascript_pkg_count": 111, 
+    "use_count": 841418, 
+    "javascript_use_count": 839806, 
+    "javascript_download_count": 10128448015, 
+    "download_count": 10168772363
+  }, 
+  "ben@benjamn.com": {
+    "pkg_count": 21, 
+    "javascript_pkg_count": 21, 
+    "use_count": 94950, 
+    "javascript_use_count": 94950, 
+    "javascript_download_count": 1397605312, 
+    "download_count": 1397605312
+  }, 
+  "tobias.koppers@googlemail.com": {
+    "pkg_count": 50, 
+    "javascript_pkg_count": 50, 
+    "use_count": 206625, 
+    "javascript_use_count": 206625, 
+    "javascript_download_count": 5127409527, 
+    "download_count": 5127409527
+  }, 
+  "dan.abramov@gmail.com": {
+    "pkg_count": 61, 
+    "javascript_pkg_count": 61, 
+    "use_count": 280885, 
+    "javascript_use_count": 280885, 
+    "javascript_download_count": 2713631149, 
+    "download_count": 2713631149
+  }, 
+  "rene@kooi.me": {
+    "pkg_count": 19, 
+    "javascript_pkg_count": 19, 
+    "use_count": 97870, 
+    "javascript_use_count": 97870, 
+    "javascript_download_count": 1221004624, 
+    "download_count": 1221004624
+  }, 
+  "fishrock123@rocketmail.com": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 167433, 
+    "javascript_use_count": 167433, 
+    "javascript_download_count": 1862500339, 
+    "download_count": 1862500339
+  }, 
+  "iam@alexindigo.com": {
+    "pkg_count": 5, 
+    "javascript_pkg_count": 5, 
+    "use_count": 211686, 
+    "javascript_use_count": 211686, 
+    "javascript_download_count": 1619919662, 
+    "download_count": 1619919662
+  }, 
+  "me@stephenmathieson.com": {
+    "pkg_count": 20, 
+    "javascript_pkg_count": 20, 
+    "use_count": 101717, 
+    "javascript_use_count": 101717, 
+    "javascript_download_count": 843492714, 
+    "download_count": 843492714
+  }, 
+  "mathiasbuus@gmail.com": {
+    "pkg_count": 73, 
+    "javascript_pkg_count": 73, 
+    "use_count": 660554, 
+    "javascript_use_count": 660554, 
+    "javascript_download_count": 6133021442, 
+    "download_count": 6133021442
+  }, 
+  "timaschew@gmail.com": {
+    "pkg_count": 10, 
+    "javascript_pkg_count": 10, 
+    "use_count": 96531, 
+    "javascript_use_count": 96531, 
+    "javascript_download_count": 790742951, 
+    "download_count": 790742951
+  }, 
+  "nicolo.ribaudo@gmail.com": {
+    "pkg_count": 110, 
+    "javascript_pkg_count": 110, 
+    "use_count": 705643, 
+    "javascript_use_count": 705643, 
+    "javascript_download_count": 4654522836, 
+    "download_count": 4654522836
+  }, 
+  "tyler@sleekcode.net": {
+    "ruby_download_count": 54770, 
+    "pkg_count": 35, 
+    "ruby_pkg_count": 1, 
+    "ruby_use_count": 1, 
+    "javascript_pkg_count": 34, 
+    "use_count": 102245, 
+    "javascript_use_count": 102244, 
+    "javascript_download_count": 1180632514, 
+    "download_count": 1180687284
+  }, 
+  "kevinmartensson@gmail.com": {
+    "pkg_count": 70, 
+    "javascript_pkg_count": 70, 
+    "use_count": 199565, 
+    "javascript_use_count": 199565, 
+    "javascript_download_count": 2440951967, 
+    "download_count": 2440951967
+  }, 
+  "floatdrop@gmail.com": {
+    "pkg_count": 17, 
+    "javascript_pkg_count": 17, 
+    "use_count": 32389, 
+    "javascript_use_count": 32389, 
+    "javascript_download_count": 1980716541, 
+    "download_count": 1980716541
+  }, 
+  "martin.heidegger@gmail.com": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 162875, 
+    "javascript_use_count": 162875, 
+    "javascript_download_count": 1975992859, 
+    "download_count": 1975992859
+  }, 
+  "wiens.joshua@gmail.com": {
+    "pkg_count": 39, 
+    "javascript_pkg_count": 39, 
+    "use_count": 80195, 
+    "javascript_use_count": 80195, 
+    "javascript_download_count": 2423356858, 
+    "download_count": 2423356858
+  }, 
+  "bebraw@gmail.com": {
+    "pkg_count": 45, 
+    "javascript_pkg_count": 44, 
+    "use_count": 103352, 
+    "javascript_use_count": 103277, 
+    "python_download_count": 898265, 
+    "python_pkg_count": 1, 
+    "javascript_download_count": 2931413082, 
+    "download_count": 2932311347, 
+    "python_use_count": 75
+  }, 
+  "trysound@yandex.ru": {
+    "pkg_count": 43, 
+    "javascript_pkg_count": 43, 
+    "use_count": 51822, 
+    "javascript_use_count": 51822, 
+    "javascript_download_count": 4203263573, 
+    "download_count": 4203263573
+  }, 
+  "maochenyan@gmail.com": {
+    "pkg_count": 45, 
+    "javascript_pkg_count": 45, 
+    "use_count": 174220, 
+    "javascript_use_count": 174220, 
+    "javascript_download_count": 2523239371, 
+    "download_count": 2523239371
+  }, 
+  "james@talmage.io": {
+    "pkg_count": 25, 
+    "javascript_pkg_count": 25, 
+    "use_count": 136413, 
+    "javascript_use_count": 136413, 
+    "javascript_download_count": 1800264057, 
+    "download_count": 1800264057
+  }, 
+  "rubennorte@gmail.com": {
+    "pkg_count": 31, 
+    "javascript_pkg_count": 31, 
+    "use_count": 104386, 
+    "javascript_use_count": 104386, 
+    "javascript_download_count": 3021675125, 
+    "download_count": 3021675125
+  }, 
+  "admins@shopify.com": {
+    "ruby_download_count": 44591869, 
+    "pkg_count": 47, 
+    "ruby_pkg_count": 47, 
+    "ruby_use_count": 2114, 
+    "use_count": 2114, 
+    "download_count": 44591869
+  }, 
+  "beau@beaugunderson.com": {
+    "pkg_count": 6, 
+    "javascript_pkg_count": 3, 
+    "use_count": 71802, 
+    "javascript_use_count": 71801, 
+    "python_download_count": 32196, 
+    "python_pkg_count": 3, 
+    "javascript_download_count": 1134525555, 
+    "download_count": 1134557751, 
+    "python_use_count": 1
+  }, 
+  "npm@fb.com": {
+    "pkg_count": 91, 
+    "javascript_pkg_count": 91, 
+    "use_count": 263405, 
+    "javascript_use_count": 263405, 
+    "javascript_download_count": 4354521600, 
+    "download_count": 4354521600
+  }, 
+  "robert@broofa.com": {
+    "pkg_count": 5, 
+    "javascript_pkg_count": 5, 
+    "use_count": 145884, 
+    "javascript_use_count": 145884, 
+    "javascript_download_count": 1697465175, 
+    "download_count": 1697465175
+  }, 
+  "adam@opscode.com": {
+    "ruby_download_count": 157411230, 
+    "pkg_count": 54, 
+    "ruby_pkg_count": 54, 
+    "ruby_use_count": 7435, 
+    "use_count": 7435, 
+    "download_count": 157411230
+  }, 
+  "dominic@dbarnes.info": {
+    "pkg_count": 17, 
+    "javascript_pkg_count": 17, 
+    "use_count": 142924, 
+    "javascript_use_count": 142924, 
+    "javascript_download_count": 1063386195, 
+    "download_count": 1063386195
+  }, 
+  "bng412@gmail.com": {
+    "pkg_count": 138, 
+    "javascript_pkg_count": 138, 
+    "use_count": 877746, 
+    "javascript_use_count": 877746, 
+    "javascript_download_count": 7116225911, 
+    "download_count": 7116225911
+  }, 
+  "jnylen@gmail.com": {
+    "pkg_count": 8, 
+    "javascript_pkg_count": 8, 
+    "use_count": 330420, 
+    "javascript_use_count": 330420, 
+    "javascript_download_count": 2842102665, 
+    "download_count": 2842102665
+  }, 
+  "rubygems@chef.io": {
+    "ruby_download_count": 188703287, 
+    "pkg_count": 58, 
+    "ruby_pkg_count": 58, 
+    "ruby_use_count": 7446, 
+    "use_count": 7446, 
+    "download_count": 188703287
+  }, 
+  "stefan.penner@gmail.com": {
+    "ruby_download_count": 8246858, 
+    "pkg_count": 134, 
+    "ruby_pkg_count": 5, 
+    "ruby_use_count": 202, 
+    "javascript_pkg_count": 129, 
+    "use_count": 169198, 
+    "javascript_use_count": 168996, 
+    "javascript_download_count": 1676981762, 
+    "download_count": 1685228620
+  }, 
+  "dfcreative@gmail.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 105048, 
+    "javascript_use_count": 105048, 
+    "javascript_download_count": 341205120, 
+    "download_count": 341205120
+  }, 
+  "75pound@gmail.com": {
+    "pkg_count": 43, 
+    "javascript_pkg_count": 43, 
+    "use_count": 16677, 
+    "javascript_use_count": 16677, 
+    "javascript_download_count": 170319633, 
+    "download_count": 170319633
+  }, 
+  "mattmuelle@gmail.com": {
+    "pkg_count": 22, 
+    "javascript_pkg_count": 22, 
+    "use_count": 129985, 
+    "javascript_use_count": 129985, 
+    "javascript_download_count": 1232676197, 
+    "download_count": 1232676197
+  }, 
+  "b@lupton.cc": {
+    "pkg_count": 39, 
+    "javascript_pkg_count": 39, 
+    "use_count": 245191, 
+    "javascript_use_count": 245191, 
+    "javascript_download_count": 2448543316, 
+    "download_count": 2448543316
+  }, 
+  "mtdowling@gmail.com": {
+    "php_download_count": 465439844, 
+    "pkg_count": 35, 
+    "php_use_count": 85001, 
+    "php_pkg_count": 35, 
+    "use_count": 85001, 
+    "download_count": 465439844
+  }, 
+  "hello@mario-nebl.de": {
+    "pkg_count": 35, 
+    "javascript_pkg_count": 35, 
+    "use_count": 8209, 
+    "javascript_use_count": 8209, 
+    "javascript_download_count": 294693295, 
+    "download_count": 294693295
+  }, 
+  "guilleiguaran@gmail.com": {
+    "ruby_download_count": 2956980010, 
+    "pkg_count": 42, 
+    "ruby_pkg_count": 42, 
+    "ruby_use_count": 234702, 
+    "use_count": 234702, 
+    "download_count": 2956980010
+  }, 
+  "raynos2@gmail.com": {
+    "pkg_count": 30, 
+    "javascript_pkg_count": 30, 
+    "use_count": 200139, 
+    "javascript_use_count": 200139, 
+    "javascript_download_count": 2068899730, 
+    "download_count": 2068899730
+  }, 
+  "utatane.tea@gmail.com": {
+    "ruby_download_count": 348132, 
+    "pkg_count": 11, 
+    "ruby_pkg_count": 2, 
+    "ruby_use_count": 6, 
+    "javascript_pkg_count": 9, 
+    "use_count": 114918, 
+    "javascript_use_count": 114912, 
+    "javascript_download_count": 1809851109, 
+    "download_count": 1810199241
+  }, 
+  "paul@paulmillr.com": {
+    "pkg_count": 30, 
+    "javascript_pkg_count": 30, 
+    "use_count": 260282, 
+    "javascript_use_count": 260282, 
+    "javascript_download_count": 2943774436, 
+    "download_count": 2943774436
+  }, 
+  "ryan.cavanaugh@microsoft.com": {
+    "pkg_count": 34, 
+    "javascript_pkg_count": 34, 
+    "use_count": 1206, 
+    "javascript_use_count": 1206, 
+    "javascript_download_count": 115915010, 
+    "download_count": 115915010
+  }, 
+  "tim.channell@gmail.com": {
+    "pkg_count": 96, 
+    "javascript_pkg_count": 96, 
+    "use_count": 10057, 
+    "javascript_use_count": 10057, 
+    "javascript_download_count": 173544560, 
+    "download_count": 173544560
+  }, 
+  "kyle@dontkry.com": {
+    "php_download_count": 15523654, 
+    "pkg_count": 38, 
+    "php_use_count": 8286, 
+    "php_pkg_count": 2, 
+    "javascript_pkg_count": 36, 
+    "use_count": 40539, 
+    "javascript_use_count": 32253, 
+    "javascript_download_count": 876057274, 
+    "download_count": 891580928
+  }, 
+  "ralph@thoughtbot.com": {
+    "ruby_download_count": 236259565, 
+    "pkg_count": 39, 
+    "ruby_pkg_count": 37, 
+    "ruby_use_count": 3108, 
+    "javascript_pkg_count": 2, 
+    "use_count": 3367, 
+    "javascript_use_count": 259, 
+    "javascript_download_count": 6420172, 
+    "download_count": 242679737
+  }, 
+  "npm@angular.io": {
+    "pkg_count": 49, 
+    "javascript_pkg_count": 49, 
+    "use_count": 47351, 
+    "javascript_use_count": 47351, 
+    "javascript_download_count": 1548416222, 
+    "download_count": 1548416222
+  }, 
+  "github@sellside.com": {
+    "pkg_count": 260, 
+    "javascript_pkg_count": 260, 
+    "use_count": 2231772, 
+    "javascript_use_count": 2231772, 
+    "javascript_download_count": 29958757038, 
+    "download_count": 29958757038
+  }, 
+  "fabien@symfony.com": {
+    "php_download_count": 1995614238, 
+    "pkg_count": 81, 
+    "php_use_count": 512116, 
+    "php_pkg_count": 80, 
+    "javascript_pkg_count": 1, 
+    "use_count": 512117, 
+    "javascript_use_count": 1, 
+    "javascript_download_count": 1598902, 
+    "download_count": 1997213140
+  }, 
+  "wizard@roborooter.com": {
+    "pkg_count": 3, 
+    "javascript_pkg_count": 3, 
+    "use_count": 89165, 
+    "javascript_use_count": 89165, 
+    "javascript_download_count": 843533719, 
+    "download_count": 843533719
+  }, 
+  "npm@gmail.com": {
+    "pkg_count": 155, 
+    "javascript_pkg_count": 155, 
+    "use_count": 648184, 
+    "javascript_use_count": 648184, 
+    "javascript_download_count": 8143338989, 
+    "download_count": 8143338989
+  }, 
+  "btm@loftninjas.org": {
+    "ruby_download_count": 178255705, 
+    "pkg_count": 79, 
+    "ruby_pkg_count": 79, 
+    "ruby_use_count": 7671, 
+    "use_count": 7671, 
+    "download_count": 178255705
+  }, 
+  "npm@zkat.tech": {
+    "pkg_count": 22, 
+    "javascript_pkg_count": 22, 
+    "use_count": 167555, 
+    "javascript_use_count": 167555, 
+    "javascript_download_count": 973171118, 
+    "download_count": 973171118
+  }, 
+  "vestibule@anandthakker.net": {
+    "pkg_count": 31, 
+    "javascript_pkg_count": 31, 
+    "use_count": 165039, 
+    "javascript_use_count": 165039, 
+    "javascript_download_count": 2047742630, 
+    "download_count": 2047742630
+  }, 
+  "jlipps@gmail.com": {
+    "php_download_count": 18065, 
+    "pkg_count": 31, 
+    "php_use_count": 0, 
+    "php_pkg_count": 1, 
+    "javascript_pkg_count": 30, 
+    "use_count": 1596, 
+    "javascript_use_count": 1596, 
+    "javascript_download_count": 56035366, 
+    "download_count": 56053431
+  }, 
+  "calvin.metcalf@gmail.com": {
+    "pkg_count": 67, 
+    "javascript_pkg_count": 67, 
+    "use_count": 797015, 
+    "javascript_use_count": 797015, 
+    "javascript_download_count": 10070111850, 
+    "download_count": 10070111850
+  }, 
+  "johnson.tom@gmail.com": {
+    "ruby_download_count": 11784058, 
+    "pkg_count": 52, 
+    "ruby_pkg_count": 52, 
+    "ruby_use_count": 2789, 
+    "use_count": 2789, 
+    "download_count": 11784058
+  }, 
+  "caolan.mcmahon@gmail.com": {
+    "pkg_count": 3, 
+    "javascript_pkg_count": 3, 
+    "use_count": 71936, 
+    "javascript_use_count": 71936, 
+    "javascript_download_count": 1132840532, 
+    "download_count": 1132840532
+  }, 
+  "aaron@abramov.io": {
+    "pkg_count": 24, 
+    "javascript_pkg_count": 24, 
+    "use_count": 84214, 
+    "javascript_use_count": 84214, 
+    "javascript_download_count": 2730352640, 
+    "download_count": 2730352640
+  }, 
+  "npm@3rd-Eden.com": {
+    "pkg_count": 26, 
+    "javascript_pkg_count": 26, 
+    "use_count": 168912, 
+    "javascript_use_count": 168912, 
+    "javascript_download_count": 2008480178, 
+    "download_count": 2008480178
+  }, 
+  "fedor@indutny.com": {
+    "pkg_count": 53, 
+    "javascript_pkg_count": 53, 
+    "use_count": 563207, 
+    "javascript_use_count": 563207, 
+    "javascript_download_count": 7459393704, 
+    "download_count": 7459393704
+  }, 
+  "me@thejameskyle.com": {
+    "ruby_download_count": 12659965, 
+    "pkg_count": 118, 
+    "ruby_pkg_count": 2, 
+    "ruby_use_count": 353, 
+    "javascript_pkg_count": 116, 
+    "use_count": 677403, 
+    "javascript_use_count": 677050, 
+    "javascript_download_count": 13840172192, 
+    "download_count": 13852832157
+  }, 
+  "afc163@gmail.com": {
+    "pkg_count": 34, 
+    "javascript_pkg_count": 34, 
+    "use_count": 35185, 
+    "javascript_use_count": 35185, 
+    "javascript_download_count": 207594016, 
+    "download_count": 207594016
+  }, 
+  "contact@prestashop.com": {
+    "php_download_count": 7426737, 
+    "pkg_count": 67, 
+    "php_use_count": 110, 
+    "php_pkg_count": 67, 
+    "use_count": 110, 
+    "download_count": 7426737
+  }, 
+  "talpa@yandex.ru": {
+    "pkg_count": 37, 
+    "javascript_pkg_count": 37, 
+    "use_count": 2053, 
+    "javascript_use_count": 2053, 
+    "javascript_download_count": 473399247, 
+    "download_count": 473399247
+  }, 
+  "leftwing@alumni.rutgers.edu": {
+    "ruby_download_count": 6147011, 
+    "pkg_count": 32, 
+    "ruby_pkg_count": 32, 
+    "ruby_use_count": 670, 
+    "use_count": 670, 
+    "download_count": 6147011
+  }, 
+  "npm@sophiebits.com": {
+    "pkg_count": 21, 
+    "javascript_pkg_count": 21, 
+    "use_count": 119762, 
+    "javascript_use_count": 119762, 
+    "javascript_download_count": 989868103, 
+    "download_count": 989868103
+  }, 
+  "myron.marston@gmail.com": {
+    "ruby_download_count": 1850296244, 
+    "pkg_count": 18, 
+    "ruby_pkg_count": 18, 
+    "ruby_use_count": 11888, 
+    "use_count": 11888, 
+    "download_count": 1850296244
+  }, 
+  "ljharb@gmail.com": {
+    "ruby_download_count": 407330, 
+    "pkg_count": 86, 
+    "ruby_pkg_count": 2, 
+    "ruby_use_count": 1, 
+    "javascript_pkg_count": 84, 
+    "use_count": 588763, 
+    "javascript_use_count": 588762, 
+    "javascript_download_count": 6960517543, 
+    "download_count": 6960924873
+  }, 
+  "post.ben.here@gmail.com": {
+    "pkg_count": 42, 
+    "javascript_pkg_count": 42, 
+    "use_count": 164665, 
+    "javascript_use_count": 164665, 
+    "javascript_download_count": 2004283550, 
+    "download_count": 2004283550
+  }, 
+  "tituswormer@gmail.com": {
+    "pkg_count": 99, 
+    "javascript_pkg_count": 99, 
+    "use_count": 73016, 
+    "javascript_use_count": 73016, 
+    "javascript_download_count": 1383290394, 
+    "download_count": 1383290394
+  }, 
+  "vitaly@rcdesign.ru": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 93188, 
+    "javascript_use_count": 93188, 
+    "javascript_download_count": 1363591121, 
+    "download_count": 1363591121
+  }, 
+  "me@boopathi.in": {
+    "pkg_count": 38, 
+    "javascript_pkg_count": 38, 
+    "use_count": 18622, 
+    "javascript_use_count": 18622, 
+    "javascript_download_count": 697253384, 
+    "download_count": 697253384
+  }, 
+  "merynstol@gmail.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 98524, 
+    "javascript_use_count": 98524, 
+    "javascript_download_count": 791796806, 
+    "download_count": 791796806
+  }, 
+  "simeonvelichkov@gmail.com": {
+    "pkg_count": 9, 
+    "javascript_pkg_count": 9, 
+    "use_count": 330851, 
+    "javascript_use_count": 330851, 
+    "javascript_download_count": 2837224043, 
+    "download_count": 2837224043
+  }, 
+  "amjad.masad@gmail.com": {
+    "pkg_count": 92, 
+    "javascript_pkg_count": 92, 
+    "use_count": 499722, 
+    "javascript_use_count": 499722, 
+    "javascript_download_count": 10128465223, 
+    "download_count": 10128465223
+  }, 
+  "hello@anomaly.is": {
+    "php_download_count": 2026838, 
+    "pkg_count": 51, 
+    "php_use_count": 115, 
+    "php_pkg_count": 51, 
+    "use_count": 115, 
+    "download_count": 2026838
+  }, 
+  "yorickpeterse@gmail.com": {
+    "ruby_download_count": 107418778, 
+    "pkg_count": 86, 
+    "ruby_pkg_count": 86, 
+    "ruby_use_count": 2253, 
+    "use_count": 2253, 
+    "download_count": 107418778
+  }, 
+  "chris@cbeer.info": {
+    "ruby_download_count": 11345550, 
+    "pkg_count": 45, 
+    "ruby_pkg_count": 45, 
+    "ruby_use_count": 1120, 
+    "use_count": 1120, 
+    "download_count": 11345550
+  }, 
+  "alexander.early@gmail.com": {
+    "pkg_count": 3, 
+    "javascript_pkg_count": 3, 
+    "use_count": 71382, 
+    "javascript_use_count": 71382, 
+    "javascript_download_count": 1135165052, 
+    "download_count": 1135165052
+  }, 
+  "substack@gmail.com": {
+    "pkg_count": 77, 
+    "javascript_pkg_count": 77, 
+    "use_count": 658911, 
+    "javascript_use_count": 658911, 
+    "javascript_download_count": 7059814175, 
+    "download_count": 7059814175
+  }, 
+  "sean.larkin@cuw.edu": {
+    "pkg_count": 36, 
+    "javascript_pkg_count": 36, 
+    "use_count": 106808, 
+    "javascript_use_count": 106808, 
+    "javascript_download_count": 2999904096, 
+    "download_count": 2999904096
+  }, 
+  "daniel@tschinder.de": {
+    "pkg_count": 166, 
+    "javascript_pkg_count": 166, 
+    "use_count": 1326373, 
+    "javascript_use_count": 1326373, 
+    "javascript_download_count": 12238953803, 
+    "download_count": 12238953803
+  }, 
+  "github@kitcambridge.be": {
+    "pkg_count": 44, 
+    "javascript_pkg_count": 44, 
+    "use_count": 40119, 
+    "javascript_use_count": 40119, 
+    "javascript_download_count": 1823111625, 
+    "download_count": 1823111625
+  }, 
+  "dduan@yahoo.com": {
+    "pkg_count": 37, 
+    "javascript_pkg_count": 37, 
+    "use_count": 2128, 
+    "javascript_use_count": 2128, 
+    "javascript_download_count": 503762969, 
+    "download_count": 503762969
+  }, 
+  "ofrobots@google.com": {
+    "pkg_count": 36, 
+    "javascript_pkg_count": 36, 
+    "use_count": 13225, 
+    "javascript_use_count": 13225, 
+    "javascript_download_count": 353333697, 
+    "download_count": 353333697
+  }, 
+  "andrewbgoode@gmail.com": {
+    "pkg_count": 7, 
+    "javascript_pkg_count": 7, 
+    "use_count": 157793, 
+    "javascript_use_count": 157793, 
+    "javascript_download_count": 2662219854, 
+    "download_count": 2662219854
+  }, 
+  "support@odoo-community.org": {
+    "pkg_count": 38, 
+    "use_count": 1, 
+    "python_download_count": 75099, 
+    "python_pkg_count": 38, 
+    "download_count": 75099, 
+    "python_use_count": 1
+  }, 
+  "me@rwjblue.com": {
+    "pkg_count": 120, 
+    "javascript_pkg_count": 120, 
+    "use_count": 92874, 
+    "javascript_use_count": 92874, 
+    "javascript_download_count": 838512475, 
+    "download_count": 838512475
+  }, 
+  "charlie.robbins@gmail.com": {
+    "pkg_count": 32, 
+    "javascript_pkg_count": 32, 
+    "use_count": 99979, 
+    "javascript_use_count": 99979, 
+    "javascript_download_count": 1285194673, 
+    "download_count": 1285194673
+  }, 
+  "e.poberezkin@me.com": {
+    "pkg_count": 8, 
+    "javascript_pkg_count": 8, 
+    "use_count": 393603, 
+    "javascript_use_count": 393603, 
+    "javascript_download_count": 2743052420, 
+    "download_count": 2743052420
+  }, 
+  "vignesh.shanmugam22@gmail.com": {
+    "pkg_count": 33, 
+    "javascript_pkg_count": 33, 
+    "use_count": 17746, 
+    "javascript_use_count": 17746, 
+    "javascript_download_count": 666686303, 
+    "download_count": 666686303
+  }, 
+  "christoph.pojer@gmail.com": {
+    "pkg_count": 41, 
+    "javascript_pkg_count": 41, 
+    "use_count": 132852, 
+    "javascript_use_count": 132852, 
+    "javascript_download_count": 3446288120, 
+    "download_count": 3446288120
+  }, 
+  "simon.lydell@gmail.com": {
+    "pkg_count": 14, 
+    "javascript_pkg_count": 14, 
+    "use_count": 288326, 
+    "javascript_use_count": 288326, 
+    "javascript_download_count": 1634308576, 
+    "download_count": 1634308576
+  }, 
+  "andrey@sitnik.ru": {
+    "ruby_download_count": 29521891, 
+    "pkg_count": 75, 
+    "ruby_pkg_count": 11, 
+    "ruby_use_count": 868, 
+    "javascript_pkg_count": 64, 
+    "use_count": 104859, 
+    "javascript_use_count": 103991, 
+    "javascript_download_count": 5581420142, 
+    "download_count": 5610942033
+  }, 
+  "kananthmail-github@yahoo.com": {
+    "pkg_count": 11, 
+    "javascript_pkg_count": 11, 
+    "use_count": 38823, 
+    "javascript_use_count": 38823, 
+    "javascript_download_count": 1240757950, 
+    "download_count": 1240757950
+  }, 
+  "npm@dcousens.com": {
+    "pkg_count": 27, 
+    "javascript_pkg_count": 27, 
+    "use_count": 194877, 
+    "javascript_use_count": 194877, 
+    "javascript_download_count": 2582709673, 
+    "download_count": 2582709673
+  }, 
+  "eslint@nczconsulting.com": {
+    "pkg_count": 6, 
+    "javascript_pkg_count": 6, 
+    "use_count": 49157, 
+    "javascript_use_count": 49157, 
+    "javascript_download_count": 1097595093, 
+    "download_count": 1097595093
+  }, 
+  "blaine@iceddev.com": {
+    "pkg_count": 172, 
+    "javascript_pkg_count": 172, 
+    "use_count": 372982, 
+    "javascript_use_count": 372982, 
+    "javascript_download_count": 7224992789, 
+    "download_count": 7224992789
+  }, 
+  "sferik@gmail.com": {
+    "ruby_download_count": 1053060900, 
+    "pkg_count": 45, 
+    "ruby_pkg_count": 45, 
+    "ruby_use_count": 60548, 
+    "use_count": 60548, 
+    "download_count": 1053060900
+  }, 
+  "ahmad@ahmadnassri.com": {
+    "pkg_count": 6, 
+    "javascript_pkg_count": 6, 
+    "use_count": 129916, 
+    "javascript_use_count": 129916, 
+    "javascript_download_count": 1126005301, 
+    "download_count": 1126005301
+  }, 
+  "rowanwins@yahoo.com.au": {
+    "pkg_count": 33, 
+    "javascript_pkg_count": 33, 
+    "use_count": 3203, 
+    "javascript_use_count": 3203, 
+    "javascript_download_count": 54064592, 
+    "download_count": 54064592
+  }, 
+  "npm@michael.ficarra.me": {
+    "pkg_count": 8, 
+    "javascript_pkg_count": 8, 
+    "use_count": 118476, 
+    "javascript_use_count": 118476, 
+    "javascript_download_count": 1722627235, 
+    "download_count": 1722627235
+  }, 
+  "ian@ianstormtaylor.com": {
+    "pkg_count": 32, 
+    "javascript_pkg_count": 32, 
+    "use_count": 116041, 
+    "javascript_use_count": 116041, 
+    "javascript_download_count": 1101011021, 
+    "download_count": 1101011021
+  }, 
+  "npm@apollographql.com": {
+    "pkg_count": 36, 
+    "javascript_pkg_count": 36, 
+    "use_count": 7940, 
+    "javascript_use_count": 7940, 
+    "javascript_download_count": 275739280, 
+    "download_count": 275739280
+  }, 
+  "dfreedm2@gmail.com": {
+    "pkg_count": 49, 
+    "javascript_pkg_count": 49, 
+    "use_count": 5818, 
+    "javascript_use_count": 5818, 
+    "javascript_download_count": 80064605, 
+    "download_count": 80064605
+  }, 
+  "asciiguyfieri@gmail.com": {
+    "pkg_count": 31, 
+    "javascript_pkg_count": 31, 
+    "use_count": 18204, 
+    "javascript_use_count": 18204, 
+    "javascript_download_count": 684846782, 
+    "download_count": 684846782
+  }, 
+  "brian.woodward@gmail.com": {
+    "pkg_count": 113, 
+    "javascript_pkg_count": 113, 
+    "use_count": 1173864, 
+    "javascript_use_count": 1173864, 
+    "javascript_download_count": 19023853214, 
+    "download_count": 19023853214
+  }, 
+  "j.tangelder@gmail.com": {
+    "pkg_count": 30, 
+    "javascript_pkg_count": 30, 
+    "use_count": 60085, 
+    "javascript_use_count": 60085, 
+    "javascript_download_count": 1955519861, 
+    "download_count": 1955519861
+  }, 
+  "wycats@gmail.com": {
+    "ruby_download_count": 279465761, 
+    "pkg_count": 49, 
+    "ruby_pkg_count": 34, 
+    "ruby_use_count": 22565, 
+    "javascript_pkg_count": 15, 
+    "use_count": 41802, 
+    "javascript_use_count": 19237, 
+    "javascript_download_count": 380935119, 
+    "download_count": 660400880
+  }, 
+  "d.negrier@thecodingmachine.com": {
+    "php_download_count": 4778843, 
+    "pkg_count": 71, 
+    "php_use_count": 1554, 
+    "php_pkg_count": 71, 
+    "use_count": 1554, 
+    "download_count": 4778843
+  }, 
+  "nicolas@morel.io": {
+    "pkg_count": 28, 
+    "javascript_pkg_count": 28, 
+    "use_count": 38052, 
+    "javascript_use_count": 38052, 
+    "javascript_download_count": 1966162472, 
+    "download_count": 1966162472
+  }, 
+  "contact@elnounch.net": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 162875, 
+    "javascript_use_count": 162875, 
+    "javascript_download_count": 1975992859, 
+    "download_count": 1975992859
+  }, 
+  "sebmck@gmail.com": {
+    "pkg_count": 149, 
+    "javascript_pkg_count": 149, 
+    "use_count": 880993, 
+    "javascript_use_count": 880993, 
+    "javascript_download_count": 15650007446, 
+    "download_count": 15650007446
+  }, 
+  "jappelman@xebia.com": {
+    "pkg_count": 8, 
+    "javascript_pkg_count": 8, 
+    "use_count": 206089, 
+    "javascript_use_count": 206089, 
+    "javascript_download_count": 1467152710, 
+    "download_count": 1467152710
+  }, 
+  "roman@code-factory.org": {
+    "php_download_count": 612677719, 
+    "pkg_count": 12, 
+    "php_use_count": 198311, 
+    "php_pkg_count": 12, 
+    "use_count": 198311, 
+    "download_count": 612677719
+  }, 
+  "timothygu99@gmail.com": {
+    "pkg_count": 32, 
+    "javascript_pkg_count": 32, 
+    "use_count": 119325, 
+    "javascript_use_count": 119325, 
+    "javascript_download_count": 1376906754, 
+    "download_count": 1376906754
+  }, 
+  "trentm@gmail.com": {
+    "pkg_count": 12, 
+    "javascript_pkg_count": 8, 
+    "use_count": 136048, 
+    "javascript_use_count": 134915, 
+    "python_download_count": 7381466, 
+    "python_pkg_count": 4, 
+    "javascript_download_count": 827592746, 
+    "download_count": 834974212, 
+    "python_use_count": 1133
+  }, 
+  "bn@cs.stanford.edu": {
+    "pkg_count": 16, 
+    "javascript_pkg_count": 16, 
+    "use_count": 109742, 
+    "javascript_use_count": 109742, 
+    "javascript_download_count": 1531544978, 
+    "download_count": 1531544978
+  }, 
+  "hello@blakeembrey.com": {
+    "pkg_count": 44, 
+    "javascript_pkg_count": 44, 
+    "use_count": 277415, 
+    "javascript_use_count": 277415, 
+    "javascript_download_count": 3446228746, 
+    "download_count": 3446228746
+  }, 
+  "justin.beckwith@gmail.com": {
+    "pkg_count": 37, 
+    "javascript_pkg_count": 37, 
+    "use_count": 13364, 
+    "javascript_use_count": 13364, 
+    "javascript_download_count": 350181989, 
+    "download_count": 350181989
+  }, 
+  "renee@kooi.me": {
+    "pkg_count": 15, 
+    "javascript_pkg_count": 15, 
+    "use_count": 150851, 
+    "javascript_use_count": 150851, 
+    "javascript_download_count": 1713555473, 
+    "download_count": 1713555473
+  }, 
+  "tobias.bieniek@gmx.de": {
+    "pkg_count": 40, 
+    "javascript_pkg_count": 40, 
+    "use_count": 30352, 
+    "javascript_use_count": 30352, 
+    "javascript_download_count": 262276887, 
+    "download_count": 262276887
+  }, 
+  "coolaj86@gmail.com": {
+    "pkg_count": 22, 
+    "javascript_pkg_count": 22, 
+    "use_count": 141858, 
+    "javascript_use_count": 141858, 
+    "javascript_download_count": 1517899017, 
+    "download_count": 1517899017
+  }, 
+  "dave.des@gmail.com": {
+    "pkg_count": 57, 
+    "javascript_pkg_count": 57, 
+    "use_count": 168461, 
+    "javascript_use_count": 168461, 
+    "javascript_download_count": 2087542951, 
+    "download_count": 2087542951
+  }, 
+  "ocramius@gmail.com": {
+    "php_download_count": 277682358, 
+    "pkg_count": 24, 
+    "php_use_count": 95124, 
+    "php_pkg_count": 24, 
+    "use_count": 95124, 
+    "download_count": 277682358
+  }, 
+  "pereira.filype@gmail.com": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 162875, 
+    "javascript_use_count": 162875, 
+    "javascript_download_count": 1975992859, 
+    "download_count": 1975992859
+  }, 
+  "tom@macwright.org": {
+    "pkg_count": 110, 
+    "javascript_pkg_count": 109, 
+    "use_count": 11483, 
+    "javascript_use_count": 11480, 
+    "python_download_count": 42412, 
+    "python_pkg_count": 1, 
+    "javascript_download_count": 200624834, 
+    "download_count": 200667246, 
+    "python_use_count": 3
+  }, 
+  "ben@benalpert.com": {
+    "pkg_count": 5, 
+    "javascript_pkg_count": 5, 
+    "use_count": 97478, 
+    "javascript_use_count": 97478, 
+    "javascript_download_count": 732308238, 
+    "download_count": 732308238
+  }, 
+  "m@moox.io": {
+    "pkg_count": 28, 
+    "javascript_pkg_count": 28, 
+    "use_count": 69748, 
+    "javascript_use_count": 69748, 
+    "javascript_download_count": 1556810228, 
+    "download_count": 1556810228
+  }, 
+  "medyk@medikoo.com": {
+    "pkg_count": 17, 
+    "javascript_pkg_count": 17, 
+    "use_count": 110664, 
+    "javascript_use_count": 110664, 
+    "javascript_download_count": 1935413859, 
+    "download_count": 1935413859
+  }, 
+  "carlosantoniodasilva@gmail.com": {
+    "ruby_download_count": 3291589805, 
+    "pkg_count": 51, 
+    "ruby_pkg_count": 51, 
+    "ruby_use_count": 271986, 
+    "use_count": 271986, 
+    "download_count": 3291589805
+  }, 
+  "loganfsmyth@gmail.com": {
+    "pkg_count": 269, 
+    "javascript_pkg_count": 269, 
+    "use_count": 1523109, 
+    "javascript_use_count": 1523109, 
+    "javascript_download_count": 20519977946, 
+    "download_count": 20519977946
+  }, 
+  "sindresorhus@gmail.com": {
+    "pkg_count": 442, 
+    "javascript_pkg_count": 442, 
+    "use_count": 4116730, 
+    "javascript_use_count": 4116730, 
+    "javascript_download_count": 47192899029, 
+    "download_count": 47192899029
+  }, 
+  "ben@npmjs.com": {
+    "pkg_count": 44, 
+    "javascript_pkg_count": 44, 
+    "use_count": 463467, 
+    "javascript_use_count": 463467, 
+    "javascript_download_count": 6182489241, 
+    "download_count": 6182489241
+  }, 
+  "felix@debuggable.com": {
+    "pkg_count": 13, 
+    "javascript_pkg_count": 13, 
+    "use_count": 262369, 
+    "javascript_use_count": 262369, 
+    "javascript_download_count": 2207153998, 
+    "download_count": 2207153998
+  }, 
+  "clint@anotherway.co.za": {
+    "pkg_count": 13, 
+    "javascript_pkg_count": 13, 
+    "use_count": 104029, 
+    "javascript_use_count": 104029, 
+    "javascript_download_count": 898415607, 
+    "download_count": 898415607
+  }, 
+  "team@gulpjs.com": {
+    "pkg_count": 38, 
+    "javascript_pkg_count": 38, 
+    "use_count": 345644, 
+    "javascript_use_count": 345644, 
+    "javascript_download_count": 2418898820, 
+    "download_count": 2418898820
+  }, 
+  "domenic@domenicdenicola.com": {
+    "pkg_count": 12, 
+    "javascript_pkg_count": 12, 
+    "use_count": 86651, 
+    "javascript_use_count": 86651, 
+    "javascript_download_count": 1232312499, 
+    "download_count": 1232312499
+  }, 
+  "snnskwtnb@gmail.com": {
+    "pkg_count": 55, 
+    "javascript_pkg_count": 55, 
+    "use_count": 112499, 
+    "javascript_use_count": 112499, 
+    "javascript_download_count": 2576522370, 
+    "download_count": 2576522370
+  }, 
+  "nicholas@nczconsulting.com": {
+    "pkg_count": 11, 
+    "javascript_pkg_count": 11, 
+    "use_count": 113263, 
+    "javascript_use_count": 113263, 
+    "javascript_download_count": 2278600433, 
+    "download_count": 2278600433
+  }, 
+  "hughskennedy@gmail.com": {
+    "pkg_count": 78, 
+    "javascript_pkg_count": 78, 
+    "use_count": 333976, 
+    "javascript_use_count": 333976, 
+    "javascript_download_count": 3255144792, 
+    "download_count": 3255144792
+  }, 
+  "sam.verschueren@gmail.com": {
+    "pkg_count": 12, 
+    "javascript_pkg_count": 12, 
+    "use_count": 97480, 
+    "javascript_use_count": 97480, 
+    "javascript_download_count": 528261701, 
+    "download_count": 528261701
+  }, 
+  "doug@somethingdoug.com": {
+    "pkg_count": 77, 
+    "javascript_pkg_count": 77, 
+    "use_count": 1498387, 
+    "javascript_use_count": 1498387, 
+    "javascript_download_count": 15805594628, 
+    "download_count": 15805594628
+  }, 
+  "kartikv2@gmail.com": {
+    "php_download_count": 34399892, 
+    "pkg_count": 59, 
+    "php_use_count": 11538, 
+    "php_pkg_count": 59, 
+    "use_count": 11538, 
+    "download_count": 34399892
+  }, 
+  "sheo13666q@gmail.com": {
+    "pkg_count": 66, 
+    "javascript_pkg_count": 66, 
+    "use_count": 123632, 
+    "javascript_use_count": 123632, 
+    "javascript_download_count": 6318272737, 
+    "download_count": 6318272737
+  }, 
+  "briandavidvaughn@gmail.com": {
+    "pkg_count": 27, 
+    "javascript_pkg_count": 27, 
+    "use_count": 138537, 
+    "javascript_use_count": 138537, 
+    "javascript_download_count": 1168896025, 
+    "download_count": 1168896025
+  }, 
+  "d@domenic.me": {
+    "pkg_count": 21, 
+    "javascript_pkg_count": 21, 
+    "use_count": 118644, 
+    "javascript_use_count": 118644, 
+    "javascript_download_count": 1762290411, 
+    "download_count": 1762290411
+  }, 
+  "matt@mattwrock.com": {
+    "ruby_download_count": 69653482, 
+    "pkg_count": 47, 
+    "ruby_pkg_count": 47, 
+    "ruby_use_count": 1449, 
+    "use_count": 1449, 
+    "download_count": 69653482
+  }, 
+  "linus@folkdatorn.se": {
+    "php_download_count": 65342, 
+    "pkg_count": 21, 
+    "php_use_count": 2, 
+    "php_pkg_count": 1, 
+    "javascript_pkg_count": 20, 
+    "use_count": 74929, 
+    "javascript_use_count": 74927, 
+    "javascript_download_count": 1218422289, 
+    "download_count": 1218487631
+  }, 
+  "d.bussink@gmail.com": {
+    "ruby_download_count": 46683781, 
+    "pkg_count": 37, 
+    "ruby_pkg_count": 37, 
+    "ruby_use_count": 3859, 
+    "use_count": 3859, 
+    "download_count": 46683781
+  }, 
+  "ndushay@stanford.edu": {
+    "ruby_download_count": 9364278, 
+    "pkg_count": 33, 
+    "ruby_pkg_count": 33, 
+    "ruby_use_count": 910, 
+    "use_count": 910, 
+    "download_count": 9364278
+  }, 
+  "kyle@kemitchell.com": {
+    "pkg_count": 8, 
+    "javascript_pkg_count": 8, 
+    "use_count": 122253, 
+    "javascript_use_count": 122253, 
+    "javascript_download_count": 1141890776, 
+    "download_count": 1141890776
+  }, 
+  "monastic.panic@gmail.com": {
+    "pkg_count": 34, 
+    "javascript_pkg_count": 34, 
+    "use_count": 23614, 
+    "javascript_use_count": 23614, 
+    "javascript_download_count": 485982532, 
+    "download_count": 485982532
+  }, 
+  "david@loudthinking.com": {
+    "ruby_download_count": 2857266393, 
+    "pkg_count": 51, 
+    "ruby_pkg_count": 48, 
+    "ruby_use_count": 233468, 
+    "javascript_pkg_count": 3, 
+    "use_count": 233489, 
+    "javascript_use_count": 21, 
+    "javascript_download_count": 18458823, 
+    "download_count": 2875725216
+  }, 
+  "thom@may.lt": {
+    "ruby_download_count": 198563246, 
+    "pkg_count": 62, 
+    "ruby_pkg_count": 62, 
+    "ruby_use_count": 8491, 
+    "use_count": 8491, 
+    "download_count": 198563246
+  }, 
+  "rubygems@elastic.co": {
+    "ruby_download_count": 209513302, 
+    "pkg_count": 142, 
+    "ruby_pkg_count": 142, 
+    "ruby_use_count": 4125, 
+    "use_count": 4125, 
+    "download_count": 209513302
+  }, 
+  "sethvincent@gmail.com": {
+    "pkg_count": 30, 
+    "javascript_pkg_count": 30, 
+    "use_count": 168425, 
+    "javascript_use_count": 168425, 
+    "javascript_download_count": 2077861441, 
+    "download_count": 2077861441
+  }, 
+  "mikolalysenko@gmail.com": {
+    "pkg_count": 143, 
+    "javascript_pkg_count": 143, 
+    "use_count": 39193, 
+    "javascript_use_count": 39193, 
+    "javascript_download_count": 672834676, 
+    "download_count": 672834676
+  }, 
+  "jeremy@bitsweat.net": {
+    "ruby_download_count": 3082559437, 
+    "pkg_count": 46, 
+    "ruby_pkg_count": 46, 
+    "ruby_use_count": 256802, 
+    "use_count": 256802, 
+    "download_count": 3082559437
+  }, 
+  "ashtuchkin@gmail.com": {
+    "pkg_count": 1, 
+    "javascript_pkg_count": 1, 
+    "use_count": 87314, 
+    "javascript_use_count": 87314, 
+    "javascript_download_count": 695465052, 
+    "download_count": 695465052
+  }, 
+  "npm@medikoo.com": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 115166, 
+    "javascript_use_count": 115166, 
+    "javascript_download_count": 1973958780, 
+    "download_count": 1973958780
+  }, 
+  "jessie.keck@gmail.com": {
+    "ruby_download_count": 6518927, 
+    "pkg_count": 36, 
+    "ruby_pkg_count": 36, 
+    "ruby_use_count": 686, 
+    "use_count": 686, 
+    "download_count": 6518927
+  }, 
+  "guilhermeblanco@gmail.com": {
+    "php_download_count": 612697011, 
+    "pkg_count": 13, 
+    "php_use_count": 198311, 
+    "php_pkg_count": 13, 
+    "use_count": 198311, 
+    "download_count": 612697011
+  }, 
+  "yerko.palma@usach.cl": {
+    "pkg_count": 21, 
+    "javascript_pkg_count": 21, 
+    "use_count": 163526, 
+    "javascript_use_count": 163526, 
+    "javascript_download_count": 1980457152, 
+    "download_count": 1980457152
+  }, 
+  "jonathan@dnil.net": {
+    "ruby_download_count": 11994611, 
+    "pkg_count": 44, 
+    "ruby_pkg_count": 44, 
+    "ruby_use_count": 1780, 
+    "use_count": 1780, 
+    "download_count": 11994611
+  }, 
+  "michael.ciniawsky@gmail.com": {
+    "pkg_count": 33, 
+    "javascript_pkg_count": 33, 
+    "use_count": 82728, 
+    "javascript_use_count": 82728, 
+    "javascript_download_count": 2472915103, 
+    "download_count": 2472915103
+  }, 
+  "i@izs.me": {
+    "pkg_count": 89, 
+    "javascript_pkg_count": 89, 
+    "use_count": 2320042, 
+    "javascript_use_count": 2320042, 
+    "javascript_download_count": 17064012465, 
+    "download_count": 17064012465
+  }, 
+  "eli@eliperelman.com": {
+    "pkg_count": 33, 
+    "javascript_pkg_count": 33, 
+    "use_count": 733, 
+    "javascript_use_count": 733, 
+    "javascript_download_count": 40592305, 
+    "download_count": 40592305
+  }, 
+  "quitlahok@gmail.com": {
+    "pkg_count": 34, 
+    "javascript_pkg_count": 34, 
+    "use_count": 136505, 
+    "javascript_use_count": 136505, 
+    "javascript_download_count": 3193898413, 
+    "download_count": 3193898413
+  }, 
+  "kontakt@beberlei.de": {
+    "php_download_count": 626295303, 
+    "pkg_count": 26, 
+    "php_use_count": 182506, 
+    "php_pkg_count": 26, 
+    "use_count": 182506, 
+    "download_count": 626295303
+  }, 
+  "opensrc@ryanzim.com": {
+    "pkg_count": 9, 
+    "javascript_pkg_count": 9, 
+    "use_count": 101522, 
+    "javascript_use_count": 101522, 
+    "javascript_download_count": 1325100523, 
+    "download_count": 1325100523
+  }, 
+  "info@inveniosoftware.org": {
+    "pkg_count": 42, 
+    "use_count": 151, 
+    "python_download_count": 511935, 
+    "python_pkg_count": 42, 
+    "download_count": 511935, 
+    "python_use_count": 151
+  }, 
+  "tom@tromey.com": {
+    "pkg_count": 1, 
+    "javascript_pkg_count": 1, 
+    "use_count": 88419, 
+    "javascript_use_count": 88419, 
+    "javascript_download_count": 1241933277, 
+    "download_count": 1241933277
+  }, 
+  "samphippen@googlemail.com": {
+    "ruby_download_count": 1752920267, 
+    "pkg_count": 7, 
+    "ruby_pkg_count": 7, 
+    "ruby_use_count": 11139, 
+    "use_count": 11139, 
+    "download_count": 1752920267
+  }, 
+  "kat@sykosomatic.org": {
+    "pkg_count": 30, 
+    "javascript_pkg_count": 30, 
+    "use_count": 424680, 
+    "javascript_use_count": 424680, 
+    "javascript_download_count": 2630351658, 
+    "download_count": 2630351658
+  }, 
+  "trevorgerhardt@gmail.com": {
+    "pkg_count": 9, 
+    "javascript_pkg_count": 9, 
+    "use_count": 96178, 
+    "javascript_use_count": 96178, 
+    "javascript_download_count": 789509700, 
+    "download_count": 789509700
+  }, 
+  "dherman@mozilla.com": {
+    "pkg_count": 1, 
+    "javascript_pkg_count": 1, 
+    "use_count": 88419, 
+    "javascript_use_count": 88419, 
+    "javascript_download_count": 1241933277, 
+    "download_count": 1241933277
+  }, 
+  "email@dcousens.com": {
+    "pkg_count": 23, 
+    "javascript_pkg_count": 23, 
+    "use_count": 240379, 
+    "javascript_use_count": 240379, 
+    "javascript_download_count": 3139697617, 
+    "download_count": 3139697617
+  }, 
+  "yields@icloud.com": {
+    "pkg_count": 16, 
+    "javascript_pkg_count": 16, 
+    "use_count": 103376, 
+    "javascript_use_count": 103376, 
+    "javascript_download_count": 914933134, 
+    "download_count": 914933134
+  }, 
+  "sebastian@phpunit.de": {
+    "php_download_count": 1618401256, 
+    "pkg_count": 34, 
+    "php_use_count": 49683, 
+    "php_pkg_count": 34, 
+    "use_count": 49683, 
+    "download_count": 1618401256
+  }, 
+  "rafaelmfranca@gmail.com": {
+    "ruby_download_count": 3724595502, 
+    "pkg_count": 74, 
+    "ruby_pkg_count": 70, 
+    "ruby_use_count": 290116, 
+    "javascript_pkg_count": 4, 
+    "use_count": 290142, 
+    "javascript_use_count": 26, 
+    "javascript_download_count": 23329719, 
+    "download_count": 3747925221
+  }, 
+  "thlorenz@gmx.de": {
+    "pkg_count": 42, 
+    "javascript_pkg_count": 42, 
+    "use_count": 262067, 
+    "javascript_use_count": 262067, 
+    "javascript_download_count": 3167037621, 
+    "download_count": 3167037621
+  }, 
+  "ungoldman@gmail.com": {
+    "pkg_count": 22, 
+    "javascript_pkg_count": 22, 
+    "use_count": 163686, 
+    "javascript_use_count": 163686, 
+    "javascript_download_count": 1981693348, 
+    "download_count": 1981693348
+  }, 
+  "digger250@gmail.com": {
+    "ruby_download_count": 5565275, 
+    "pkg_count": 31, 
+    "ruby_pkg_count": 31, 
+    "ruby_use_count": 585, 
+    "use_count": 585, 
+    "download_count": 5565275
+  }, 
+  "bicknellr@gmail.com": {
+    "pkg_count": 42, 
+    "javascript_pkg_count": 42, 
+    "use_count": 5355, 
+    "javascript_use_count": 5355, 
+    "javascript_download_count": 62219058, 
+    "download_count": 62219058
+  }, 
+  "carriere.denis@gmail.com": {
+    "pkg_count": 91, 
+    "javascript_pkg_count": 90, 
+    "use_count": 8650, 
+    "javascript_use_count": 8628, 
+    "python_download_count": 80223, 
+    "python_pkg_count": 1, 
+    "javascript_download_count": 147647000, 
+    "download_count": 147727223, 
+    "python_use_count": 22
+  }, 
+  "gamsnjaga@gmail.com": {
+    "ruby_download_count": 40067593, 
+    "pkg_count": 52, 
+    "ruby_pkg_count": 52, 
+    "ruby_use_count": 4231, 
+    "use_count": 4231, 
+    "download_count": 40067593
+  }, 
+  "rod@vagg.org": {
+    "pkg_count": 14, 
+    "javascript_pkg_count": 14, 
+    "use_count": 321992, 
+    "javascript_use_count": 321992, 
+    "javascript_download_count": 3040382735, 
+    "download_count": 3040382735
+  }, 
+  "danielsdeleo@mac.com": {
+    "ruby_download_count": 166454718, 
+    "pkg_count": 47, 
+    "ruby_pkg_count": 47, 
+    "ruby_use_count": 7672, 
+    "use_count": 7672, 
+    "download_count": 166454718
+  }, 
+  "hello@matteocollina.com": {
+    "pkg_count": 21, 
+    "javascript_pkg_count": 21, 
+    "use_count": 289326, 
+    "javascript_use_count": 289326, 
+    "javascript_download_count": 2588362179, 
+    "download_count": 2588362179
+  }, 
+  "pjedrzejewski@diweb.pl": {
+    "php_download_count": 4696173, 
+    "pkg_count": 44, 
+    "php_use_count": 1031, 
+    "php_pkg_count": 44, 
+    "use_count": 1031, 
+    "download_count": 4696173
+  }, 
+  "alex.ford@codetunnel.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 35420, 
+    "javascript_use_count": 35420, 
+    "javascript_download_count": 1093933076, 
+    "download_count": 1093933076
+  }, 
+  "peteris.krumins@gmail.com": {
+    "pkg_count": 21, 
+    "javascript_pkg_count": 21, 
+    "use_count": 164597, 
+    "javascript_use_count": 164597, 
+    "javascript_download_count": 2048152129, 
+    "download_count": 2048152129
+  }, 
+  "fkschott@gmail.com": {
+    "pkg_count": 4, 
+    "javascript_pkg_count": 4, 
+    "use_count": 134042, 
+    "javascript_use_count": 134042, 
+    "javascript_download_count": 1335154617, 
+    "download_count": 1335154617
+  }, 
+  "graham@alt-three.com": {
+    "php_download_count": 71343960, 
+    "pkg_count": 42, 
+    "php_use_count": 2369, 
+    "php_pkg_count": 42, 
+    "use_count": 2369, 
+    "download_count": 71343960
+  }, 
+  "cfaccounts+rubygems@pivotallabs.com": {
+    "ruby_download_count": 17228530, 
+    "pkg_count": 35, 
+    "ruby_pkg_count": 35, 
+    "ruby_use_count": 322, 
+    "use_count": 322, 
+    "download_count": 17228530
+  }, 
+  "nfitzgerald@mozilla.com": {
+    "pkg_count": 1, 
+    "javascript_pkg_count": 1, 
+    "use_count": 88419, 
+    "javascript_use_count": 88419, 
+    "javascript_download_count": 1241933277, 
+    "download_count": 1241933277
+  }, 
+  "me@rreverser.com": {
+    "pkg_count": 4, 
+    "javascript_pkg_count": 4, 
+    "use_count": 55088, 
+    "javascript_use_count": 55088, 
+    "javascript_download_count": 1241013141, 
+    "download_count": 1241013141
+  }, 
+  "nathan@tootallnate.net": {
+    "pkg_count": 66, 
+    "javascript_pkg_count": 66, 
+    "use_count": 584372, 
+    "javascript_use_count": 584372, 
+    "javascript_download_count": 5687155027, 
+    "download_count": 5687155027
+  }, 
+  "kzm@sykosomatic.org": {
+    "pkg_count": 22, 
+    "javascript_pkg_count": 22, 
+    "use_count": 178001, 
+    "javascript_use_count": 178001, 
+    "javascript_download_count": 1638425152, 
+    "download_count": 1638425152
+  }, 
+  "jonwage@gmail.com": {
+    "php_download_count": 583350271, 
+    "pkg_count": 24, 
+    "php_use_count": 171693, 
+    "php_pkg_count": 24, 
+    "use_count": 171693, 
+    "download_count": 583350271
+  }, 
+  "taylor@laravel.com": {
+    "php_download_count": 204652792, 
+    "pkg_count": 41, 
+    "php_use_count": 128580, 
+    "php_pkg_count": 41, 
+    "use_count": 128580, 
+    "download_count": 204652792
+  }, 
+  "mail@johannesewald.de": {
+    "pkg_count": 40, 
+    "javascript_pkg_count": 40, 
+    "use_count": 112189, 
+    "javascript_use_count": 112189, 
+    "javascript_download_count": 3191157242, 
+    "download_count": 3191157242
+  }, 
+  "build@iojs.org": {
+    "pkg_count": 3, 
+    "javascript_pkg_count": 3, 
+    "use_count": 234308, 
+    "javascript_use_count": 234308, 
+    "javascript_download_count": 2375136122, 
+    "download_count": 2375136122
+  }, 
+  "me@gkatsev.com": {
+    "pkg_count": 28, 
+    "javascript_pkg_count": 28, 
+    "use_count": 164610, 
+    "javascript_use_count": 164610, 
+    "javascript_download_count": 1994157314, 
+    "download_count": 1994157314
+  }, 
+  "feross@feross.org": {
+    "pkg_count": 55, 
+    "javascript_pkg_count": 55, 
+    "use_count": 528986, 
+    "javascript_use_count": 528986, 
+    "javascript_download_count": 4799389794, 
+    "download_count": 4799389794
+  }, 
+  "yo@contra.io": {
+    "pkg_count": 24, 
+    "javascript_pkg_count": 24, 
+    "use_count": 146490, 
+    "javascript_use_count": 146490, 
+    "javascript_download_count": 1301831656, 
+    "download_count": 1301831656
+  }, 
+  "yiminghe@gmail.com": {
+    "pkg_count": 34, 
+    "javascript_pkg_count": 34, 
+    "use_count": 40237, 
+    "javascript_use_count": 40237, 
+    "javascript_download_count": 268120619, 
+    "download_count": 268120619
+  }, 
+  "googleapis-packages@google.com": {
+    "ruby_download_count": 60432578, 
+    "pkg_count": 64, 
+    "ruby_pkg_count": 6, 
+    "ruby_use_count": 2419, 
+    "use_count": 2642, 
+    "python_download_count": 31174696, 
+    "python_pkg_count": 58, 
+    "download_count": 91607274, 
+    "python_use_count": 223
+  }, 
+  "typo3cms@typo3.org": {
+    "php_download_count": 2617141, 
+    "pkg_count": 42, 
+    "php_use_count": 2853, 
+    "php_pkg_count": 42, 
+    "use_count": 2853, 
+    "download_count": 2617141
+  }, 
+  "bodin.alex@gmail.com": {
+    "pkg_count": 35, 
+    "javascript_pkg_count": 35, 
+    "use_count": 2018, 
+    "javascript_use_count": 2018, 
+    "javascript_download_count": 464536997, 
+    "download_count": 464536997
+  }, 
+  "mail@juliangruber.com": {
+    "pkg_count": 10, 
+    "javascript_pkg_count": 10, 
+    "use_count": 239139, 
+    "javascript_use_count": 239139, 
+    "javascript_download_count": 2172521135, 
+    "download_count": 2172521135
+  }, 
+  "zhiyelee@gmail.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 70578, 
+    "javascript_use_count": 70578, 
+    "javascript_download_count": 1106300319, 
+    "download_count": 1106300319
+  }, 
+  "isaacs@npmjs.com": {
+    "pkg_count": 17, 
+    "javascript_pkg_count": 17, 
+    "use_count": 308664, 
+    "javascript_use_count": 308664, 
+    "javascript_download_count": 1881362208, 
+    "download_count": 1881362208
+  }, 
+  "chris@eppsteins.net": {
+    "ruby_download_count": 351558417, 
+    "pkg_count": 51, 
+    "ruby_pkg_count": 11, 
+    "ruby_use_count": 11651, 
+    "javascript_pkg_count": 40, 
+    "use_count": 38599, 
+    "javascript_use_count": 26948, 
+    "javascript_download_count": 3989681887, 
+    "download_count": 4341240304
+  }, 
+  "darawk@gmail.com": {
+    "pkg_count": 19, 
+    "javascript_pkg_count": 19, 
+    "use_count": 166081, 
+    "javascript_use_count": 166081, 
+    "javascript_download_count": 2005110347, 
+    "download_count": 2005110347
+  }, 
+  "dchelimsky@gmail.com": {
+    "ruby_download_count": 1430066981, 
+    "pkg_count": 6, 
+    "ruby_pkg_count": 6, 
+    "ruby_use_count": 8781, 
+    "use_count": 8781, 
+    "download_count": 1430066981
+  }, 
+  "node-team-npm@google.com": {
+    "pkg_count": 38, 
+    "javascript_pkg_count": 38, 
+    "use_count": 13665, 
+    "javascript_use_count": 13665, 
+    "javascript_download_count": 401185912, 
+    "download_count": 401185912
+  }, 
+  "hi@henryzoo.com": {
+    "pkg_count": 325, 
+    "javascript_pkg_count": 325, 
+    "use_count": 1538555, 
+    "javascript_use_count": 1538555, 
+    "javascript_download_count": 21014088842, 
+    "download_count": 21014088842
+  }, 
+  "rauchg@gmail.com": {
+    "pkg_count": 45, 
+    "javascript_pkg_count": 45, 
+    "use_count": 304632, 
+    "javascript_use_count": 304632, 
+    "javascript_download_count": 3064114296, 
+    "download_count": 3064114296
+  }, 
+  "jonathantneal@hotmail.com": {
+    "pkg_count": 43, 
+    "javascript_pkg_count": 43, 
+    "use_count": 57777, 
+    "javascript_use_count": 57777, 
+    "javascript_download_count": 940867795, 
+    "download_count": 940867795
+  }, 
+  "braveg1rl@outlook.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 98524, 
+    "javascript_use_count": 98524, 
+    "javascript_download_count": 791796806, 
+    "download_count": 791796806
+  }, 
+  "support@pyrocms.com": {
+    "php_download_count": 2045303, 
+    "pkg_count": 52, 
+    "php_use_count": 114, 
+    "php_pkg_count": 52, 
+    "use_count": 114, 
+    "download_count": 2045303
+  }, 
+  "andrew@shellscape.org": {
+    "pkg_count": 31, 
+    "javascript_pkg_count": 31, 
+    "use_count": 68784, 
+    "javascript_use_count": 68784, 
+    "javascript_download_count": 1881496500, 
+    "download_count": 1881496500
+  }, 
+  "apeherder@gmail.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 141240, 
+    "javascript_use_count": 141240, 
+    "javascript_download_count": 957602386, 
+    "download_count": 957602386
+  }, 
+  "julian@juliangruber.com": {
+    "pkg_count": 53, 
+    "javascript_pkg_count": 53, 
+    "use_count": 396260, 
+    "javascript_use_count": 396260, 
+    "javascript_download_count": 3458406719, 
+    "download_count": 3458406719
+  }, 
+  "jprichardson@gmail.com": {
+    "pkg_count": 51, 
+    "javascript_pkg_count": 51, 
+    "use_count": 447490, 
+    "javascript_use_count": 447490, 
+    "javascript_download_count": 5851364263, 
+    "download_count": 5851364263
+  }, 
+  "wpreul@gmail.com": {
+    "pkg_count": 30, 
+    "javascript_pkg_count": 30, 
+    "use_count": 39304, 
+    "javascript_use_count": 39304, 
+    "javascript_download_count": 1979305573, 
+    "download_count": 1979305573
+  }, 
+  "leo@zeit.co": {
+    "pkg_count": 12, 
+    "javascript_pkg_count": 12, 
+    "use_count": 143836, 
+    "javascript_use_count": 143836, 
+    "javascript_download_count": 1038850529, 
+    "download_count": 1038850529
+  }, 
+  "andyw@pixeltrix.co.uk": {
+    "ruby_download_count": 2804693316, 
+    "pkg_count": 40, 
+    "ruby_pkg_count": 37, 
+    "ruby_use_count": 233012, 
+    "javascript_pkg_count": 3, 
+    "use_count": 233033, 
+    "javascript_use_count": 21, 
+    "javascript_download_count": 18458823, 
+    "download_count": 2823152139
+  }, 
+  "me@feedic.com": {
+    "pkg_count": 13, 
+    "javascript_pkg_count": 13, 
+    "use_count": 192227, 
+    "javascript_use_count": 192227, 
+    "javascript_download_count": 2746262565, 
+    "download_count": 2746262565
+  }, 
+  "matthew@trebex.net": {
+    "ruby_download_count": 2870620500, 
+    "pkg_count": 48, 
+    "ruby_pkg_count": 45, 
+    "ruby_use_count": 233401, 
+    "javascript_pkg_count": 3, 
+    "use_count": 233422, 
+    "javascript_use_count": 21, 
+    "javascript_download_count": 18458823, 
+    "download_count": 2889079323
+  }, 
+  "josh@sysmgr.org": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 129797, 
+    "javascript_use_count": 129797, 
+    "javascript_download_count": 833536903, 
+    "download_count": 833536903
+  }, 
+  "ejpbruel@gmail.com": {
+    "pkg_count": 1, 
+    "javascript_pkg_count": 1, 
+    "use_count": 88419, 
+    "javascript_use_count": 88419, 
+    "javascript_download_count": 1241933277, 
+    "download_count": 1241933277
+  }, 
+  "dnfagnan@gmail.com": {
+    "pkg_count": 9, 
+    "javascript_pkg_count": 9, 
+    "use_count": 92834, 
+    "javascript_use_count": 92834, 
+    "javascript_download_count": 715465169, 
+    "download_count": 715465169
+  }, 
+  "tobias.nyholm@gmail.com": {
+    "ruby_download_count": 207546, 
+    "php_download_count": 25845055, 
+    "pkg_count": 43, 
+    "ruby_pkg_count": 1, 
+    "ruby_use_count": 1, 
+    "use_count": 2923, 
+    "download_count": 26052601, 
+    "php_pkg_count": 42, 
+    "php_use_count": 2922
+  }, 
+  "ssh.sshao@gmail.com": {
+    "ruby_download_count": 4606260, 
+    "pkg_count": 66, 
+    "ruby_pkg_count": 66, 
+    "ruby_use_count": 249, 
+    "use_count": 249, 
+    "download_count": 4606260
+  }, 
+  "github@gmail.com": {
+    "pkg_count": 36, 
+    "javascript_pkg_count": 29, 
+    "use_count": 36352, 
+    "javascript_use_count": 36310, 
+    "python_download_count": 148973, 
+    "python_pkg_count": 7, 
+    "javascript_download_count": 512439509, 
+    "download_count": 512588482, 
+    "python_use_count": 42
+  }, 
+  "mjesun@hotmail.com": {
+    "pkg_count": 34, 
+    "javascript_pkg_count": 34, 
+    "use_count": 103434, 
+    "javascript_use_count": 103434, 
+    "javascript_download_count": 3046677875, 
+    "download_count": 3046677875
+  }, 
+  "geemus@gmail.com": {
+    "ruby_download_count": 730745432, 
+    "pkg_count": 47, 
+    "ruby_pkg_count": 47, 
+    "ruby_use_count": 25190, 
+    "use_count": 25190, 
+    "download_count": 730745432
+  }, 
+  "eng@instructure.com": {
+    "ruby_download_count": 9857578, 
+    "pkg_count": 32, 
+    "ruby_pkg_count": 32, 
+    "ruby_use_count": 42, 
+    "use_count": 42, 
+    "download_count": 9857578
+  }, 
+  "fitzgen@gmail.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 110672, 
+    "javascript_use_count": 110672, 
+    "javascript_download_count": 1293542923, 
+    "download_count": 1293542923
+  }, 
+  "schmittjoh@gmail.com": {
+    "ruby_download_count": 62989, 
+    "php_download_count": 664632020, 
+    "pkg_count": 33, 
+    "ruby_pkg_count": 1, 
+    "ruby_use_count": 0, 
+    "use_count": 187001, 
+    "download_count": 664695009, 
+    "php_pkg_count": 32, 
+    "php_use_count": 187001
+  }, 
+  "forbes@lindesay.co.uk": {
+    "pkg_count": 79, 
+    "javascript_pkg_count": 79, 
+    "use_count": 409849, 
+    "javascript_use_count": 409849, 
+    "javascript_download_count": 4531324789, 
+    "download_count": 4531324789
+  }, 
+  "argasinski.hubert@gmail.com": {
+    "pkg_count": 1, 
+    "javascript_pkg_count": 1, 
+    "use_count": 71242, 
+    "javascript_use_count": 71242, 
+    "javascript_download_count": 1127476570, 
+    "download_count": 1127476570
+  }, 
+  "df.creative@gmail.com": {
+    "pkg_count": 38, 
+    "javascript_pkg_count": 38, 
+    "use_count": 199812, 
+    "javascript_use_count": 199812, 
+    "javascript_download_count": 1088026187, 
+    "download_count": 1088026187
+  }, 
+  "me@jongleberry.com": {
+    "pkg_count": 36, 
+    "javascript_pkg_count": 36, 
+    "use_count": 222663, 
+    "javascript_use_count": 222663, 
+    "javascript_download_count": 2399296978, 
+    "download_count": 2399296978
+  }, 
+  "dap@cs.brown.edu": {
+    "pkg_count": 8, 
+    "javascript_pkg_count": 8, 
+    "use_count": 329504, 
+    "javascript_use_count": 329504, 
+    "javascript_download_count": 2186533853, 
+    "download_count": 2186533853
+  }, 
+  "ts-npm-types@microsoft.com": {
+    "pkg_count": 829, 
+    "javascript_pkg_count": 829, 
+    "use_count": 130173, 
+    "javascript_use_count": 130173, 
+    "javascript_download_count": 5400297897, 
+    "download_count": 5400297897
+  }, 
+  "mikeal.rogers@gmail.com": {
+    "pkg_count": 13, 
+    "javascript_pkg_count": 13, 
+    "use_count": 498846, 
+    "javascript_use_count": 498846, 
+    "javascript_download_count": 4607231940, 
+    "download_count": 4607231940
+  }, 
+  "i.am.qix@gmail.com": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 851759, 
+    "javascript_use_count": 851759, 
+    "javascript_download_count": 8887935730, 
+    "download_count": 8887935730
+  }, 
+  "megawac@gmail.com": {
+    "pkg_count": 5, 
+    "javascript_pkg_count": 5, 
+    "use_count": 81394, 
+    "javascript_use_count": 81394, 
+    "javascript_download_count": 1339532481, 
+    "download_count": 1339532481
+  }, 
+  "damien.arrachequesne@gmail.com": {
+    "pkg_count": 11, 
+    "javascript_pkg_count": 11, 
+    "use_count": 74497, 
+    "javascript_use_count": 74497, 
+    "javascript_download_count": 1116383125, 
+    "download_count": 1116383125
+  }, 
+  "pavan.sss1991@gmail.com": {
+    "pkg_count": 35, 
+    "javascript_pkg_count": 35, 
+    "use_count": 6192, 
+    "javascript_use_count": 6192, 
+    "javascript_download_count": 477605919, 
+    "download_count": 477605919
+  }, 
+  "r@va.gg": {
+    "pkg_count": 17, 
+    "javascript_pkg_count": 17, 
+    "use_count": 198683, 
+    "javascript_use_count": 198683, 
+    "javascript_download_count": 2414421752, 
+    "download_count": 2414421752
+  }, 
+  "michael@grosser.it": {
+    "ruby_download_count": 198701185, 
+    "pkg_count": 59, 
+    "ruby_pkg_count": 59, 
+    "ruby_use_count": 2558, 
+    "use_count": 2558, 
+    "download_count": 198701185
+  }, 
+  "aaron.patterson@gmail.com": {
+    "ruby_download_count": 4146507773, 
+    "pkg_count": 84, 
+    "ruby_pkg_count": 81, 
+    "ruby_use_count": 309510, 
+    "javascript_pkg_count": 3, 
+    "use_count": 309531, 
+    "javascript_use_count": 21, 
+    "javascript_download_count": 18458823, 
+    "download_count": 4164966596
+  }, 
+  "chalkerx@gmail.com": {
+    "pkg_count": 2, 
+    "javascript_pkg_count": 2, 
+    "use_count": 132295, 
+    "javascript_use_count": 132295, 
+    "javascript_download_count": 335922497, 
+    "download_count": 335922497
+  }, 
+  "azpycli@microsoft.com": {
+    "pkg_count": 59, 
+    "use_count": 128, 
+    "python_download_count": 60208611, 
+    "python_pkg_count": 59, 
+    "download_count": 60208611, 
+    "python_use_count": 128
+  }, 
+  "zope-dev@zope.org": {
+    "pkg_count": 115, 
+    "use_count": 122346, 
+    "python_download_count": 6146797, 
+    "python_pkg_count": 115, 
+    "download_count": 6146797, 
+    "python_use_count": 122346
+  }, 
+  "mcavage@gmail.com": {
+    "pkg_count": 5, 
+    "javascript_pkg_count": 5, 
+    "use_count": 196887, 
+    "javascript_use_count": 196887, 
+    "javascript_download_count": 1729116400, 
+    "download_count": 1729116400
+  }, 
+  "fabian.eichenberger@gmail.com": {
+    "pkg_count": 6, 
+    "javascript_pkg_count": 6, 
+    "use_count": 91171, 
+    "javascript_use_count": 91171, 
+    "javascript_download_count": 700464359, 
+    "download_count": 700464359
+  }, 
+  "github@tixz.dk": {
+    "pkg_count": 24, 
+    "javascript_pkg_count": 24, 
+    "use_count": 168184, 
+    "javascript_use_count": 168184, 
+    "javascript_download_count": 2249594441, 
+    "download_count": 2249594441
+  }, 
+  "demoneaux@gmail.com": {
+    "pkg_count": 23, 
+    "javascript_pkg_count": 23, 
+    "use_count": 39253, 
+    "javascript_use_count": 39253, 
+    "javascript_download_count": 1420456908, 
+    "download_count": 1420456908
+  }, 
+  "fxn@hashref.com": {
+    "ruby_download_count": 2880632848, 
+    "pkg_count": 42, 
+    "ruby_pkg_count": 42, 
+    "ruby_use_count": 233496, 
+    "use_count": 233496, 
+    "download_count": 2880632848
+  }, 
+  "openstack-discuss@lists.openstack.org": {
+    "pkg_count": 46, 
+    "use_count": 4226, 
+    "python_download_count": 13121602, 
+    "python_pkg_count": 46, 
+    "download_count": 13121602, 
+    "python_use_count": 4226
+  }, 
+  "dblock@dblock.org": {
+    "ruby_download_count": 107632570, 
+    "pkg_count": 47, 
+    "ruby_pkg_count": 47, 
+    "ruby_use_count": 5801, 
+    "use_count": 5801, 
+    "download_count": 107632570
+  }, 
+  "alex@cooperi.net": {
+    "pkg_count": 6, 
+    "javascript_pkg_count": 6, 
+    "use_count": 324575, 
+    "javascript_use_count": 324575, 
+    "javascript_download_count": 2282698634, 
+    "download_count": 2282698634
+  }, 
+  "yoshuawuyts@gmail.com": {
+    "pkg_count": 28, 
+    "javascript_pkg_count": 28, 
+    "use_count": 164615, 
+    "javascript_use_count": 164615, 
+    "javascript_download_count": 1994391086, 
+    "download_count": 1994391086
+  }, 
+  "bascule@gmail.com": {
+    "ruby_download_count": 345817846, 
+    "pkg_count": 39, 
+    "ruby_pkg_count": 39, 
+    "ruby_use_count": 21124, 
+    "use_count": 21124, 
+    "download_count": 345817846
+  }, 
+  "health@gnusolidario.org": {
+    "pkg_count": 44, 
+    "use_count": 88, 
+    "python_download_count": 85397, 
+    "python_pkg_count": 44, 
+    "download_count": 85397, 
+    "python_use_count": 88
+  }, 
+  "blaine.bublitz@gmail.com": {
+    "pkg_count": 90, 
+    "javascript_pkg_count": 90, 
+    "use_count": 702564, 
+    "javascript_use_count": 702564, 
+    "javascript_download_count": 5625456458, 
+    "download_count": 5625456458
+  }, 
+  "kou@cozmixng.org": {
+    "ruby_download_count": 54139533, 
+    "pkg_count": 44, 
+    "ruby_pkg_count": 44, 
+    "ruby_use_count": 7804, 
+    "use_count": 7804, 
+    "download_count": 54139533
+  }, 
+  "jryans@gmail.com": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 162875, 
+    "javascript_use_count": 162875, 
+    "javascript_download_count": 1975992859, 
+    "download_count": 1975992859
+  }, 
+  "ogd@aoaioxxysz.net": {
+    "pkg_count": 40, 
+    "javascript_pkg_count": 40, 
+    "use_count": 519618, 
+    "javascript_use_count": 519618, 
+    "javascript_download_count": 5068418186, 
+    "download_count": 5068418186
+  }, 
+  "brixen@gmail.com": {
+    "ruby_download_count": 6213475, 
+    "pkg_count": 76, 
+    "ruby_pkg_count": 76, 
+    "ruby_use_count": 324, 
+    "use_count": 324, 
+    "download_count": 6213475
+  }, 
+  "michael.williams@enspiral.com": {
+    "pkg_count": 23, 
+    "javascript_pkg_count": 23, 
+    "use_count": 167347, 
+    "javascript_use_count": 167347, 
+    "javascript_download_count": 2003549346, 
+    "download_count": 2003549346
+  }, 
+  "addyosmani@gmail.com": {
+    "pkg_count": 35, 
+    "javascript_pkg_count": 35, 
+    "use_count": 48170, 
+    "javascript_use_count": 48170, 
+    "javascript_download_count": 589783287, 
+    "download_count": 589783287
+  }, 
+  "tsmith84@gmail.com": {
+    "ruby_download_count": 227869066, 
+    "pkg_count": 88, 
+    "ruby_pkg_count": 88, 
+    "ruby_use_count": 9203, 
+    "use_count": 9203, 
+    "download_count": 227869066
+  }, 
+  "jonathanrichardong@gmail.com": {
+    "pkg_count": 92, 
+    "javascript_pkg_count": 92, 
+    "use_count": 858428, 
+    "javascript_use_count": 858428, 
+    "javascript_download_count": 8484040445, 
+    "download_count": 8484040445
+  }, 
+  "palmermebane@gmail.com": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 162875, 
+    "javascript_use_count": 162875, 
+    "javascript_download_count": 1975992859, 
+    "download_count": 1975992859
+  }, 
+  "mike@ocks.org": {
+    "pkg_count": 41, 
+    "javascript_pkg_count": 41, 
+    "use_count": 82516, 
+    "javascript_use_count": 82516, 
+    "javascript_download_count": 611741702, 
+    "download_count": 611741702
+  }, 
+  "admin@simonboudrias.com": {
+    "pkg_count": 27, 
+    "javascript_pkg_count": 27, 
+    "use_count": 159037, 
+    "javascript_use_count": 159037, 
+    "javascript_download_count": 1514330671, 
+    "download_count": 1514330671
+  }, 
+  "dominic.tarr@gmail.com": {
+    "pkg_count": 68, 
+    "javascript_pkg_count": 68, 
+    "use_count": 511306, 
+    "javascript_use_count": 511306, 
+    "javascript_download_count": 6180592960, 
+    "download_count": 6180592960
+  }, 
+  "adrian@adrianmacneil.com": {
+    "php_download_count": 13519484, 
+    "pkg_count": 36, 
+    "php_use_count": 1096, 
+    "php_pkg_count": 36, 
+    "use_count": 1096, 
+    "download_count": 13519484
+  }, 
+  "yyx990803@gmail.com": {
+    "pkg_count": 39, 
+    "javascript_pkg_count": 39, 
+    "use_count": 21539, 
+    "javascript_use_count": 21539, 
+    "javascript_download_count": 322267351, 
+    "download_count": 322267351
+  }, 
+  "garann@gmail.com": {
+    "pkg_count": 18, 
+    "javascript_pkg_count": 18, 
+    "use_count": 162875, 
+    "javascript_use_count": 162875, 
+    "javascript_download_count": 1975992859, 
+    "download_count": 1975992859
+  }, 
+  "daniel.stockman@gmail.com": {
+    "pkg_count": 50, 
+    "javascript_pkg_count": 50, 
+    "use_count": 6618, 
+    "javascript_use_count": 6618, 
+    "javascript_download_count": 305985268, 
+    "download_count": 305985268
+  }, 
+  "terinjokes@gmail.com": {
+    "pkg_count": 20, 
+    "javascript_pkg_count": 20, 
+    "use_count": 164634, 
+    "javascript_use_count": 164634, 
+    "javascript_download_count": 2013133673, 
+    "download_count": 2013133673
+  }, 
+  "taylorotwell@gmail.com": {
+    "php_download_count": 204676401, 
+    "pkg_count": 60, 
+    "php_use_count": 129706, 
+    "php_pkg_count": 60, 
+    "use_count": 129706, 
+    "download_count": 204676401
+  }, 
+  "michael@lab80.co": {
+    "pkg_count": 36, 
+    "javascript_pkg_count": 36, 
+    "use_count": 2151, 
+    "javascript_use_count": 2151, 
+    "javascript_download_count": 479224348, 
+    "download_count": 479224348
+  }, 
+  "npm@google.com": {
+    "pkg_count": 76, 
+    "javascript_pkg_count": 76, 
+    "use_count": 31850, 
+    "javascript_use_count": 31850, 
+    "javascript_download_count": 1199284130, 
+    "download_count": 1199284130
+  }, 
+  "brentvatne@gmail.com": {
+    "pkg_count": 41, 
+    "javascript_pkg_count": 41, 
+    "use_count": 1349, 
+    "javascript_use_count": 1349, 
+    "javascript_download_count": 116246118, 
+    "download_count": 116246118
+  }, 
+  "contact@xtuc.fr": {
+    "pkg_count": 34, 
+    "javascript_pkg_count": 34, 
+    "use_count": 131210, 
+    "javascript_use_count": 131210, 
+    "javascript_download_count": 2784425114, 
+    "download_count": 2784425114
+  }, 
+  "eran@hammer.io": {
+    "pkg_count": 40, 
+    "javascript_pkg_count": 40, 
+    "use_count": 142035, 
+    "javascript_use_count": 142035, 
+    "javascript_download_count": 4085939931, 
+    "download_count": 4085939931
+  }, 
+  "george.claghorn@gmail.com": {
+    "ruby_download_count": 2870922068, 
+    "pkg_count": 44, 
+    "ruby_pkg_count": 44, 
+    "ruby_use_count": 242919, 
+    "use_count": 242919, 
+    "download_count": 2870922068
+  }, 
+  "cody.mello@joyent.com": {
+    "pkg_count": 4, 
+    "javascript_pkg_count": 4, 
+    "use_count": 133666, 
+    "javascript_use_count": 133666, 
+    "javascript_download_count": 914881731, 
+    "download_count": 914881731
+  }, 
+  "headius@headius.com": {
+    "ruby_download_count": 591757477, 
+    "pkg_count": 32, 
+    "ruby_pkg_count": 32, 
+    "ruby_use_count": 53841, 
+    "use_count": 53841, 
+    "download_count": 591757477
+  }, 
+  "npm@fenster.name": {
+    "pkg_count": 31, 
+    "javascript_pkg_count": 31, 
+    "use_count": 6775, 
+    "javascript_use_count": 6775, 
+    "javascript_download_count": 229979678, 
+    "download_count": 229979678
+  }, 
+  "beneb.info@gmail.com": {
+    "pkg_count": 54, 
+    "javascript_pkg_count": 54, 
+    "use_count": 63249, 
+    "javascript_use_count": 63249, 
+    "javascript_download_count": 5956835331, 
+    "download_count": 5956835331
+  }, 
+  "xotic750@gmail.com": {
+    "pkg_count": 37, 
+    "javascript_pkg_count": 37, 
+    "use_count": 9496, 
+    "javascript_use_count": 9496, 
+    "javascript_download_count": 263235719, 
+    "download_count": 263235719
+  }, 
+  "fayearthur@gmail.com": {
+    "pkg_count": 5, 
+    "javascript_pkg_count": 5, 
+    "use_count": 121530, 
+    "javascript_use_count": 121530, 
+    "javascript_download_count": 656579782, 
+    "download_count": 656579782
+  }, 
+  "davydkin.igor@gmail.com": {
+    "pkg_count": 35, 
+    "javascript_pkg_count": 35, 
+    "use_count": 1895, 
+    "javascript_use_count": 1895, 
+    "javascript_download_count": 443487814, 
+    "download_count": 443487814
+  }, 
+  "mail@jonrowe.co.uk": {
+    "ruby_download_count": 1828239670, 
+    "pkg_count": 12, 
+    "ruby_pkg_count": 12, 
+    "ruby_use_count": 11795, 
+    "use_count": 11795, 
+    "download_count": 1828239670
+  }, 
+  "mail@substack.net": {
+    "pkg_count": 98, 
+    "javascript_pkg_count": 98, 
+    "use_count": 885318, 
+    "javascript_use_count": 885318, 
+    "javascript_download_count": 8812448490, 
+    "download_count": 8812448490
+  }, 
+  "lamont@scriptkiddie.org": {
+    "ruby_download_count": 191770289, 
+    "pkg_count": 63, 
+    "ruby_pkg_count": 63, 
+    "ruby_use_count": 8928, 
+    "use_count": 8928, 
+    "download_count": 191770289
+  }, 
+  "secoif@gmail.com": {
+    "pkg_count": 21, 
+    "javascript_pkg_count": 21, 
+    "use_count": 122759, 
+    "javascript_use_count": 122759, 
+    "javascript_download_count": 936428275, 
+    "download_count": 936428275
+  }, 
+  "eric@smarterspam.com": {
+    "pkg_count": 23, 
+    "javascript_pkg_count": 23, 
+    "use_count": 33569, 
+    "javascript_use_count": 33569, 
+    "javascript_download_count": 1228433174, 
+    "download_count": 1228433174
+  }, 
+  "regx@usul.su": {
+    "pkg_count": 35, 
+    "javascript_pkg_count": 35, 
+    "use_count": 2018, 
+    "javascript_use_count": 2018, 
+    "javascript_download_count": 464536997, 
+    "download_count": 464536997
+  }, 
+  "freek@spatie.be": {
+    "php_download_count": 19060589, 
+    "pkg_count": 64, 
+    "php_use_count": 2450, 
+    "php_pkg_count": 64, 
+    "use_count": 2450, 
+    "download_count": 19060589
+  }, 
+  "plone-developers@lists.sourceforge.net": {
+    "pkg_count": 73, 
+    "use_count": 47080, 
+    "python_download_count": 617411, 
+    "python_pkg_count": 73, 
+    "download_count": 617411, 
+    "python_use_count": 47080
+  }, 
+  "shtylman@gmail.com": {
+    "pkg_count": 45, 
+    "javascript_pkg_count": 45, 
+    "use_count": 414724, 
+    "javascript_use_count": 414724, 
+    "javascript_download_count": 4908194094, 
+    "download_count": 4908194094
+  }, 
+  "bcomnes@gmail.com": {
+    "pkg_count": 23, 
+    "javascript_pkg_count": 23, 
+    "use_count": 167237, 
+    "javascript_use_count": 167237, 
+    "javascript_download_count": 2111879826, 
+    "download_count": 2111879826
+  }, 
+  "me@JoshDuff.com": {
+    "pkg_count": 19, 
+    "javascript_pkg_count": 19, 
+    "use_count": 167459, 
+    "javascript_use_count": 167459, 
+    "javascript_download_count": 2041164046, 
+    "download_count": 2041164046
+  }, 
+  "p@tchwork.com": {
+    "php_download_count": 467109820, 
+    "pkg_count": 28, 
+    "php_use_count": 219739, 
+    "php_pkg_count": 28, 
+    "use_count": 219739, 
+    "download_count": 467109820
+  }, 
+  "npm-public@jessemccarthy.net": {
+    "pkg_count": 98, 
+    "javascript_pkg_count": 98, 
+    "use_count": 583910, 
+    "javascript_use_count": 583910, 
+    "javascript_download_count": 11260241414, 
+    "download_count": 11260241414
+  }, 
+  "crynobone@gmail.com": {
+    "php_download_count": 3822809, 
+    "pkg_count": 36, 
+    "php_use_count": 435, 
+    "php_pkg_count": 36, 
+    "use_count": 435, 
+    "download_count": 3822809
+  }, 
+  "max@maxogden.com": {
+    "pkg_count": 43, 
+    "javascript_pkg_count": 43, 
+    "use_count": 229259, 
+    "javascript_use_count": 229259, 
+    "javascript_download_count": 2976725477, 
+    "download_count": 2976725477
+  }, 
+  "me@re-becca.org": {
+    "pkg_count": 55, 
+    "javascript_pkg_count": 55, 
+    "use_count": 765480, 
+    "javascript_use_count": 765480, 
+    "javascript_download_count": 5763665964, 
+    "download_count": 5763665964
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "nikic/php-parser": "v4.0.2",
+        "ulrichsg/getopt-php": "^3.2",
+        "google/protobuf": "3.6.1"
+    }
+}

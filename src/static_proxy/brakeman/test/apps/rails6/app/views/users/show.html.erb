@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name.html_safe %>
+  <%= @user.name.html_safe if x %>
+  <%= @user.name.html_safe unless x %>
+  <%= x ? @user.name.html_safe : y %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,9 @@
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_ENABLE_UTC = True
+CELERY_IGNORE_RESULT = False
+# CELERY_ANNOTATIONS = {
+#    'tasks.add': {'rate_limit': '10/m'}
+# }
+

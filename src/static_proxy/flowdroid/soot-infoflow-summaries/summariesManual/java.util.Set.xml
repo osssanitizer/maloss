@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<summary fileFormatVersion="101">
+	<hierarchy>
+		<interface name="java.util.Collection" />
+	</hierarchy>
+	<methods>
+		<method id="java.util.Spliterator spliterator()">
+			<flows>
+				<flow isAlias="false" typeChecking="false">
+					<from sourceSinkType="Field" />
+					<to sourceSinkType="Return" AccessPath="[java.util.Spliterator: java.lang.Object innerCollection]"
+						AccessPathTypes="[java.lang.Object]" />
+				</flow>
+			</flows>
+		</method>
+	</methods>
+</summary>

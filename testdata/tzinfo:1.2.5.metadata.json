@@ -1,0 +1,32 @@
+{
+  "info": "TZInfo provides daylight savings aware transformations between times in different time zones.", 
+  "changelog_uri": null, 
+  "project_uri": "https://rubygems.org/gems/tzinfo", 
+  "name": "tzinfo", 
+  "sha": "7f144179fa25bd3ac21f3b532e0925f148cc911a7456de699bf3f623864c5dba", 
+  "downloads": 197486584, 
+  "version_downloads": 21642815, 
+  "gem_uri": "https://rubygems.org/gems/tzinfo-1.2.5.gem", 
+  "bug_tracker_uri": "https://github.com/tzinfo/tzinfo/issues", 
+  "platform": "ruby", 
+  "version": "1.2.5", 
+  "documentation_uri": "http://www.rubydoc.info/gems/tzinfo/1.2.5", 
+  "source_code_uri": "https://github.com/tzinfo/tzinfo", 
+  "authors": "Philip Ross", 
+  "licenses": [
+    "MIT"
+  ], 
+  "wiki_uri": "", 
+  "homepage_uri": "http://tzinfo.github.io", 
+  "mailing_list_uri": "http://rubyforge.org/mail/?group_id=894", 
+  "dependencies": {
+    "development": [], 
+    "runtime": [
+      {
+        "requirements": "~> 0.1", 
+        "name": "thread_safe"
+      }
+    ]
+  }, 
+  "metadata": {}
+}

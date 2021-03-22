@@ -1,0 +1,481 @@
+# falco officially supports the notion of a default rules file and a local rules file.
+# https://falco.org/docs/rules/default-custom/
+
+
+################################################
+# default rules to add, transofrm them to macros
+################################################
+
+# Disallowed SSH Connection
+# FIXME: git ssh may be allowed?
+- macro: allowed_ssh_hosts
+  condition: (never_true)
+
+- macro: disallowed_ssh_connection
+  condition: (inbound_outbound) and ssh_port and not allowed_ssh_hosts
+
+# Unexpected inbound connection source
+# FIXME: update domains and IPs as we improve
+- macro: consider_all_inbound_conns
+  condition: (always_true)
+
+- list: allowed_inbound_source_ipaddrs
+  items: ['"127.0.0.1"']
+
+# Georgia tech ip ranges
+# https://oit.gatech.edu/services/infrastructure/ip-address-and-domain-name-system
+- list: allowed_inbound_source_networks
+  items: ['"127.0.0.1/8"', '"10.0.0.0/8"', '"172.16.0.0/12"', '"192.168.0.0/16"', '"130.207.0.0/16"', '"128.61.0.0/16"', '"143.215.0.0/16"', '"52.72.0.0/16"', '"168.24.0.0/16"', '"10.128.0.0/16"']
+
+- list: allowed_inbound_source_domains
+  items: [gatech.edu, python.org, pypi.org, pythonhosted.org, npmjs.org, rubygems.org, packagist.org, apache.org, sonatype.org, ow2.org]
+
+- macro: unexpected_inbound_connection_source
+  condition: >
+    consider_all_inbound_conns and inbound and not
+    ((fd.cip in (allowed_inbound_source_ipaddrs)) or
+     (fd.cnet in (allowed_inbound_source_networks)) or
+     (fd.cip.name in (allowed_inbound_source_domains)))
+
+# Unexpected outbound connection destination
+# FIXME: update domains and IPs as we improve
+- macro: consider_all_outbound_conns
+  condition: (always_true)
+
+- list: allowed_outbound_destination_ipaddrs
+  items: ['"127.0.0.1"', '"8.8.8.8"']
+
+- list: allowed_outbound_destination_networks
+  items: ['"127.0.0.1/8"', '"10.0.0.0/8"', '"172.16.0.0/12"', '"192.168.0.0/16"', '"130.207.0.0/16"', '"128.61.0.0/16"', '"143.215.0.0/16"', '"52.72.0.0/16"', '"168.24.0.0/16"', '"10.128.0.0/16"']
+
+- list: allowed_outbound_destination_domains
+  items: [gatech.edu, python.org, pypi.org, pythonhosted.org, npmjs.org, rubygems.org, packagist.org, apache.org, sonatype.org, ow2.org]
+
+- macro: unexpected_outbound_connection_destination
+  condition: >
+    consider_all_outbound_conns and outbound and not
+    ((fd.sip in (allowed_outbound_destination_ipaddrs)) or
+     (fd.snet in (allowed_outbound_destination_networks)) or
+     (fd.sip.name in (allowed_outbound_destination_domains)))
+
+# Modify Shell Configuration File
+- macro: modify_shell_configuration_file
+  condition: >
+    open_write and
+    (fd.filename in (shell_config_filenames) or
+     fd.name in (shell_config_files) or
+     fd.directory in (shell_config_directories)) and
+    not proc.name in (shell_binaries)
+
+# Schedule Cron Jobs
+- macro: consider_all_cron_jobs
+  condition: (always_true)
+
+- macro: file_schedule_cron_jobs
+  condition: >
+    consider_all_cron_jobs and (open_write and fd.name startswith /etc/cron)
+
+- macro: proc_schedule_cron_jobs
+  condition: >
+    consider_all_cron_jobs and (spawned_process and proc.name = "crontab")
+
+# Write below binary dir
+- macro: write_below_binary_dir
+  condition: >
+    bin_dir and evt.dir = < and open_write
+    and not package_mgmt_procs
+    and not exe_running_docker_save
+    and not python_running_get_pip
+    and not python_running_ms_oms
+
+# Write below monitored dir
+- macro: write_below_monitored_dir
+  condition: >
+    evt.dir = < and open_write and monitored_dir
+    and not package_mgmt_procs
+    and not coreos_write_ssh_dir
+    and not exe_running_docker_save
+    and not python_running_get_pip
+    and not python_running_ms_oms
+    and not google_accounts_daemon_writing_ssh
+    and not cloud_init_writing_ssh
+    and not user_known_write_monitored_dir_conditions
+
+# Read ssh information
+# FIXME: git clone may also read .ssh folder
+- macro: consider_ssh_reads
+  condition: (always_true)
+
+- macro: read_ssh_information
+  condition: >
+    (consider_ssh_reads and
+     (open_read or open_directory) and
+     (user_ssh_directory or fd.name startswith /root/.ssh) and
+     (not proc.name in (ssh_binaries)))
+
+# Write below etc
+- macro: write_below_etc
+  condition: write_etc_common
+
+# Write below root
+- macro: write_below_root
+  condition: >
+    root_dir and evt.dir = < and open_write
+    and not fd.name in (known_root_files)
+    and not fd.directory in (known_root_directories)
+    and not exe_running_docker_save
+    and not gugent_writing_guestagent_log
+    and not dse_writing_tmp
+    and not zap_writing_state
+    and not airflow_writing_state
+    and not rpm_writing_root_rpmdb
+    and not maven_writing_groovy
+    and not chef_writing_conf
+    and not kubectl_writing_state
+    and not cassandra_writing_state
+    and not galley_writing_state
+    and not calico_writing_state
+    and not rancher_writing_root
+    and not known_root_conditions
+    and not user_known_write_root_conditions
+
+# Read sensitive file trusted after startup
+- macro: read_sensitive_file_trusted_after_startup
+  condition: sensitive_files and open_read and server_procs and not proc_is_new and proc.name!="sshd"
+
+# Read sensitive file untrusted
+- macro: read_sensitive_file_untrusted
+  condition: >
+    sensitive_files and open_read
+    and proc_name_exists
+    and not proc.name in (user_mgmt_binaries, userexec_binaries, package_mgmt_binaries,
+     cron_binaries, read_sensitive_file_binaries, shell_binaries, hids_binaries,
+     vpn_binaries, mail_config_binaries, nomachine_binaries, sshkit_script_binaries,
+     in.proftpd, mandb, salt-minion, postgres_mgmt_binaries)
+    and not cmp_cp_by_passwd
+    and not ansible_running_python
+    and not proc.cmdline contains /usr/bin/mandb
+    and not run_by_qualys
+    and not run_by_chef
+    and not run_by_google_accounts_daemon
+    and not user_read_sensitive_file_conditions
+    and not perl_running_plesk
+    and not perl_running_updmap
+    and not veritas_driver_script
+    and not perl_running_centrifydc
+    and not runuser_reading_pam
+
+# DB program spawned process
+- macro: db_program_spawned_process
+  condition: >
+    proc.pname in (db_server_binaries)
+    and spawned_process
+    and not proc.name in (db_server_binaries)
+    and not postgres_running_wal_e
+
+# Modify binary dirs
+- macro: modify_binary_dirs
+  condition: (bin_dir_rename) and modify and not package_mgmt_procs and not exe_running_docker_save
+
+# Mkdir binary dirs
+- macro: mkdir_binary_dirs
+  condition: mkdir and bin_dir_mkdir and not package_mgmt_procs
+
+# Run shell untrusted
+- macro: run_shell_untrusted
+  condition: >
+    spawned_process
+    and shell_procs
+    and proc.pname exists
+    and protected_shell_spawner
+    and not proc.pname in (shell_binaries, gitlab_binaries, cron_binaries, user_known_shell_spawn_binaries,
+                           needrestart_binaries,
+                           mesos_shell_binaries,
+                           erl_child_setup, exechealthz,
+                           PM2, PassengerWatchd, c_rehash, svlogd, logrotate, hhvm, serf,
+                           lb-controller, nvidia-installe, runsv, statsite, erlexec)
+    and not proc.cmdline in (known_shell_spawn_cmdlines)
+    and not proc.aname in (unicorn_launche)
+    and not consul_running_net_scripts
+    and not consul_running_alert_checks
+    and not nginx_starting_nginx
+    and not nginx_running_aws_s3_cp
+    and not run_by_package_mgmt_binaries
+    and not serf_script
+    and not check_process_status
+    and not run_by_foreman
+    and not python_mesos_marathon_scripting
+    and not splunk_running_forwarder
+    and not postgres_running_wal_e
+    and not redis_running_prepost_scripts
+    and not rabbitmq_running_scripts
+    and not rabbitmqctl_running_scripts
+    and not run_by_appdynamics
+    and not user_shell_container_exclusions
+
+# System user interactive
+- macro: system_user_interactive
+  condition: spawned_process and system_users and interactive
+
+# System procs network activity
+- macro: system_procs_network_activity
+  condition: >
+    (fd.sockfamily = ip and (system_procs or proc.name in (shell_binaries)))
+    and (inbound_outbound)
+    and not proc.name in (systemd, hostid, id)
+    and not login_doing_dns_lookup
+
+# FIXME: maybe consider Interpreted procs inbound network activity, Interpreted procs outbound network activity
+# Unexpected UDP Traffic
+- macro: unexpected_udp_traffic
+  condition: (inbound_outbound) and do_unexpected_udp_check and fd.l4proto=udp and not expected_udp_traffic
+
+# Non sudo setuid
+- macro: non_sudo_setuid
+  condition: >
+    evt.type=setuid and evt.dir=>
+    and (known_user_in_container or not container)
+    and not user.name=root
+    and not somebody_becoming_themself
+    and not proc.name in (known_setuid_binaries, userexec_binaries, mail_binaries, docker_binaries,
+                          nomachine_binaries)
+    and not proc.name startswith "runc:"
+    and not java_running_sdjagent
+    and not nrpe_becoming_nagios
+    and not user_known_non_sudo_setuid_conditions
+
+# Create files below dev
+- macro: create_files_below_dev
+  condition: >
+    fd.directory = /dev and
+    (evt.type = creat or (evt.type = open and evt.arg.flags contains O_CREAT))
+    and not proc.name in (dev_creation_binaries)
+    and not fd.name in (allowed_dev_files)
+    and not fd.name startswith /dev/tty
+
+# Netcat Remote Code Execution in Container
+- macro: netcat_remote_code_execution_in_container
+  condition: >
+    spawned_process and container and
+    ((proc.name = "nc" and (proc.args contains "-e" or proc.args contains "-c")) or
+     (proc.name = "ncat" and (proc.args contains "--sh-exec" or proc.args contains "--exec" or proc.args contains "-e " 
+                              or proc.args contains "-c " or proc.args contains "--lua-exec"))
+    )
+
+# Launch Suspicious Network Tool in Container
+- macro: launch_suspicious_network_tool_in_container
+  condition: >
+    spawned_process and container and network_tool_procs
+
+# Search Private Keys or Passwords
+- macro: search_private_keys_or_passwords
+  condition: >
+    (spawned_process and
+     ((grep_commands and private_key_or_password) or
+      (proc.name = "find" and (proc.args contains "id_rsa" or proc.args contains "id_dsa")))
+    )
+
+# Launch Remote File Copy Tools in Container
+- macro: launch_remote_file_copy_tools_in_container
+  condition: >
+    spawned_process and container and remote_file_copy_procs
+
+# Create Symlink Over Sensitive Files
+- macro: create_symlink_over_sensitive_files
+  condition: >
+    create_symlink and
+    (evt.arg.target in (sensitive_file_names) or evt.arg.target in (sensitive_directory_names))
+
+
+################################################
+# The local rules
+################################################
+
+- macro: recvfrom_message
+  condition: evt.type = recvfrom and evt.dir=<
+
+- macro: hidden_dir
+  condition: (fd.directory contains "/.")
+
+- macro: hidden_file
+  condition: (fd.filename startswith ".")
+
+- macro: honeypot
+  condition: >
+    (fd.name startswith /home/maloss/.ssh or
+     fd.name startswith /home/maloss/.npmrc or
+     fd.name startswith /home/maloss/.pypirc or
+     fd.name startswith /home/maloss/.gem or
+     fd.name startswith /home/maloss/.m2 or
+     fd.name startswith /home/maloss/.nuget or
+     fd.name startswith /home/maloss/.yarnrc or
+     fd.name startswith /home/maloss/.bowerrc or
+     fd.name startswith /home/maloss/.docker or
+     fd.name startswith /home/maloss/.git-credentials or
+     fd.name startswith /home/maloss/.config or
+     fd.name startswith /home/maloss/.vagrant.d or
+     fd.name startswith /home/maloss/.aws or
+     fd.name startswith /home/maloss/.azure or
+     fd.name startswith /home/maloss/.bluemix or
+     fd.name startswith /home/maloss/.oci or
+     fd.name startswith /home/maloss/.aliyun or
+     fd.name startswith /home/maloss/.raxrc or
+     fd.name startswith /home/maloss/.fuelsdk)
+
+# the second argument of rename is the path, but third for unlink/unlinkat
+- macro: metadata_dir
+  condition: >
+    (evt.arg.name startswith /home/maloss/metadata or
+     evt.arg.name startswith /home/maloss/result)
+
+- macro: pypi_packages_dir
+  condition: (fd.directory contains site-packages)
+
+- macro: npmjs_packages_dir
+  condition: (fd.directory contains node_modules)
+
+- macro: rubygems_packages_dir
+  condition: (fd.directory contains gems)
+
+- macro: packagist_packages_dir
+  condition: (fd.directory contains vendor)
+
+- macro: maven_packages_dir
+  condition: (fd.directory contains .m2/repository)
+
+- list: stat_evt_types
+  items: [stat, lstat, fstat]
+
+- list: known_username
+  items: [
+    maloss, root, "<NA>"
+    ]
+
+- macro: sudo_container
+  condition: container.name contains "_sudo"
+
+- macro: unexpected_username
+  condition: >
+    (not sudo_container and user.name != "<NA>" and user.name != "maloss") or
+    (sudo_container and user.name != "<NA>" and user.name != "root")
+
+# unexpected user spawned a process
+- macro: unexpected_username_spawned_process
+  condition: spawned_process and unexpected_username
+
+- macro: dynamic_get_dep_process
+  condition: (never_true)
+
+- macro: dynamic_install_process
+  condition: (never_true)
+
+- macro: dynamic_main_process
+  condition: (never_true)
+
+- macro: dynamic_exercise_process
+  condition: (never_true)
+
+- macro: known_framework_process
+  condition: >
+    dynamic_get_dep_process and dynamic_install_process and dynamic_main_process and dynamic_exercise_process
+
+# unexpected process name spawned, list all the process spawn by the framework
+- macro: unexpected_framework_process
+  condition: not known_framework_process
+
+- macro: registry_domains
+  condition: >
+    evt.arg.data contains "..pypi.python.org.." or
+    evt.arg.data contains "..pypi.org.." or
+    evt.arg.data contains "..files.pythonhosted.org.." or
+    evt.arg.data contains "..registry.npmjs.org.." or
+    evt.arg.data contains "api.rubygems.org" or
+    evt.arg.data contains "..rubygems.org.." or
+    evt.arg.data contains "..repo.packagist.org.." or
+    evt.arg.data contains "..packagist.org.." or
+    evt.arg.data contains "..repo.maven.apache.org.." or
+    evt.arg.data contains "..repository.apache.org.." or
+    evt.arg.data contains "..oss.sonatype.org.." or
+    evt.arg.data contains "..repository.ow2.org.."
+
+- macro: dns_query
+  condition: (not evt.arg.tuple = "NULL" and not (registry_domains))
+
+- macro: modify_metadata
+  condition: modify and metadata_dir
+
+# can be exist check for: (user_ssh_directory or fd.name startswith /root/.ssh)
+- macro: suspicious_exist_file_check
+  condition: evt.type in (stat_evt_types) and (user_ssh_directory or fd.name startswith /root/.ssh or sensitive_files)
+
+
+################################################
+# The following rules should be consistent with FalcoRuleEnum in src/util/enum_util.py
+# NOTE: all of them are inside containers, we assume they were not able to escape containers.
+################################################
+
+- rule: outgoing_domain
+  desc: identify unexpected DNS queries
+  condition: container and recvfrom_message and dns_query
+  output: "Unexpected DNS query (container=%container.name ip=%fd.sip domain=%fd.sip.name command=%proc.cmdline exe=%proc.name connection=%fd.name user=%user.name data=%evt.arg.data tuple=%evt.arg.tuple)"
+  priority: CRITICAL
+  tags: [network]
+
+# NOTE: 1. if we are not sure about outgoing or incoming, put them in outgoing. 2. if we are not sure if they have domains, put them in ip.
+- rule: outgoing_ip
+  desc: identify unexpected outgoing connections
+  condition: container and (disallowed_ssh_connection or unexpected_outbound_connection_destination or system_procs_network_activity or unexpected_udp_traffic)
+  output: "Unexpected outgoing ip (container=%container.name ip=%fd.sip domain=%fd.sip.name command=%proc.cmdline exe=%proc.name connection=%fd.name user=%user.name)"
+  priority: CRITICAL
+  tags: [network]
+
+- rule: incoming_ip
+  desc: identify unexpected incoming connections
+  condition: container and (unexpected_inbound_connection_source)
+  output: "Unexpected incoming ip (container=%container.name ip=%fd.cip domain=%fd.cip.name command=%proc.cmdline exe=%proc.name connection=%fd.name user=%user.name)"
+  priority: CRITICAL
+  tags: [network]
+
+- rule: write_file
+  desc: write unexpected files
+  condition: >
+    container and (file_schedule_cron_jobs or write_below_binary_dir or write_below_monitored_dir or 
+     write_below_etc or write_below_root or modify_binary_dirs or
+     mkdir_binary_dirs or create_files_below_dev or modify_metadata)
+  output: "Write unexpected iles (container=%container.name user=%user.name command=%proc.cmdline exe=%proc.name file=%fd.name parent=%proc.pname pcmdline=%proc.pcmdline)"
+  priority: CRITICAL
+  tags: [filesystem]
+
+- rule: read_file
+  desc: read unexpected files
+  condition: container and (read_ssh_information or read_sensitive_file_trusted_after_startup or read_sensitive_file_untrusted)
+  output: "Read unexpected files (container=%container.name user=%user.name command=%proc.cmdline exe=%proc.name file=%fd.name parent=%proc.pname pcmdline=%proc.pcmdline)"
+  priority: CRITICAL
+  tags: [filesystem]
+
+# FIXME: too many alerts for stat_file
+# - rule: stat_file
+#   desc: stat unexpected files
+#   condition: container and (suspicious_exist_file_check)
+#   output: "Stat unexpected files (container=%container.name user=%user.name command=%proc.cmdline exe=%proc.name file=%fd.name parent=%proc.pname pcmdline=%proc.pcmdline)"
+#   priority: CRITICAL
+#   tags: [filesystem]
+
+- rule: spawn_process
+  desc: spawn unexpected processes
+  condition: >
+    container and (modify_shell_configuration_file or proc_schedule_cron_jobs or db_program_spawned_process or 
+     run_shell_untrusted or system_user_interactive or netcat_remote_code_execution_in_container or 
+     launch_suspicious_network_tool_in_container or search_private_keys_or_passwords or launch_remote_file_copy_tools_in_container or
+     unexpected_username_spawned_process)
+  output: "Spawn unexpected processes (container=%container.name user=%user.name command=%proc.cmdline exe=%proc.name parent=%proc.pname pcmdline=%proc.pcmdline)"
+  priority: CRITICAL
+  tags: [process]
+
+- rule: sensitive_operation
+  desc: perform unexpected operation
+  condition: container and (non_sudo_setuid or create_symlink_over_sensitive_files)
+  output: "Perform unexpected operations (container=%container.name user=%user.name command=%proc.cmdline exe=%proc.name syscall=%evt.type parent=%proc.pname pcmdline=%proc.pcmdline)"
+  priority: CRITICAL
+  tags: [process]
+

@@ -1,0 +1,104 @@
+package proto.flowdroid;
+
+message UnspecifiedType
+{
+	required string baseObjectType = 1;
+	required bytes object = 2;
+}
+
+message clearType
+{
+	optional string AccessPath = 1;
+	optional int32 ParameterIndex = 2;
+	enum sourceSinkType
+	{
+		sourceSinkType_Custom = 1;
+		sourceSinkType_Field = 2;
+		sourceSinkType_GapBaseObject = 3;
+		sourceSinkType_Parameter = 4;
+		sourceSinkType_Return = 5;
+	}
+	required sourceSinkType _sourceSinkType = 3;
+}
+
+message clearsType
+{
+	repeated clearType clear = 1;
+}
+
+message fromToDefinition
+{
+	optional string AccessPath = 1;
+	optional string AccessPathTypes = 2;
+	optional string BaseType = 3;
+	optional int32 ParameterIndex = 4;
+	optional int32 gap = 5;
+	optional bool matchStrict = 6;
+	enum sourceSinkType
+	{
+		sourceSinkType_Custom = 1;
+		sourceSinkType_Field = 2;
+		sourceSinkType_GapBaseObject = 3;
+		sourceSinkType_Parameter = 4;
+		sourceSinkType_Return = 5;
+	}
+	required sourceSinkType _sourceSinkType = 7;
+	optional bool taintSubFields = 8;
+}
+
+message gapType
+{
+	optional string id = 1;
+	optional int32 num = 2;
+}
+
+message gapsType
+{
+	repeated gapType gap = 1;
+}
+
+message interfaceType
+{
+	optional string name = 1;
+}
+
+message flowType
+{
+	optional bool cutSubfields = 1;
+	required fromToDefinition from = 2;
+	optional bool isAlias = 3;
+	required fromToDefinition to = 4;
+	optional bool typeChecking = 5;
+}
+
+message flowsType
+{
+	repeated flowType flow = 1;
+}
+
+message hierarchyType
+{
+	repeated interfaceType _interface = 1;
+	optional string superClass = 2;
+}
+
+message methodType
+{
+	optional clearsType clears = 1;
+	optional flowsType flows = 2;
+	optional string id = 3;
+}
+
+message methodsType
+{
+	repeated methodType method = 1;
+}
+
+message summaryType
+{
+	optional int32 fileFormatVersion = 1;
+	optional gapsType gaps = 2;
+	optional hierarchyType hierarchy = 3;
+	optional methodsType methods = 4;
+}
+

@@ -1,0 +1,1394 @@
+{
+  "com.github.florent37/materialviewpager": {
+    "1.1.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "694ecf4b9762ce7e3a875b477fb889b528fda114"
+    }, 
+    "1.1.3": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "7f79fd91bcb023c5e602cd63d115d356dab9d574"
+    }, 
+    "1.1.2": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "4f335fc7e0a73f6793f6fa3d4ccfaa58fe028c72"
+    }, 
+    "1.0.6": {
+      "jitpack": "cb333946c06f2fc0c7cdcabc4e8173a2d3b0a868", 
+      "jcenter": "7e00e8aaa7f2eff566876dfa5a29b4d1b5472c52"
+    }
+  }, 
+  "com.github.teletha/antibug": {
+    "0.3": {
+      "jitpack": "7aaf1344fb5f5f1dd5a9c9eeb41985b161496a71", 
+      "jcenter": "9235e995e4cc202aec36427830b9de2144ea905a"
+    }
+  }, 
+  "com.github.nginate/commons-testing": {
+    "1.0.0": {
+      "jitpack": "edc8b8ceb9bc77fc62bd86073dc5db0b2e1950f8", 
+      "jcenter": "7ff2f987a8ef274c8054e291403075f5b260ca9e"
+    }
+  }, 
+  "com.github.andrewlord1990/materialandroid": {
+    "0.5.0": {
+      "jitpack": "9dfebf9269d99efa81868c2b16196a5e77955f7e", 
+      "jcenter": "9dc3855b7b993a88b8f2d94fe70ba5f156e2ec74"
+    }
+  }, 
+  "com.github.fssilva/viewanimator": {
+    "1.0.6": {
+      "jitpack": "898695e384ca2b3c62af40fc8aedccfd57553840", 
+      "jcenter": "7de30969d1e0f82dff1dcd5d87baa142861c456b"
+    }
+  }, 
+  "com.github.skydoves/medal": {
+    "1.0.1": {
+      "jitpack": "ad0fa2ebc27cd04c0922edb32ff714b682dcdc61", 
+      "jcenter": "2924408f9491020d3d4c29fb272f8aed45ab913d"
+    }
+  }, 
+  "com.github.thangiee/riot-api-scala_2.11": {
+    "0.4.3": {
+      "jitpack": "aaa26dfd82c2895a9c5aff0069823bfe59b0b455", 
+      "jcenter": "f82a3e1664a8e577dc38d5991b39993926055683"
+    }, 
+    "0.4.4": {
+      "jitpack": "d28ee2a518189d64310f2363884c9f075c5c0542", 
+      "jcenter": "d42048aa92ea05e619d1adafd10d0e1973bef280"
+    }
+  }, 
+  "com.github.skydoves/preferenceroom": {
+    "1.1.1": {
+      "jitpack": "07df5c092c16a21d81497e744b94ee4ba3e1d15a", 
+      "jcenter": "956adddc778ea5d2af07481dad68ab5244e2ccc1"
+    }, 
+    "1.1.0": {
+      "jitpack": "b55901e8419e57f63a9523f5231ff3f54c9a7fe3", 
+      "jcenter": "b21540325e9924984998ec955eaba37a0792319d"
+    }, 
+    "1.1.5": {
+      "jitpack": "45b1f3436ede1746e9ebbf91a1bee3c279c09d51", 
+      "jcenter": "ed2fe16714efadd09973e1391c80abd067278782"
+    }, 
+    "1.1.4": {
+      "jitpack": "2b0249805ff5a08df57d5f83c2f866947b5950e0", 
+      "jcenter": "7f4af028613135bc9c79fd60d0c67bb5bf4acc89"
+    }, 
+    "1.1.7": {
+      "jitpack": "57ab3c7eb3303973845d46a11aee7e0bfcfd6db6", 
+      "jcenter": "1a2e1deb377701a646c9cae6a8631773072c3ddd"
+    }, 
+    "1.1.6": {
+      "jitpack": "0977c97a6e8b730ce877217e7b6e7b2bc111e6d2", 
+      "jcenter": "a729d12a20ee5efd014d450e8c16dacf4642a4ff"
+    }
+  }, 
+  "com.github.duanhong169/logger": {
+    "1.0.0": {
+      "jitpack": "ab8fbdc47c3a3df1eaf907d3e9d7542fc233e79c", 
+      "jcenter": "d285c11e35b5c5dfa9ce6e5d5673d34df47b0ef4"
+    }
+  }, 
+  "io.kategory/kategory": {
+    "0.3.8": {
+      "jitpack": "9d2baad0278eca55965ed71728af086871554099", 
+      "jcenter": "9084a46e83cf3d256c65b2714e644d3257f648cd"
+    }, 
+    "0.3.9": {
+      "jitpack": "8812944cb0b6de0ddde58f91b5d709ba1e3ea5ab", 
+      "jcenter": "b5a522d5e2d5b2ae939ee23e7136cc39bea19a4d"
+    }, 
+    "0.3.5": {
+      "jitpack": "31e1bd66557fc246999fce4051d6a5662c179ae6", 
+      "jcenter": "7819e666f285341491b71d45b6701d716f541e1f"
+    }, 
+    "0.4.0": {
+      "jitpack": "5db23e2a4d5cc010167d21f6f2ee63667c4b5492", 
+      "jcenter": "c396d713ac60029910ecd2cfde02001a2aa8aee7"
+    }, 
+    "0.3.10": {
+      "jitpack": "aab21fe15611cf62fed0e29ad3c4d53310e07cd1", 
+      "jcenter": "526158eaed6289c214527fefda10ad1324d1a1d1"
+    }, 
+    "0.3.11": {
+      "jitpack": "0e25202c89c41c5350b8f709e2c18dcd31d68543", 
+      "jcenter": "550be199079f2fe285b2ac7b4d0ea1a78396e587"
+    }
+  }, 
+  "com.github.thekhaeng/material-design-guideline": {
+    "1.0.4": {
+      "jitpack": "5e7e05790dcba6ab8ebf11e950f03fa4b46754ec", 
+      "jcenter": "ee1b5f3b320cdfe5dbb2e39a9f98735043841e16"
+    }
+  }, 
+  "com.github.simonpercic/oklog": {
+    "1.0.1": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "e0f59d5100856c68281daa02ad67930e69f2aaf1"
+    }, 
+    "2.0.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "f03477e71100fd0d8005f369b3f0a2d1b88d422a"
+    }, 
+    "2.3.0": {
+      "jitpack": "9125fed67845b39cf5673ef97cd861808f26e3de", 
+      "jcenter": "890c0f7b3b6df3e8cb62e50bb679d943c5da8fbb"
+    }, 
+    "2.2.0": {
+      "jitpack": "df02fe1b43d6cf1437fcfcb36a1a390654a413a9", 
+      "jcenter": "9f503f9b6fcd4eda9b5364772043b241448255b1"
+    }, 
+    "0.2.1": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "f52febb552b963e38725f515a69d0aa5ca25baaa"
+    }, 
+    "2.1.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "ed8fae2e451d3a530e6dcaf47fd3a368580ea65b"
+    }
+  }, 
+  "io.github.config4k/config4k": {
+    "0.4.1": {
+      "jitpack": "dd7ad94cd778fc46ec32466499a5b685d9227944", 
+      "jcenter": "1e0054bac6744de2cda1d30e90e37f1ec99a5330"
+    }, 
+    "0.3.3": {
+      "jitpack": "3ab5451f6984a3e7e8e5da33113ea69359a4799e", 
+      "jcenter": "167a69ad0e274ac128d8603b88c2bca65c8328ea"
+    }, 
+    "0.3.0": {
+      "jitpack": "25314f7e7039df22533327c07835cddf947c5d97", 
+      "jcenter": "e4e095874f7c699ad94265f900fe6bc3d705202f"
+    }, 
+    "0.4.0": {
+      "jitpack": "ad066a146aaddaaec7d1e1b01b2e54b3323b88bb", 
+      "jcenter": "1d9a7c4a1f9cb508c82d8ffcc19dceee1b59e194"
+    }
+  }, 
+  "com.vikingsen/pocketbus": {
+    "1.1.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "693c5c7256d6907468801c107e5a65fb218b4bc6"
+    }, 
+    "1.0.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "92dedda3d7ffc590abbacbe62c1f5d51257a3f27"
+    }
+  }, 
+  "com.github.fszeng2011/treeadapter": {
+    "2.2.1": {
+      "jitpack": "2f5a93271e64f6d41309d5044a01e40cbb5b2ee3", 
+      "jcenter": "c4b98d89ccea7efa536257bf86730187cef84e7a"
+    }
+  }, 
+  "com.github.florent37/glidepalette": {
+    "1.0.6": {
+      "jitpack": "214fb27535330baab97c7c61ea2c9c0bd103935e", 
+      "jcenter": "2ced640401e1859dde8367ed376efaadc3eddbf0"
+    }
+  }, 
+  "io.github.bckfnn/vertx-ftp-client": {
+    "0.0.2": {
+      "jitpack": "d0655bb557174955d8b362cbb073f7d7bca81e0a", 
+      "jcenter": "c68e7856540c69b7cbee1252f9f8f9507088faab"
+    }
+  }, 
+  "com.github.filiphr/mapstruct-builder-accessor": {
+    "1.0.0": {
+      "jitpack": "5f7f38904ec2c3baca2a15c6ca273f1ac175ff40", 
+      "jcenter": "afa58df7e43af30dad194e8f966ff4c48341742d"
+    }
+  }, 
+  "com.github.wandersnail/httprequester": {
+    "1.0.0": {
+      "jitpack": "866eea02ea20c251313d37cb3912204564cd6c57", 
+      "jcenter": "817a325c620c93aea31ba5556795c29333a5f667"
+    }
+  }, 
+  "com.github.michaelbel/material": {
+    "0.0.5": {
+      "jitpack": "e91cbf0303d39b4139fc32422b14aa757341aac5", 
+      "jcenter": "2b8d2c56b7b468237ef6804251d399596329ee98"
+    }
+  }, 
+  "com.github.wandersnail/treeadapter": {
+    "1.1.0": {
+      "jitpack": "6fd9b7ff81e6c50a036219635e315b5ff0caf72b", 
+      "jcenter": "849bd2a65ece012f1b3e47ae5f9d01f46875e9b1"
+    }, 
+    "1.0.0": {
+      "jitpack": "900efea735ec7c23b539c5ee983d0f6e85378f2a", 
+      "jcenter": "20b4433b13597bd610a2f66a4f1b78004ab47e88"
+    }
+  }, 
+  "com.github.imangazalievm/quickmenu": {
+    "1.1.0": {
+      "jitpack": "009da9d814463c464d349e13a5c77d896c8996cf", 
+      "jcenter": "45eebbd343081b056f0cb18875e65019c96df7fe"
+    }
+  }, 
+  "com.github.zeroflops/material-dialogs": {
+    "0.8.5.8": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "6da7aeadaf5e05a1bef88c004b9f33791479fcfb"
+    }
+  }, 
+  "com.github.rubensousa/raiflatbutton": {
+    "0.1": {
+      "jitpack": "3ddde11cd520189a7a550651f878b614eb1d01e3", 
+      "jcenter": "b276c9ae698c8ac423d433dc86b2f71402ade979"
+    }
+  }, 
+  "com.hacknife/iplayer": {
+    "1.2.5": {
+      "jitpack": "02611827e8b1de8927cf4fc67a38beb338fae34e", 
+      "jcenter": "31e1b76b27307852e4f0af26336dc62119f93018"
+    }
+  }, 
+  "com.github.stkent/amplify": {
+    "1.4.0": {
+      "jitpack": "5ae356ff8f6b1181de9a07d1a33b944885c83500", 
+      "jcenter": "deb4c6b6d0a9b8aab88fb9bfeb9524116a7f23b6"
+    }, 
+    "1.0.0": {
+      "jitpack": "004ddd65aaa64d4771bc0e1c94aff9b9f486ec4c", 
+      "jcenter": "ed706423a9e2714d37acd5b32a42b11cabec844f"
+    }, 
+    "1.2.0": {
+      "jitpack": "f97de75a06e042c94f84007c3d60221326119966", 
+      "jcenter": "b9560fa3c780050b14f06571fec5e9d99ec70751"
+    }, 
+    "2.0.0": {
+      "jitpack": "189343473a21090926392adfae4a906e92102043", 
+      "jcenter": "355efdd521bfc1ceeff3752435849af708fd9ed5"
+    }, 
+    "1.5.1": {
+      "jitpack": "61954b81ef7f632c48a5a317e864e86dbd5745fd", 
+      "jcenter": "f9530892033f1eda54c16b7fb47c86ad44113184"
+    }, 
+    "1.5.0": {
+      "jitpack": "cba2524ddfa12ce43bf22f64bd991b221327bf63", 
+      "jcenter": "2dd268c7c218179d90a89f4c31ed5812fe4731b8"
+    }, 
+    "1.3.1": {
+      "jitpack": "6ea0c40376106fec942d1742a419d84cfd88ffdc", 
+      "jcenter": "df923dbf8e5e867bf880b134cae9fc581f1caeef"
+    }, 
+    "1.3.0": {
+      "jitpack": "a6e989345ff994eb2a6b25f4475cecbc6b3f774f", 
+      "jcenter": "90cb6b1202652dbcf60a59feb23cc1cfc053f3bb"
+    }, 
+    "2.2.0": {
+      "jitpack": "b956b915370ec9d95e06bf3f5338c9d36e33e9ca", 
+      "jcenter": "fac7a21e436195feca15edf3224e1a9f4eacba88"
+    }, 
+    "1.0.0-rc.1": {
+      "jitpack": "372680068d415301bc58be9f8786cc4a72d3956b", 
+      "jcenter": "ec4477667f688ad12efde2330ea9fc76778d0c35"
+    }, 
+    "2.1.0": {
+      "jitpack": "dbd75eea183526f50e0e6ce027e0928905160fe2", 
+      "jcenter": "fedff35f4e123c69a705ef5efcab8758f9306119"
+    }, 
+    "2.1.1": {
+      "jitpack": "20b9a7596e0aaec203890a00412abe3768cf8c6b", 
+      "jcenter": "3de5f4f733b99de5239d3eade3874b5500a992e2"
+    }, 
+    "0.4.4": {
+      "jitpack": "63c71c7800ebd2e497fb48efdaefe3cd799b8476", 
+      "jcenter": "89192fd7aec213cfe25628c5bf066399ae3f4e8d"
+    }
+  }, 
+  "com.github.yangweigbh/volleyx": {
+    "1.1.0": {
+      "jitpack": "48148e67543635a1aca61cfc9b04a5050b1ad800", 
+      "jcenter": "8fa1114fe8d65fb4b4870c1ab57a8b653b0d531f"
+    }
+  }, 
+  "com.github.icarus-sullivan/fragmentrouter": {
+    "1.0.6": {
+      "jitpack": "ca5c2bdbbd9839d608d40d4d37383566a873dc8d", 
+      "jcenter": "95e071949e9a79164cdbee113b585684c5558ef1"
+    }
+  }, 
+  "com.github.shiraji/butai": {
+    "1.0.2": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "efea0240832aea25104a7652e2514362979af4b3"
+    }
+  }, 
+  "com.github.nwillc/ket": {
+    "1.0.1": {
+      "jitpack": "e4a1b11ad42e39646a37a0d229c2869a63dd9240", 
+      "jcenter": "a1eec3e71ace9d4451bfcd2a072e07de454552b5"
+    }
+  }, 
+  "com.github.greenfrvr/flexiblecalendar": {
+    "1.0.0": {
+      "jitpack": "372134fdbea5286aabe22c08a4792a1e21b5b6ac", 
+      "jcenter": "1a123e204d2b6af19621230f4ef198821f4e6b51"
+    }
+  }, 
+  "org.rm3l/now4j": {
+    "1.0.0": {
+      "jitpack": "3fc21824680425b8091f62926a4219eca338e29a", 
+      "jcenter": "56b88921310866610c05ad2c1f2da2c228d2de0b"
+    }
+  }, 
+  "com.github.mskimm/ann4s_2.11": {
+    "0.0.6": {
+      "jitpack": "3902de5584b5b1eeb35f5553475e45af57d18e0a", 
+      "jcenter": "b14e2d2829402cd7c0a9c8c581268f7a9fd8c556"
+    }
+  }, 
+  "com.github.wandersnail/fileselector": {
+    "1.1.1": {
+      "jitpack": "11a3ef2d9abb73a617239b109d1d570aabe206f4", 
+      "jcenter": "6d365b05ed8a0cdd95f7b1e6df5b5d3236b9391a"
+    }, 
+    "1.0.0": {
+      "jitpack": "40972a15d48dc642f2dac661430157dfd7354953", 
+      "jcenter": "ec04b4ee8dab7d00b242bd856378842c19fbed5f"
+    }, 
+    "1.1.3": {
+      "jitpack": "273b3f99357ed221681679b05efb82939a65a68e", 
+      "jcenter": "518b1345ab3f30d840261e7e22f13a171327860c"
+    }, 
+    "1.1.5": {
+      "jitpack": "000ae23fc89f60d4afbb285ca42d742424087180", 
+      "jcenter": "41d87fcd9cde92648a573d56db49a58ad0dd63ad"
+    }, 
+    "1.0.1": {
+      "jitpack": "6829d137fa77ffe9877b0d82946d526de05b4bab", 
+      "jcenter": "7a6d8dac1e29a17562aad9c41d08008168c1a15d"
+    }
+  }, 
+  "org.rm3l/maoni-github": {
+    "2.5.0-maoni_6.0.0": {
+      "jitpack": "628eef49087f71edf53e42988841c5ca2c4e48fb", 
+      "jcenter": "fdefec6dfad202a96dc8917b9f10722d65764fde"
+    }
+  }, 
+  "com.github.jsmeli/permissioncheck": {
+    "0.0.1": {
+      "jitpack": "8696cbda819455ba1853e102986037f81b371bdb", 
+      "jcenter": "9ec999bee529176c60fbd4274f80bc33a654ec93"
+    }
+  }, 
+  "com.github.wandersnail/commons": {
+    "1.2.3": {
+      "jitpack": "66b0d7c4a72e750e079efb7ccd9981ab41668b05", 
+      "jcenter": "b30bfddc1f8d12b86c7c7ffe7e8131102e08a669"
+    }
+  }, 
+  "com.github.promeg/tinypinyin": {
+    "2.0.3": {
+      "jitpack": "eeb0e71c4363b62c1cd2d2f6bc2f08fbb93155de", 
+      "jcenter": "22120540c46a70cddb4067eee499edc50a429f44"
+    }, 
+    "2.0.1": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "f8995298d4ee8e744cde519449548c47cb3b359e"
+    }
+  }, 
+  "com.github.skydoves/androidveil": {
+    "1.0.4": {
+      "jitpack": "c283413adec5e0b42bd6d8dd969365722763ba37", 
+      "jcenter": "1551cad4c54aa941c1c8a4c17434ba4efbec647e"
+    }, 
+    "1.0.2": {
+      "jitpack": "894b7f575b24651e8fce799bdb667a232f85f567", 
+      "jcenter": "ce541778c6df7a20b333087e1647f0291d7d19fc"
+    }, 
+    "1.0.3": {
+      "jitpack": "c8ae4b20405df5f92d22ef51ae55c318d022cc15", 
+      "jcenter": "819d585b5c071ce8640124849e3117f7805952d6"
+    }
+  }, 
+  "com.github.missedone/gradle-bintray-p2-plugin": {
+    "1.2.0": {
+      "jitpack": "710b386029d31579c67af1f98525b8a93a269e5e", 
+      "jcenter": "9ee9832c82d0eb243652558c402fe4280846e2c0"
+    }
+  }, 
+  "com.github.jmnarloch/spring-cloud-config-refresh": {
+    "1.0.0": {
+      "jitpack": "571ed7891237a5592c1e967c416185c2b753baa4", 
+      "jcenter": "673e5417e409bd096433766e4cbef41d061ac333"
+    }
+  }, 
+  "com.github.nginate/commons-docker": {
+    "1.0.0": {
+      "jitpack": "03f3f126bffd48f0d0cc4900a4b19ba159fcd990", 
+      "jcenter": "1d32d7ba72c531541f8700514f8d11bd77f546df"
+    }
+  }, 
+  "com.github.jarrodholliday/material-about-library": {
+    "1.8.3": {
+      "jitpack": "7c933bdb7690c071cec6084320165f1883c894cc", 
+      "jcenter": "03b5381dbb7ab39b78096ab0c57b5080077ad1bb"
+    }
+  }, 
+  "com.github.promeg/android-git-sha-plugin": {
+    "1.0.1": {
+      "jitpack": "5d4973eaf365cd0605cc2f92ada85e2a8f745705", 
+      "jcenter": "7158be9c94fdb7a9a5655fbbdb4a783c234c75c7"
+    }
+  }, 
+  "com.github.zellius/rxlocationmanager": {
+    "1.0.0": {
+      "jitpack": "b698e4001e35f0bb995ca9c53e3f11fe7c68fdc6", 
+      "jcenter": "92dc66fffd97ef827964bc892eee70d3d9f9b25c"
+    }
+  }, 
+  "com.github.rubensousa/stackview": {
+    "1.0": {
+      "jitpack": "b5ac6c2ead7b7e488083087a952b9c41e967171c", 
+      "jcenter": "0898f40bcc1d295237bd069bf3a0d13fdba264f7"
+    }
+  }, 
+  "com.github.gregwhitaker/reactive-sqs-client": {
+    "1.0.1": {
+      "jitpack": "8b6abaacd06eb22d98bc36b50037bca05c9d8870", 
+      "jcenter": "d7ab7378e6670523eea132df83c6e4710751fb98"
+    }
+  }, 
+  "ru.reliabletech/zuul-springfox-swagger": {
+    "0.1.1": {
+      "jitpack": "69b082d925b8cdc26dc6e92f805a73115688fcab", 
+      "jcenter": "19e13067dd7d4dfa9a4a27e7eba09da72ff572ef"
+    }
+  }, 
+  "com.github.chinalwb/are": {
+    "0.1.5": {
+      "jitpack": "665a8a3576c53541477500d4e3fd1a09c30c11a8", 
+      "jcenter": "58cf5098f90ff191a367f5ee5772540027e03fc8"
+    }
+  }, 
+  "com.github.chivorns/datetimeoptionspicker": {
+    "1.0.0": {
+      "jitpack": "461b5b2111e8f3b168cff64c21d1ac3d6ebcf28c", 
+      "jcenter": "5995d754eb02d932e31d14c4584c3e7251a35ad6"
+    }
+  }, 
+  "com.github.rubensousa/floatingtoolbar": {
+    "1.5.1": {
+      "jitpack": "f68c4766f8c83e0691eedc5cd46abf2961302fd0", 
+      "jcenter": "309f49cf50a09845b6f98a7364e1eac3200385dd"
+    }, 
+    "1.5.0": {
+      "jitpack": "a1117b0cd2fc8623e9924e63d6d10b2dd403f607", 
+      "jcenter": "48e1f5a46d6be89728b349958517bf982b4075ac"
+    }
+  }, 
+  "com.github.qingmei2/rximagepicker": {
+    "0.2.0": {
+      "jitpack": "0db2dce7cbc4a462a035c7ffa7df1be48cdd5b93", 
+      "jcenter": "97413953b34a48ce131c4bed894b1a693e02dbee"
+    }, 
+    "0.4.0": {
+      "jitpack": "5ee674db85d633b831f0d99b8e646c4884ff7810", 
+      "jcenter": "fdbd2a49325cab10abf38648d8700bf1364d441f"
+    }, 
+    "2.4.2": {
+      "jitpack": "b9c07e0db303ae8cffdb5ec91a3fdd36a14e0300", 
+      "jcenter": "54b329a3f95e6fbb13b2f382ded0f851701b8c61"
+    }, 
+    "2.4.1": {
+      "jitpack": "cfe22210257351e60b8d31f737c52d29f95c46d4", 
+      "jcenter": "3eb81f909c44b317924bebc7571a0cf18fe485b3"
+    }, 
+    "2.3.0-alpha03": {
+      "jitpack": "3828cc94b9d1bb54ac31eec4deadf936858ef64a", 
+      "jcenter": "f40daa224398fc937f7811c3b3f645828c635361"
+    }, 
+    "2.3.0-alpha01": {
+      "jitpack": "731294b58809a07b22bba52f730f390b211c3f15", 
+      "jcenter": "e79080be5447d520dc9e64241f260dcf64ac41a8"
+    }
+  }, 
+  "com.github.nisrulz/shoutout": {
+    "1.1.3": {
+      "jitpack": "1c8694cfd175c1afa2bce6028f083fbdb076a32f", 
+      "jcenter": "7d7b46a2fcd855e53e60f486644238afddaeb5dc"
+    }
+  }, 
+  "com.github.irshulx/laser-native-editor": {
+    "1.1.1": {
+      "jitpack": "514773319b42f681b5bef4b16607461846824bfe", 
+      "jcenter": "19bd32224b3f308491f86296bad5399cbb437630"
+    }, 
+    "1.1.0": {
+      "jitpack": "d5c6fa06cd0add618a5d4b5669c2ffe71cc2f882", 
+      "jcenter": "a09a449e26ab7d13e5f419e8804ec2ce9a0e154c"
+    }, 
+    "1.1.2": {
+      "jitpack": "191de5470033d970e4548d2ea75ca5848e636866", 
+      "jcenter": "44e0722667b4bba90d5340717e226d70fcbd3454"
+    }, 
+    "1.0.0": {
+      "jitpack": "1eeea7cc58e42a36ef4573eea5587117041c9dd0", 
+      "jcenter": "f292775767591db73683ce5381a162c732991672"
+    }, 
+    "2.0.0": {
+      "jitpack": "b4eff56dc4437100c1cfaa635d798165ef2cca78", 
+      "jcenter": "3c1ed560dadcb53956e52928826be02169493e42"
+    }, 
+    "1.2.0": {
+      "jitpack": "03cb0af60414d756f641030aefb198bcd3950cf8", 
+      "jcenter": "43b1a661e4f27361b5d16ac1db992167d63e2a54"
+    }, 
+    "0.2.0": {
+      "jitpack": "17b32055f670fcc60843dae47697d42ccf9e57ef", 
+      "jcenter": "4669f8b54540718f23f4b4041480e5d027d8086a"
+    }, 
+    "0.1.0": {
+      "jitpack": "774f961fa5d99eade2d11aceeff1e93c79a3ba58", 
+      "jcenter": "577e9c5aa4edc27ef1c6cb9423a61ce2e4905726"
+    }, 
+    "2.1.0": {
+      "jitpack": "42ab7de8c9438921bb0f8e1207ef296f52628b61", 
+      "jcenter": "ac6e63dd3fa8fc060848e254e5753e11b6e49621"
+    }
+  }, 
+  "io.github.nafg/slick-migration-api_2.12": {
+    "0.4.2": {
+      "jitpack": "edd65df33e98bdf1c8d908a2da1899a5759c0069", 
+      "jcenter": "af7d4c719ad20f12e47afa89ceb8ef14e9c5dc6a"
+    }
+  }, 
+  "com.github.debop/koda-time": {
+    "2.0.0": {
+      "jitpack": "5289d5be09f81bfe035aa1d96d389c4b526a520c", 
+      "jcenter": "cfaad445cde4e47c7cb596af266f281a8394bb59"
+    }
+  }, 
+  "com.github.fszeng2011/swipemenulistview": {
+    "1.0.0": {
+      "jitpack": "3c0277f635c0f64752380faeff9b5ddd455656c0", 
+      "jcenter": "3f3cbbe8910316b087e49b6f1ba05dcdd2ac4fce"
+    }, 
+    "1.0.1": {
+      "jitpack": "26fa8cba89430e9f225010b14a3e8446ade08e28", 
+      "jcenter": "cf88d3d38d73c1032a42278af5fd0c50008acb8e"
+    }
+  }, 
+  "com.github.nisrulz/optimushttp": {
+    "1.2.5": {
+      "jitpack": "1f22cb13ee6e7d6b4cc34f8b242f7c1d2038d0d1", 
+      "jcenter": "be64e7f3296f6db1532b9d771edf82759afd5221"
+    }
+  }, 
+  "com.github.buhscout/maskededittext": {
+    "1.0.8": {
+      "jitpack": "a8969dbe4290974e6117aea526ccf10b6b9a8f1a", 
+      "jcenter": "138fa577805ea616651ed123bdfebdac1bd97928"
+    }
+  }, 
+  "com.github.medyo/android-about-page": {
+    "1.2.2": {
+      "jitpack": "00d2f0026ca3bfeaecb67d98a10c77a99fd90cbf", 
+      "jcenter": "c689d9299eafd7ce8a1832946516928bd7af4a3f"
+    }, 
+    "1.2": {
+      "jitpack": "7d2c54e531d85f1e6e88a2c5e7ee25190890d130", 
+      "jcenter": "00d47978017f97461d9e5f3cb55ceddd96b6f2e0"
+    }, 
+    "1.2.1": {
+      "jitpack": "c17858472ccd0804a880c085f89486a48c7e7dbf", 
+      "jcenter": "41775bd4df9942e11b9798c3a643790ee9f744dd"
+    }
+  }, 
+  "com.github.serioussam/syslogappender": {
+    "1.0.0": {
+      "jitpack": "1b17a28f51f98a582ff1f61472aa0d614444983e", 
+      "jcenter": "dd4a12d17197895f01167c3aa7877f564d314a4c"
+    }
+  }, 
+  "club.minnced/discord-webhooks": {
+    "0.1.6": {
+      "jitpack": "76b5dbf71495c2be9c77a868bc4f8db09a1fe12e", 
+      "jcenter": "1f4d98a3b82c5ea4fa30c0fa55cd49ffa4894ee6"
+    }
+  }, 
+  "com.github.piasy/rxandroidaudio": {
+    "1.6.0": {
+      "jitpack": "f9a84de5b4636bf9f05d15aa5e99bc9a3146e156", 
+      "jcenter": "560e75f1ebf4dc557e504a0a733e29be09ae63fc"
+    }, 
+    "1.5.3": {
+      "jitpack": "291b5f4e1c3e5ba4db98dc6b2c3eee851093e447", 
+      "jcenter": "16e9dc544a9f5f65b361e5327c2c51376a78fe05"
+    }
+  }, 
+  "com.github.pengrad/mapscaleview": {
+    "1.4.0": {
+      "jitpack": "1454c085050e17346445d032db85b8fb229b4aa7", 
+      "jcenter": "377bd89c7134d17630f7f8b1eef03f0a19f0c1c6"
+    }, 
+    "1.4.1": {
+      "jitpack": "77552d42d735266140bbc45b8ab34c75a38fdaed", 
+      "jcenter": "cc4ee6a8d96b7d0665794f41b49e1c09dd03be1b"
+    }, 
+    "1.4.2": {
+      "jitpack": "7129b85f467a5c083eaee64348434386e1951ed0", 
+      "jcenter": "0c93de3de77ee4da425eab61efc48757848219e4"
+    }
+  }, 
+  "org.rm3l/maoni-email": {
+    "2.4.0": {
+      "jitpack": "80c35edbab65194ce1e7f3cfc8a8d98fa57d56aa", 
+      "jcenter": "c4d54193e554d5333c05a29ff868f4f4bdf648f3"
+    }
+  }, 
+  "com.github.jruby-gradle/jruby-gradle-plugin": {
+    "0.1.12": {
+      "jitpack": "f0ef160f3b872c78b4ceec9db01e35e20318aa2f", 
+      "jcenter": "a06fb26ac90ce6d772d500106cfabdab148b1793"
+    }, 
+    "0.1.11": {
+      "jitpack": "cd45625916d4288ee577a62c88c0b0de6c2d2704", 
+      "jcenter": "a8a883165dae5cf4a0b375b356b2852014475953"
+    }, 
+    "0.1.16": {
+      "jitpack": "28a405342ea2763fcbd9d1bf68e8bd16bb551ba1", 
+      "jcenter": "5a555dc608c79aa6ca941b0c9f55e2cc07c53211"
+    }, 
+    "0.1.17": {
+      "jitpack": "576cfbaf74944cc8c976aef51397c6bd0667d516", 
+      "jcenter": "5d03b112049a4bd4dc51d09120d82ad16699869c"
+    }, 
+    "0.1.15": {
+      "jitpack": "fd11ca8d204db25a2bd45e07f0a96288d4a86364", 
+      "jcenter": "a38f822a48ac5b2e5f28590a4b54fdee5cbbb8b0"
+    }, 
+    "0.3.0": {
+      "jitpack": "2b1bc3cdc65cbf2cfef669561a89b892154e7b48", 
+      "jcenter": "f05906f45c3d3949a418de5ff26cc1756429b029"
+    }, 
+    "0.1.9": {
+      "jitpack": "bf9195c945b16ce464fdf19c56bede7d046a2fb0", 
+      "jcenter": "5a9773ea4f5b904edcdb01de2bef00caac3b4828"
+    }, 
+    "1.6.0": {
+      "jitpack": "a18bfb9a90b2b2031380605a58179f8b12144e85", 
+      "jcenter": "e7eacb0633e0f5afd4d3fb95be0f0b55c4023bd8"
+    }, 
+    "0.2.2": {
+      "jitpack": "d666525803e34361330d19a185ffd8b6645d029d", 
+      "jcenter": "faee72ffba5afaecbe1df2a3828512d0e8370d52"
+    }, 
+    "0.2.0": {
+      "jitpack": "606c9219e1fc7e4b06aeacb8b2e63500410cc0c3", 
+      "jcenter": "572aff66f29bb4883b5c0c635b96790d97211bd7"
+    }, 
+    "0.1.5": {
+      "jitpack": "de37535d177a000ea565be34c24df449304859fa", 
+      "jcenter": "19a3c37fea1e6b04b1c3f811c6aa42eee966b021"
+    }
+  }, 
+  "com.github.nukc/loadmorewrapper": {
+    "1.6.2": {
+      "jitpack": "1da64a0fb5fb9409536bcccc34c6e06d9130e36d", 
+      "jcenter": "2de932579126fdda8f543cdb759a93e800cc3cce"
+    }, 
+    "1.7.0": {
+      "jitpack": "2a49140ca934d41757a1a112727c4d4d4b377893", 
+      "jcenter": "ee67565bb569aa40c76ebe87106916a6f3224c03"
+    }
+  }, 
+  "com.github.pgutkowski/kgraphql": {
+    "0.2.6": {
+      "jitpack": "e2ce6829046cf33086e01860e5b6cf49ae339684", 
+      "jcenter": "5d9f5b62c84105ffd0512c5d3240ebf1c0c99a8a"
+    }, 
+    "0.2.5": {
+      "jitpack": "b2b33597accbcaba418a6d7de9ae0870317c80ac", 
+      "jcenter": "0dca3a56c7e138e1a20b7cb079c1e8380d0d45a8"
+    }
+  }, 
+  "com.github.debop/hibernate-redis": {
+    "1.6.0": {
+      "jitpack": "255e65b400c73104b5226a686b4896bf7aba0531", 
+      "jcenter": "1d8268c5737971aeb6683b63fb383e100f302ff8"
+    }, 
+    "1.6.1": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "5fd91b8d6bd68c6c0982b961bc48969ab5d18d71"
+    }, 
+    "2.0.2": {
+      "jitpack": "aebde4320c9bd2f8fad44d555fe5bdac1596b860", 
+      "jcenter": "5cce6ebeb8922f41ea52acad701d1d714632f144"
+    }, 
+    "2.1.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "398eebb3af3b62fbba983c83aca4f53c5cb314d9"
+    }, 
+    "2.2.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "fa9edd633e7a6352278d831aeb9d5c5ff990aa60"
+    }
+  }, 
+  "com.github.yasevich/endless-recycler-view": {
+    "1.1.0": {
+      "jitpack": "bfc52fcc6144669dfa6859622995774a67dc02a7", 
+      "jcenter": "9e7c23354ff26df354046c08dc0606e26c52f8d3"
+    }
+  }, 
+  "com.github.mjdev/libaums": {
+    "0.4.0": {
+      "jitpack": "ed370c8a22f042c5a49f37a835871f64d48d99a6", 
+      "jcenter": "4ca561a6594a7e0535e561fb45816ed0f6fe2b72"
+    }, 
+    "0.6.0": {
+      "jitpack": "686a47d8cd8cb6e2bf19fa85cbbcc7f43330cc00", 
+      "jcenter": "161204ea0e63538a50370c74c5e1aedf5bab0af2"
+    }, 
+    "0.5.0": {
+      "jitpack": "130033d5596f6e1b7105da7d352bd6bf07a0762a", 
+      "jcenter": "3c6a714b3854e2448ca87441d67209a5b098ee51"
+    }
+  }, 
+  "com.github.florent37/singledateandtimepicker": {
+    "1.1.9": {
+      "jitpack": "92eaa9b271fe62b3e9c71359b3f0d28ade43638e", 
+      "jcenter": "547ec1a6d44d9cf2e73d40b51c516082dfc90a0f"
+    }, 
+    "1.1.0": {
+      "jitpack": "65220316682a9e63e2a6d18927bc1c6bb94b51cc", 
+      "jcenter": "ca915533ca43980027e919c77ac747557e07a30e"
+    }, 
+    "1.2.0": {
+      "jitpack": "3b019297bd2d77a81faee021721241c86d7a8d9b", 
+      "jcenter": "a9f773915ee7b4f1d92d74809b184bd05ad8dfd3"
+    }
+  }, 
+  "com.github.florent37/android-nosql": {
+    "1.0.0": {
+      "jitpack": "dd8b84c1707032c79408635b5f05ac5936da48ab", 
+      "jcenter": "3824e87e2435a8a0ccdee09ffa80d829f914652b"
+    }
+  }, 
+  "com.github.vitess/rxbus": {
+    "2.0.3": {
+      "jitpack": "bbbc59432a0f417c16999bd21f121e5f71b97b95", 
+      "jcenter": "bfdf12b5ad5efff4f7c588db28fcdde1162f8623"
+    }, 
+    "2.0.1": {
+      "jitpack": "200b62a6ab7845e8ac0dc2fa21739cdadbe7c51e", 
+      "jcenter": "865bfb69c1db47bdc63606a9dbe09e2718b2fed1"
+    }
+  }, 
+  "com.github.yatatsu/autobundle": {
+    "4.0.0": {
+      "jitpack": "5dd8086ac7151dfab0f1af96647a40a708cbf649", 
+      "jcenter": "c8a53be3825db4a92ae8dc31a31247190f449463"
+    }, 
+    "3.1.1": {
+      "jitpack": "ce47ef0ad626b8b0ba8abbbc1eeb270544f4012b", 
+      "jcenter": "dedbfe13e359c893695ba0d50e71cabd0aa9d439"
+    }, 
+    "4.1.0": {
+      "jitpack": "47b6c6e1b8f18696e1e5687f210109f82a182c18", 
+      "jcenter": "4408fc0604166fa3399aff55a0ab13eb1cafcafc"
+    }, 
+    "1.0.2": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "80c84bb1e20ded99ffc7625b19141366f93fa3e4"
+    }, 
+    "3.0.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "102207df6bd866487d8a74a29196418da24dbd8e"
+    }, 
+    "2.0.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "9137818acdae271d1766de602a5c1c454a526fc5"
+    }, 
+    "5.0.2": {
+      "jitpack": "35e8ffd0c12782b587d4372ec438628ff43a452b", 
+      "jcenter": "6b7cf4a6875b4bd3b2b278bdd2163a84c0cf538c"
+    }
+  }, 
+  "io.github.silvaren/easyrs": {
+    "0.5.2": {
+      "jitpack": "a68aca8354c58e3584d04efa87de5acf52e1cd55", 
+      "jcenter": "aff7f02c6f82994f5b7d52e1fe3fd89750790ff3"
+    }
+  }, 
+  "com.github.matthiasrobbers/shortbread": {
+    "1.0.0": {
+      "jitpack": "101fc1c3aab25838d44c5e9da5777b981ecd56fb", 
+      "jcenter": "3e96e05c8bba730393a6feb5203fc237e930268e"
+    }, 
+    "1.0.1": {
+      "jitpack": "0f5327e271143ea168266864b2d34bef85a1ea59", 
+      "jcenter": "fae9750761926a3c6c0b1d62d6554035265eb14c"
+    }
+  }, 
+  "com.github.duanhong169/camera": {
+    "1.0.2": {
+      "jitpack": "1754c6a9cc4909b2ed7023e4268d1bbfc2d2e8b6", 
+      "jcenter": "02de100ac6e710bd43f374c9f07b3e3d76325d57"
+    }, 
+    "1.0.3": {
+      "jitpack": "943ca75095117fe21d0c19b1666cb26975ee907c", 
+      "jcenter": "d7904e49aaa4323fdca37b1c229534b1e624064a"
+    }
+  }, 
+  "com.github.leonardoxh/keystore-ultimate": {
+    "1.3.0": {
+      "jitpack": "a7ebd771c3b42d189d8b2129ce519e1dc034270d", 
+      "jcenter": "e0e6ab775afcaf95ddd42401dcecd86fc6c3779d"
+    }, 
+    "1.2.1": {
+      "jitpack": "5d3c2774fc28b3dbccfb5c9c7bd9c0f1a11a2c0b", 
+      "jcenter": "ed4dcfe06c6abc7f13563b4b9ce947a5da1909e0"
+    }
+  }, 
+  "com.kaedea/publication": {
+    "0.3.2": {
+      "jitpack": "e94f9eae620ca1efbc2e2c831c99f980f1b9bae1", 
+      "jcenter": "d85eaec66b02b24d6627bef7af3d04a383b30bb7"
+    }
+  }, 
+  "com.github.fszeng2011/widgets": {
+    "1.0.0": {
+      "jitpack": "2b2c726d671184bb8fb635897996601a03ff4ebd", 
+      "jcenter": "7deb15f81e4e152a9fc3bb813b4e8cfa691864ce"
+    }, 
+    "1.0.1": {
+      "jitpack": "fc7f315cad16f206deb8dfd8eaeb050c4417a9d8", 
+      "jcenter": "57649d9b1e4b51786e14bf0867c1f74117c585a0"
+    }
+  }, 
+  "com.github.florent37/camerafragment": {
+    "1.0.4": {
+      "jitpack": "ca887e0997e41eb91996fdbf0af15d5a8f463813", 
+      "jcenter": "4f9b62748e394da36cbe4512f3cbbf309f774ac0"
+    }, 
+    "1.0.5": {
+      "jitpack": "ae19a274546178352d144bdb41d0c52ba5a3e62e", 
+      "jcenter": "1a8d7c165de33c277f533f28246f089fe3142db8"
+    }, 
+    "1.0.7": {
+      "jitpack": "51e43576558090fecd1f5f19d9053fdb03913b5a", 
+      "jcenter": "f3f401e3edfc3ef54f79cac85e1b01531f486719"
+    }, 
+    "1.0.8": {
+      "jitpack": "29ae171793d3a0efd2c2e3969f4848274057b15d", 
+      "jcenter": "1d9d1b1248fb939554896107defe265138fc0120"
+    }
+  }, 
+  "com.github.spring-social/spring-social-google": {
+    "1.1.2": {
+      "jitpack": "6b85f9326a6fdf13ef837a21c58f466c460fb7dc", 
+      "jcenter": "258b1b16248dc3587c981d07d0724e043ec8578c"
+    }
+  }, 
+  "com.github.ajalt/timberkt": {
+    "1.5.0": {
+      "jitpack": "2ceeaba13e273309e236d5abbe742739145b125f", 
+      "jcenter": "232832802e368a3d179e15ccf6d4d154cf4ee219"
+    }
+  }, 
+  "org.rm3l/maoni-slack": {
+    "1.0.1-maoni_6.0.0": {
+      "jitpack": "0e08870fb90d8fcaa33218db2e4526a2315fca8a", 
+      "jcenter": "89a5180e0ce1d2161395857989807735dddaea3b"
+    }
+  }, 
+  "com.github.omribromberg/elasticsearch-datemath": {
+    "0.4.2": {
+      "jitpack": "33891c14dd802fb6148e26028c2162ecb458bcd0", 
+      "jcenter": "f0b20a3401a61b992d667f22f22435623d943cdf"
+    }
+  }, 
+  "org.rm3l/maoni": {
+    "6.0.0": {
+      "jitpack": "b52d6ec291d030d8da6c6be3d8bc5077a775ec6d", 
+      "jcenter": "2fb6a3aee11a71a4285a7be5cc487e4d3a11f03a"
+    }, 
+    "4.1.2": {
+      "jitpack": "62d7587229810efc7dee31cb2af9cc25d1fe7328", 
+      "jcenter": "8dfa4701bd212843e8b8fdf78500893c2f954e04"
+    }
+  }, 
+  "com.github.imangazalievm/immaplayer": {
+    "1.0.1": {
+      "jitpack": "aae30e374cc14d3dff78648cd66fdde3f36d7a97", 
+      "jcenter": "de9147fb7857548fb0250ada99ace28b6924d0a5"
+    }
+  }, 
+  "com.github.alex-michenko/recycleradapters": {
+    "0.3.0": {
+      "jitpack": "0fb5da819d8a55cde9bec70972a5433ff2d303d4", 
+      "jcenter": "3df8b5e52582cf5a7de36431fef6d256424b82ee"
+    }
+  }, 
+  "com.github.madrapps/pikolo": {
+    "1.1.5": {
+      "jitpack": "9acafb554485b0c4e3f3559e214872027b3ae98a", 
+      "jcenter": "0243a0fb3fc400e17746c21956f8641429039701"
+    }, 
+    "1.1.6": {
+      "jitpack": "ea072c6bc41b055a05c79481da8cccb41064ced2", 
+      "jcenter": "ba3354af1fc7f2b7884a71e911e69737fa5a2dac"
+    }
+  }, 
+  "com.github.klousiaj/docker-junit-rule": {
+    "1.3.5": {
+      "jitpack": "7201d3e0367e423c1df22c4babaf872a600e62fa", 
+      "jcenter": "3cd6b3b704812deb39ba91c02846789c01947d61"
+    }
+  }, 
+  "com.github.dnault/xml-patch": {
+    "0.3.0": {
+      "jitpack": "1335ac89bdb20518cbef8b211e79e9ff3f199416", 
+      "jcenter": "133511254d6ebdb0798260d3ce462a88ce6e2fa1"
+    }
+  }, 
+  "com.github.teletha/sinobu": {
+    "1.0": {
+      "jitpack": "2538c6d6cf68da01cc35ea1c69de1a6cd2d67977", 
+      "jcenter": "eb17124bfb87d90d420be3d1c63563c224a04c17"
+    }
+  }, 
+  "com.github.duanhong169/drawabletoolbox": {
+    "1.0.4": {
+      "jitpack": "d34d85906232fb40876a97ede6d7723636e76f0e", 
+      "jcenter": "8292f61c8e259e3ea497b9caca5f6cfa840563f0"
+    }, 
+    "1.0.3": {
+      "jitpack": "0980aa61df424fe50ab7557827f9125a7df8efb9", 
+      "jcenter": "65444398ba6e8990abd865c49ae61a086df95c60"
+    }
+  }, 
+  "com.github.florent37/rxgps": {
+    "1.0.0": {
+      "jitpack": "b38ec98eae05bbe5a2e2cb12212b0e44cf132be1", 
+      "jcenter": "426f5fb506dc55601ffcd53e0ab9c96e1a5a55d1"
+    }
+  }, 
+  "com.github.fszeng2011/commons": {
+    "1.0.4": {
+      "jitpack": "a35ab6bd66514b47bb8a561a24f965d83af0414e", 
+      "jcenter": "1a490039f9d67505a723a828a4b743dd5977272a"
+    }, 
+    "1.0.0": {
+      "jitpack": "0bd06c6d014d69500f3274409e4e4602fe8e4f29", 
+      "jcenter": "9a9ab4a8562c7b5dc9bb4c5906abcdb7bf4144ac"
+    }, 
+    "1.0.1": {
+      "jitpack": "dcd02ce9d9c1074cc986adee1198f0350e31f249", 
+      "jcenter": "4a00690675b6c2d03371df0a5111511f34b120d7"
+    }, 
+    "1.0.3": {
+      "jitpack": "35a1fc60d8d9af11e10ecc6e98622ebf9d1b22bb", 
+      "jcenter": "b9ed74f54dac244dbd499fa3c0f957db5b2a7b8c"
+    }
+  }, 
+  "com.github.ajitsing/sherlock": {
+    "1.0.4": {
+      "jitpack": "7e601fe6fa356893e1a04a0bfbe100dca5e090fe", 
+      "jcenter": "9fe5fae5a28125d09884362c1fda902faae90c5c"
+    }, 
+    "1.0.2": {
+      "jitpack": "37af50c317ce932919bbdaa126fd612811b89efc", 
+      "jcenter": "b6c4538a21f27d19d5f03990593e9933ac1db6e3"
+    }, 
+    "1.0.3": {
+      "jitpack": "143ffb78ec1fdc3ee4bd39d848e43f85fec5c3de", 
+      "jcenter": "3680ac44359b012d4eb72ac8d6e29ab6c413a73c"
+    }
+  }, 
+  "moe.banana/moshi-jsonapi": {
+    "3.0.4": {
+      "jitpack": "65614706ee8e2f3ab92fb28957dc6cf3d95b835b", 
+      "jcenter": "2db58a465911c325302d5763081c6c5354e9ae92"
+    }, 
+    "3.0.5": {
+      "jitpack": "813513ef030426b811222ea2b772249f0dc6a140", 
+      "jcenter": "79ac319ceff135551799b869366824a1d2f17f35"
+    }
+  }, 
+  "com.github.jacobono/gradle-jaxb-plugin": {
+    "1.3.6": {
+      "jitpack": "89af67c5e1e1cccf4b5a1caf3766552503058e2f", 
+      "jcenter": "da926052f33d06419bcffd207bbc036c7db55a99"
+    }, 
+    "1.3.5": {
+      "jitpack": "1cfa485574bad00513c291ae7ef58a2c0559902e", 
+      "jcenter": "b24d33f47d888a97ae2110b6fecf050121d76fbc"
+    }
+  }, 
+  "org.xbuf/xbuf": {
+    "0.9.2": {
+      "jitpack": "f3d13500b357821fd302929bbbcde73687b028b7", 
+      "jcenter": "f0e795ed5035ad2097669d343f84cf1fd0e7df94"
+    }
+  }, 
+  "com.github.jgoelen/graphite-spring-boot-starter": {
+    "0.2.0": {
+      "jitpack": "bdb832150cf507b0492ee7078608d6141c8a7cc4", 
+      "jcenter": "08d92c665745841d0eabb063c0b6f464cc68b9de"
+    }
+  }, 
+  "com.github.wandersnail/easyble": {
+    "1.0.0": {
+      "jitpack": "9935dd849a1a90dd1c0f33c875dd223a38c228a4", 
+      "jcenter": "e3b900145d2f31ef92fbbec29bf79ee1bea8e5af"
+    }, 
+    "1.1.4": {
+      "jitpack": "bf63195cf943cf5645ac6c94248e2070ba5e42b6", 
+      "jcenter": "4d38ab565330524ece55d4dabc271b6c70b2b4f9"
+    }, 
+    "1.1.7": {
+      "jitpack": "088e79b7f691dbf5ea457c6f68a275cd902e5a6e", 
+      "jcenter": "d14ad7e93a1757ebfc46b9a8a840d675201fd814"
+    }, 
+    "1.1.6": {
+      "jitpack": "bf21ff68d7ed1676599b365fcea3aa6672f01876", 
+      "jcenter": "1d0a34f86e9eb3554304b6b25aad7727025a2974"
+    }, 
+    "1.2.0": {
+      "jitpack": "8d5733733f838e2688ff3dd5eb52976ea58813d1", 
+      "jcenter": "f89af1f5aecab6169bea53c1a31e1ddb41c79911"
+    }, 
+    "1.2.1": {
+      "jitpack": "f025652281d5ad4014ff5e6a2d3afce05e6b807c", 
+      "jcenter": "5b52e6a80d0bbc46cd1c64f594077f685e958a1e"
+    }, 
+    "1.1.12": {
+      "jitpack": "bbfa4f9beaf6098ff6f47816b728d18ce0a6ff14", 
+      "jcenter": "c4560fe7dcdbe575c5d03798f7d92414868fe3ea"
+    }
+  }, 
+  "com.github.skydoves/androidribbon": {
+    "1.0.0": {
+      "jitpack": "da3fbb441ee1f8e7dfa009c39a1c401efd63b28f", 
+      "jcenter": "0885658f53c3bac2a55d5ae39ee8558cd5241091"
+    }
+  }, 
+  "com.github.florent37/viewanimator": {
+    "1.0.4": {
+      "jitpack": "d415763bcd74c3dfadae4ddc082cc5fa83bc88e9", 
+      "jcenter": "20d9cdc78cefff9f2399ef8c99e54bb783f277da"
+    }, 
+    "1.0.0": {
+      "jitpack": "a9a5c1d7199bf393ed115d87110591f3e19fa5dd", 
+      "jcenter": "5546af92c9c386dee504c692ebd168779b400127"
+    }, 
+    "1.0.3": {
+      "jitpack": "527be5461ecc50a7a81c6db98d1b684782849249", 
+      "jcenter": "9c3bad26f8c454e3a2c926042d545df100313824"
+    }
+  }, 
+  "com.kaedea/intransitives": {
+    "0.3.0": {
+      "jitpack": "2d40af23360e701216c789673f3e6f95a0c128e2", 
+      "jcenter": "39377f369565aed0405254ff4809048f9a19c7c5"
+    }
+  }, 
+  "me.zongren/pullablelayout": {
+    "1.6.2": {
+      "jitpack": "dd0d85cf4e440adcdacc64ae849d47b9e21fd229", 
+      "jcenter": "d52ab1843f37e9cc0d8dd550ca2b5d7c366615ec"
+    }
+  }, 
+  "com.github.stephanenicolas/butterknife": {
+    "10.0.0.4": {
+      "jitpack": "466b21740c9dc45596fee0bf0b0374d8682ea494", 
+      "jcenter": "f1dc2b976ee3e7323881adb0dd80860ce6339723"
+    }, 
+    "10.0.0.3": {
+      "jitpack": "67d5f8754a601431621d11ec15250ae0f263dab5", 
+      "jcenter": "ef23e06a01df0e99a3a4878bcb1f1c857075d74d"
+    }
+  }, 
+  "com.github.goyourfly/vincent": {
+    "0.1.1": {
+      "jitpack": "3631ca0c3064e9a56764083192fce0d61708d972", 
+      "jcenter": "04ba875891d90c3e15b299e54a9dad4af7cd8c1c"
+    }
+  }, 
+  "com.github.fszeng2011/httprequester": {
+    "1.0.0": {
+      "jitpack": "a65fc0a8dc052055ed6bfb2c6c523b0bd3c669f0", 
+      "jcenter": "990faee1a66b363e9b07f7254dd7e237298703c4"
+    }, 
+    "1.0.1": {
+      "jitpack": "508456b5127f608fc7bb1676f41fdf329926fc45", 
+      "jcenter": "4d8f730838be77f4c9f3d263fc6cf667d7210a24"
+    }
+  }, 
+  "com.github.daggerok/daggerok-context": {
+    "0.0.1": {
+      "jitpack": "c294cf9f9f178e52eedcc1dc8437328fec02fc0f", 
+      "jcenter": "235af47d821e2bc11cfec6a11e297d331573aa88"
+    }, 
+    "1.0.0": {
+      "jitpack": "a012b52c982c434885a2323902fdacb9e9c3e1db", 
+      "jcenter": "ff973bad890fd42ee6a42e060904d307132288c3"
+    }
+  }, 
+  "com.github.ymegane/dlog": {
+    "1.0.0": {
+      "jitpack": "d92899198c1c0a095cf07bff71bb451580fde40b", 
+      "jcenter": "cbe8b7c8be7f15bd6b6c179e408ea20d0ee17cf0"
+    }
+  }, 
+  "com.github.fszeng2011/fileselector": {
+    "1.1.1": {
+      "jitpack": "897d23063416f929531dd380487eed1482d99a0c", 
+      "jcenter": "3a33d1a537a4fad9026f203224543749adca7bf7"
+    }, 
+    "1.1.0": {
+      "jitpack": "a9b6352db870300bb45eaf97b87685e73a5d7d4a", 
+      "jcenter": "014d62b6dc90c8ce7ea3f9627ce12ed67a932091"
+    }, 
+    "1.1.3": {
+      "jitpack": "3e2ade5d620e217b7ae045b848052c7c5e1b31de", 
+      "jcenter": "07b3b52dbe8469f51f22383cd6bdd28ce7d309bd"
+    }, 
+    "1.1.2": {
+      "jitpack": "74e995cf60ba8b80989a299887ceab157f5b611d", 
+      "jcenter": "b5080852ca9cd5649c9956d50bff27e71037d76e"
+    }, 
+    "1.1.5": {
+      "jitpack": "72036e828276f8b22f0630c7022cf20ab298bde8", 
+      "jcenter": "dce556920eaa6dfe4cd01f2c19d257a449cef8e8"
+    }, 
+    "1.1.4": {
+      "jitpack": "688df406eea755cd90373baa1a58a907ffb1eb11", 
+      "jcenter": "a897319ae6c01f7126b6259cf052df93245d67e7"
+    }, 
+    "1.1.7": {
+      "jitpack": "ed143c066b643f735a3f8efca6918e3288452923", 
+      "jcenter": "10b069b0965abf9fb5fabe826c82e989d0208ef7"
+    }, 
+    "1.1.6": {
+      "jitpack": "8645a1aa80cf63e9bac64714b213daf1616af8a9", 
+      "jcenter": "1c1582826ceb66b1c0f5c934f2c4c4f52af635e9"
+    }, 
+    "1.1.9": {
+      "jitpack": "a381460bd1481eb40f25d2ddde1ee36060c987c8", 
+      "jcenter": "93521d92073be7277e6d840aa7fc97d018c09ac4"
+    }, 
+    "1.1.8": {
+      "jitpack": "88e7cdf5bb585616963dbef260d6db3829144c3e", 
+      "jcenter": "20c8085e22f16a3735c28c5f24df7a483a5046ce"
+    }, 
+    "1.1.11": {
+      "jitpack": "12b771fc83d811b7e3b7b143e6674197ee8d3926", 
+      "jcenter": "cda7bdbd99046b67e579acb9340719dd17a1a03a"
+    }, 
+    "1.1.12": {
+      "jitpack": "1ac8bb83bb0498ed604cff217260388bab09b180", 
+      "jcenter": "a876eec5f4ddabc61fec01b2ae31c1347ff9e0d7"
+    }
+  }, 
+  "com.github.javinator9889/filetobytesexporter": {
+    "1.0.4": {
+      "jitpack": "0e7aa62fcb747ab8fca5e8da915b3e4906aa442d", 
+      "jcenter": "01d75fa9d740884d0a9587dee0937d527a6736c4"
+    }
+  }, 
+  "com.github.skydoves/elasticviews": {
+    "2.0.2": {
+      "jitpack": "1d04a5c3c52358202c0cf9fb3dc2658c74a0ad0d", 
+      "jcenter": "7566244a79a327b421b10cc8793b8165358d07c4"
+    }, 
+    "2.0.1": {
+      "jitpack": "9254e6528dadaaaef55b1add9caaff3af92707d0", 
+      "jcenter": "87ffca717be4ef21452c0209c86100b942e3d77b"
+    }
+  }, 
+  "com.github.skydoves/powermenu": {
+    "2.0.7": {
+      "jitpack": "ff7bfcad8099a7f6f139404803c63467fc299f57", 
+      "jcenter": "f40efc4a80f91ccec21ea6c4519d29a1a6062a55"
+    }, 
+    "2.0.6": {
+      "jitpack": "03e321e016521aa52806835b2baaf2035236dcc6", 
+      "jcenter": "0f20b8cc0db3e226eeecb9c79dd88cf67b1e39b2"
+    }, 
+    "2.0.5": {
+      "jitpack": "cf7bd7204f7daa2b87d7d160fa8952238788ebb9", 
+      "jcenter": "d6411903c4d14d8784353da2da50e61ddc0cc130"
+    }, 
+    "2.0.8": {
+      "jitpack": "519ab9ccc7c2e8a6c1f50273cf3e533c296b2f07", 
+      "jcenter": "2dfb3880e68d40ed4c3deb70485758bcc55102d7"
+    }
+  }, 
+  "com.github.andriydruk/rxdnssd": {
+    "0.9.1": {
+      "jitpack": "ddc8705eb48f4f2993551a898494e8d3036fa578", 
+      "jcenter": "8b77cbe62c178726f07f5ed22d267eda9ee75eb4"
+    }, 
+    "0.8.4": {
+      "jitpack": "0270e27400cf85e138837bd91bac1d59244418b2", 
+      "jcenter": "fe2c50358d40fd2a64c1de51b1e28a00ef8891f9"
+    }, 
+    "0.8.3": {
+      "jitpack": "958b48eb377f064e29918ba53a5d812988bcd08f", 
+      "jcenter": "c327cb02dee99aad5ab1f77bf2e6ca23c196d9f2"
+    }, 
+    "0.8.2": {
+      "jitpack": "cf333e247f957153189ec932fc0f49b9fe3f0658", 
+      "jcenter": "0d0eb146e7a9a11e185b9de43e1201b3a2512bad"
+    }, 
+    "0.9.13": {
+      "jitpack": "e4fb2cff33978bf2b79990e70bcdf1373c5d5474", 
+      "jcenter": "143d753ea74e935da3cb5d06e2cd2e3edda0c472"
+    }, 
+    "0.9.10": {
+      "jitpack": "7843f6f25afee944b599a3f07663bd40fe32a74e", 
+      "jcenter": "862d3270abce086aa112bbdc13737ef859b06baa"
+    }, 
+    "0.9.11": {
+      "jitpack": "f1a98206860bc42c217108e9717854849fda15c5", 
+      "jcenter": "6ed9fdd70e6cc2a2ce11e14a6aca1bc6366eee4a"
+    }
+  }, 
+  "com.github.bluzwong/swipeback": {
+    "0.1.1": {
+      "jitpack": "540d85f1aee4ab9653c9b7ce2daae2bffe61a30f", 
+      "jcenter": "199d5308c164c64923e80c3eb13275000abbe6ab"
+    }
+  }, 
+  "com.github.florent37/diagonallayout": {
+    "1.0.7": {
+      "jitpack": "412b604b60640dc6ff1613c9ba6e0a8a2a99380d", 
+      "jcenter": "a1b86e382c7cf633b354511d7b3024ac62badc19"
+    }
+  }, 
+  "com.github.florent37/viewtooltip": {
+    "1.0.4": {
+      "jitpack": "74467b23e349c4d36ffb66e58313deca00e39f8d", 
+      "jcenter": "8b1bfa80db4f2c73974877caae5272b69d35aea8"
+    }
+  }, 
+  "com.github.nstd/scalpelhelper": {
+    "0.1": {
+      "jitpack": "43a1b584b1486cc26bc5e7b849b22fdea689b5c5", 
+      "jcenter": "09b2d6209c7565c210c9721240b710b9698cb32e"
+    }
+  }, 
+  "com.github.dhaval2404/imagepicker": {
+    "1.0": {
+      "jitpack": "969242d50827b5ed1d6d735c1169853a005b96be", 
+      "jcenter": "84587a5de4c9cde7862cfc5cbc11b40284dac180"
+    }
+  }, 
+  "com.github.armcha/datehelper": {
+    "2.2.1": {
+      "jitpack": "e2aad861ec597f8da2fd4274b9b77b2e05c9e1d4", 
+      "jcenter": "5d4de1b88b0c513bbdc62e2bf656956416550910"
+    }
+  }, 
+  "io.github.sporklibrary/spork-android": {
+    "3.0.0": {
+      "jitpack": "e6def72775c11bf8243e5c1dc51756ac715ecb96", 
+      "jcenter": "ffb008c09c5c51f6f113f6accb6796601ec082d8"
+    }
+  }, 
+  "com.github.jmatsu/multipreference": {
+    "0.1": {
+      "jitpack": "21c1743ad47fee658a1f637b0283ac16c1e09501", 
+      "jcenter": "f90bf61b84d3ed97a7c7117384560a15de713731"
+    }, 
+    "0.2": {
+      "jitpack": "8e9a83ce74544c05204cd79c1c2f1a121e86d987", 
+      "jcenter": "e8c74775bb3aeae4c1f38c5cd6e6a9d83fe93d7a"
+    }
+  }, 
+  "com.github.twitch4j/twitch4j": {
+    "v0.10.2": {
+      "jitpack": "bb3829ca419440d3c37d4d1ae7076856c2ec0c43", 
+      "jcenter": "02c56092b1a6cfbd42ffe4d092168898eb92b86d"
+    }, 
+    "v0.10.0": {
+      "jitpack": "2124546fb65eddc8f3c2f31a549f1835345161ab", 
+      "jcenter": "c89d9abe4ad3780ec7644c5dbe1d3c323e706c54"
+    }, 
+    "v0.11.2": {
+      "jitpack": "02dc2a171bcfa75a6c591998447f2ae72fa6936c", 
+      "jcenter": "3b4e6dfcc2b3e5ae08ecc71d7578083a01b8baaf"
+    }, 
+    "v0.11.1": {
+      "jitpack": "30f19a615dbb42fae30400f366e2e2cd2c4ce345", 
+      "jcenter": "2d2cee37909a869d45bf30d5ce667e5998401812"
+    }, 
+    "v0.11.0": {
+      "jitpack": "4d9f8fd2826c9fc99154de5a9ac9bc264d7983c6", 
+      "jcenter": "8f4e27d54caccaf2c4b15feb32857414dac242d6"
+    }
+  }, 
+  "com.github.xujiaji/xmvp": {
+    "1.2.2": {
+      "jitpack": "cda51ac066be8e5336302411a1efdfb78027dbc9", 
+      "jcenter": "2fa5c26016e7c029de9afd826a9aad3cb3173806"
+    }, 
+    "1.1.5": {
+      "jitpack": "83965e009b3ca2636d319367302c9d47f0c66c6d", 
+      "jcenter": "d189156019131808607eb1d1b8150eb844f15e4b"
+    }, 
+    "1.2.3": {
+      "jitpack": "efb34743e6d486707773a26ffdc6fa2400e7f28f", 
+      "jcenter": "b694965ee8ec95eae4c187136785c44650c3e862"
+    }, 
+    "1.0.2": {
+      "jitpack": "293c076ac3b0182a8d1f444240aa5f41532d366e", 
+      "jcenter": "86401f488df8584e6077fbf17da37374083a1d8e"
+    }
+  }, 
+  "com.github.bassaer/chatmessageview": {
+    "1.2.4": {
+      "jitpack": "99ca2803997af231cab90fc38bdac402e4bfe0b5", 
+      "jcenter": "93dd51038042a15aa580543cf0131e12fc7f0248"
+    }, 
+    "1.3.0": {
+      "jitpack": "423c9de16d82405ce120c2905f2242c71e172192", 
+      "jcenter": "e2f7be02d85bdcf7b49706d108310c0712aada9a"
+    }
+  }, 
+  "com.github.chengzhijun0706/fast-architecture": {
+    "1.0.0": {
+      "jitpack": "b7838ab948e91c0522ade53e004e0024c83b270e", 
+      "jcenter": "110991bb569408ec009956c5cfa87e077246c6d1"
+    }
+  }, 
+  "io.github.microutils/kotlin-logging": {
+    "1.3": {
+      "jitpack": "64017a82260a2271d681fc959cd19b5b47e0692f", 
+      "jcenter": "406d857e02cafbcfac900011f720ba8086d9dc5a"
+    }
+  }, 
+  "com.github.florent37/expansionpanel": {
+    "1.1.1": {
+      "jitpack": "26d3a2299fc2b5f08f7ff960fd0197e7b4613126", 
+      "jcenter": "184c76a1733937471620bd534006ef9d3f15771c"
+    }, 
+    "1.1.0": {
+      "jitpack": "0849821c391a4ff743f8f22da7ee8be326daf762", 
+      "jcenter": "f1437b259d412e570d4142c6bd3e3a4690a61b74"
+    }, 
+    "1.0.0": {
+      "jitpack": "18eb597eafc0159f43fd5777616751b62b3cbe49", 
+      "jcenter": "767be6709904591ba8337aa0b5e9b00097415480"
+    }
+  }, 
+  "com.github.dperezcabrera/game-engine": {
+    "1.0.0-RELEASE": {
+      "jitpack": "f7e24ec67546c34a6d047ca13536663b5989aef7", 
+      "jcenter": "95c0fa2fc78dfce0732ca0ffaddeef7f56d14df4"
+    }
+  }, 
+  "io.github.openfeign/feign-vertx": {
+    "0.0.1": {
+      "jitpack": "ae67ed8d8b61579665a31163d58b8225f679acf4", 
+      "jcenter": "2f23f396b0851275abe71178fbd69d7c152b3d7f"
+    }
+  }
+}

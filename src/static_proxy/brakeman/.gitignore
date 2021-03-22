@@ -1,0 +1,7 @@
+Gemfile.lock
+coverage/
+test/coverage/
+.bundle
+bundle
+brakeman-*.gem
+rails2/app

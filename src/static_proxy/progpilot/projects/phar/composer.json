@@ -1,0 +1,20 @@
+{
+    "name": "Progpilot",
+    "description": "Progpilot bin",
+    
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../package"
+        }
+    ],
+    "require": {
+        "php": "^7.0.25",
+        "progpilot/package": "@dev",
+        "ircmaxell/php-cfg": "0.5.0",
+        "symfony/yaml": "3.3.6",
+        "symfony/console": "3.3.5",
+        "google/protobuf": "3.6.1"
+    },
+    "bin": ["progpilot"]
+} 

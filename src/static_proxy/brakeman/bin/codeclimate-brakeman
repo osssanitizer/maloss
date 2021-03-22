@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+$:.unshift "#{File.expand_path(File.dirname(__FILE__))}/../lib"
+
+require "brakeman"
+require "json"
+require "brakeman/codeclimate/engine_configuration"
+
+engine_options = {}
+
+if File.exist?("/config.json")
+  engine_options = JSON.parse(File.read("/config.json"))
+end
+
+Brakeman.run Brakeman::Codeclimate::EngineConfiguration.new(engine_options).options

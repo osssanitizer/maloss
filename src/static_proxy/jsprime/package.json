@@ -1,0 +1,19 @@
+{
+  "name": "jsprime",
+  "version": "1.0.0",
+  "description": "Static analyzer for javascript",
+  "main": "jsprime_wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.gatech.edu/cyfi/jsprime.git"
+  },
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "google-protobuf": "^3.7.0"
+  },
+  "author": "Ryan Elder",
+  "license": "ISC"
+}

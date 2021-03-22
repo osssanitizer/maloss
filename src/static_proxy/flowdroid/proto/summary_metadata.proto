@@ -1,0 +1,30 @@
+package proto.flowdroid;
+
+message UnspecifiedType
+{
+	required string baseObjectType = 1;
+	required bytes object = 2;
+}
+
+message exclusiveModelType
+{
+	required string name = 1;
+	enum modelEnumType
+	{
+		modelEnumType_class = 1;
+		modelEnumType_package = 2;
+	}
+	required modelEnumType type = 2;
+}
+
+message exclusiveModelsType
+{
+	repeated exclusiveModelType exclusiveModel = 1;
+}
+
+message summaryMetaDataType
+{
+	optional exclusiveModelsType exclusiveModels = 1;
+	optional int32 fileFormatVersion = 2;
+}
+

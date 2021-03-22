@@ -1,0 +1,20 @@
+version: '3'
+services:
+    worker:
+        image: malossscan/maloss:latest
+        restart: always
+        environment:
+            - METADATA_DIR=${METADATA_DIR}
+            - RESULT_DIR=${RESULT_DIR}
+        volumes:
+            - ${METADATA_DIR}:${METADATA_DIR}
+            - ${RESULT_DIR}:${RESULT_DIR}
+            # - ${CELERY_CONFIG}:/home/maloss/main/config
+            # - ${MALOSS_MAIN}:/home/maloss/main
+            # - ${MALOSS_SRC}:/home/maloss/src
+        command: bash -c "cd /home/maloss/main && cp ${ASTGEN_CONFIG} /home/maloss/config/astgen.config && celery worker --detach -A celery_tasks --logfile=/tmp/celery_tasks.log -c ${PARALLELISM} --max-memory-per-child ${MAX_MEMORY_PER_CHILD} && tail -f /dev/null"
+        deploy:
+            resources:
+                limits:
+                    memory: ${MAX_DOCKER_MEMORY}
+

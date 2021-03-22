@@ -1,0 +1,22 @@
+{
+    "custom_rules": [
+        {
+            "name": "query", 
+            "is_function": true,
+            "instanceof": "CI_Model->db", 
+            "description": "Result of db queries as new sources",
+            "language": "php", 
+            "action": "DEFINE_OBJECT", 
+            "extra": "DBQueryCodeIgniter"
+        },
+        {
+            "name": "get", 
+            "is_function": true,
+            "instanceof": "CI_Model->db", 
+            "description": "Result of db queries as new sources",
+            "language": "php", 
+            "action": "DEFINE_OBJECT", 
+            "extra": "DBQueryCodeIgniter"
+        }
+		]
+}

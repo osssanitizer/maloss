@@ -1,0 +1,43 @@
+{
+    "custom_rules": [
+        {"sequence":
+            [
+                {"function_name": "dev_iam_authenticated", "language": "php"},
+                {"function_name": "dev_iam_rights", "language": "php"},
+                {"function_name": "dev_retrieve_secret", "language": "php"}
+            ],
+            "description": "the user must be authentified and have rights before retrieving secrets",
+            "action": "MUST_VERIFY_CALL_FLOW",
+            "attack": "bypass access control", 
+            "cwe": "CWE_285"
+        },
+        {"sequence":
+            [
+                {"function_name": "secret", "language": "php"},
+                {"function_name": "dev_iam_authenticated", "language": "php"},
+                {"function_name": "dev_iam_rights", "language": "php"},
+                {"function_name": "dev_retrieve_secret", "language": "php"}
+            ],
+            "description": "the user must be authentified and have rights before retrieving secrets",
+            "action": "MUST_VERIFY_CALL_FLOW",
+            "attack": "bypass access control", 
+            "cwe": "CWE_285"
+        },
+        {
+            "name": "__construct", 
+            "is_function": true,
+            "instanceof": "testc", 
+            "parameters": 
+            [
+                {"id": 1, "values": 
+                    [ 
+                        {"value" : "vuln"} 
+                    ]}
+            ], 
+            "description": "test instanceof",
+            "language": "php", "action": "MUST_VERIFY_DEFINITION",
+            "attack": "security misconfiguration", 
+            "cwe": "CWE_1004"
+        }
+		]
+}

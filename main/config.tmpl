@@ -1,0 +1,81 @@
+[Infrastructure]
+# The scheduler. No value means test locally. Celery queuing uses celery as the scheduler.
+# For Celery queuing, the CELERY_BROKER_URL should be pointed to the rabbitmq broker address.
+QUEUING = Celery
+# Use sysdig or strace to perform tracing.
+TRACING = Sysdig
+
+
+[Celery]
+# Broker URL for celery.
+CELERY_BROKER_URL = amqp://maloss:MalOSSPassword@example.com/maloss
+CELERY_RESULTS_BACKEND = rpc://
+LOGFILE_PREFIX=/tmp/worker_
+FAILURE_FILE=/tmp/worker.failure
+METADATA_DIR=/data/metadata/
+RESULT_DIR=/data/result/
+
+
+[Metadata]
+LOGFILE_PREFIX=/tmp/metadata_
+FAILURE_FILE=/tmp/metadata.failure
+METADATA_DIR=/tmp/metadata
+
+
+[Dependency]
+LOGFILE_PREFIX=/tmp/dependency_
+FAILURE_FILE=/tmp/dependency.failure
+METADATA_DIR=/tmp/metadata
+
+
+[Compare]
+LOGFILE_PREFIX=/tmp/compare_
+FAILURE_FILE=/tmp/compare.failure
+METADATA_DIR=/tmp/metadata/
+RESULT_DIR=/tmp/result/
+
+
+[AstfilterLocal]
+LOGFILE_PREFIX=/tmp/astgen_
+FAILURE_FILE=/tmp/astgen.failure
+METADATA_DIR=/tmp/metadata/
+RESULT_DIR=/tmp/result/
+
+
+[TaintLocal]
+LOGFILE_PREFIX=/tmp/taint_
+FAILURE_FILE=/tmp/taint.failure
+METADATA_DIR=/tmp/metadata/
+RESULT_DIR=/tmp/result/
+
+
+[Install]
+LOGFILE_PREFIX=/tmp/install_
+FAILURE_FILE=/tmp/install.failure
+METADATA_DIR=/tmp/metadata/
+RESULT_DIR=/tmp/trace/
+
+
+[Dynamic]
+USE_FUZZER=False
+LOGFILE_PREFIX=/tmp/dynamic_
+FAILURE_FILE=/tmp/dynamic.failure
+METADATA_DIR=/tmp/metadata/
+RESULT_DIR=/tmp/dynamic/
+
+
+[Algorithm]
+DRY_RUN=True
+CHECK_HISTORY=False
+SKIP_MISSING_METADATA=False
+DETECT_STEALER=True
+DETECT_BACKDOOR=True
+DETECT_SABOTAGE=True
+# Resource limits
+# https://docs.docker.com/engine/reference/run/#workdir
+MEMORY_LIMIT=2g
+# Timeout for each analysis job in celery_tasks.py
+SOFT_TIMEOUT=7200
+TIMEOUT=7800
+# Timeout for stopping docker containers
+DOCKER_TIMEOUT=600

@@ -1,0 +1,170 @@
+Sources,SourceType,Sinks,SinkType,SourceSinks,SourceSinkType,Dangers,DangerType
+robotparser.RobotFileParser.read,SOURCE_NETWORK,asyncore.dispatcher.send,SINK_NETWORK,urllib.urlopen,SOURCE_NETWORK,webbrower.open,SINK_NETWORK
+asyncore.dispatcher.recv,SOURCE_NETWORK,"socket.send(bytes[, flags])",SINK_NETWORK,urllib.URLopener,SOURCE_NETWORK,webbrower.open_new,SINK_NETWORK
+mimetypes.MimeTypes.read,SOURCE_NETWORK,"socket.sendall(bytes[, flags])",SINK_NETWORK,urllib.FancyURLopener,SOURCE_NETWORK,webbrower.open_new_tab,SINK_NETWORK
+mimetypes.MimeTypes.readfp,SOURCE_NETWORK,"socket.sendto(bytes, address)",SINK_NETWORK,urllib2.urlopen,SOURCE_NETWORK,wsgiref.simple_server.WSGIServer,SINK_NETWORK
+mimetypes.MimeTypes.read_windows_registry,SOURCE_NETWORK,"socket.sendto(bytes, flags, address)",SINK_NETWORK,urllib2.Request,SOURCE_NETWORK,wsgiref.simple_server.make_server,SINK_NETWORK
+mimetypes.MimeTypes.read_mime_types,SOURCE_NETWORK,"socket.sendmsg(buffers[, ancdata[, flags[, address]]])",SINK_NETWORK,urllib2.OpenerDirector.open,SOURCE_NETWORK,SocketServer.UDPServer,SINK_NETWORK
+urllib.urlretrieve,SOURCE_NETWORK,"socket.sendmsg_afalg([msg, ]*, op[, iv[, assoclen[, flags]]])",SINK_NETWORK,urllib2.FTPHandler.ftp_open,SOURCE_NETWORK,SocketServer.TCPServer,SINK_NETWORK
+socket.getaddrinfo,SOURCE_NETWORK,"socket.sendfile(file, offset=0, count=None)",SINK_NETWORK,urllib2.HTTPHandler.http_open,SOURCE_NETWORK,SocketServer.UnixStreamServer,SINK_NETWORK
+socket.gethostbyname,SOURCE_NETWORK,ssl.SSLSocket.write(buf),SINK_NETWORK,urllib2.FileHandler.file_open,SOURCE_NETWORK,SocketServer.UnixDatagramServer,SINK_NETWORK
+socket.gethostname,SOURCE_NETWORK,ssl.SSLSocket.send(),SINK_NETWORK,urllib2.HTTPSHandler.https_open,SOURCE_NETWORK,SocketServer.BaseServer,SINK_NETWORK
+"socket.recv(bufsize[, flags])",SOURCE_NETWORK,ssl.SSLSocket.sendall(),SINK_NETWORK,httplib.HTTPConnection,SOURCE_NETWORK,BaseHTTPServer.HTTPServer,SINK_NETWORK
+"socket.recvfrom(bufsize[, flags])",SOURCE_NETWORK,ssl.SSLSocket.sendfile(),SINK_NETWORK,httplib.HTTPSConnection,SOURCE_NETWORK,xmlrpclib.ServerProxy,SINK_NETWORK
+"socket.recvmsg(bufsize[, ancbufsize[, flags]])",SOURCE_NETWORK,"os.sendfile(out, in, offset, count, [headers, ][trailers, ]flags=0)",SINK_FILE,ftplib.FTP_TLS,SOURCE_NETWORK,SimpleXMLRPCServer.SimpleXMLRPCServer,SINK_NETWORK
+"socket.recvmsg_into(buffers[, ancbufsize[, flags]])",SOURCE_NETWORK,"os.write(fd, str)",SINK_FILE,ftplib.FTP,SOURCE_NETWORK,DocXMLRPCServer.DocXMLRPCServer,SINK_NETWORK
+"socket.recvfrom_into(buffer[, nbytes[, flags]])",SOURCE_NETWORK,"os.writev(fd, buffers)",SINK_FILE,poplib.POP3,SOURCE_NETWORK,socketserver.UDPServer,SINK_NETWORK
+"socket.recv_into(buffer[, nbytes[, flags]])",SOURCE_NETWORK,"os.pwrite(fd, str, offset)",SINK_FILE,poplib.POP3_SSL,SOURCE_NETWORK,socketserver.TCPServer,SINK_NETWORK
+"ssl.SSLSocket.read(len=1024, buffer=None)",SOURCE_NETWORK,"os.pwritev(fd, buffers, offset, flags=0)",SINK_FILE,imaplib.IMAP4,SOURCE_NETWORK,socketserver.UnixStreamServer,SINK_NETWORK
+asyncio.StreamReader.read(n=-1),SOURCE_NETWORK,plistlib.writePlist,SINK_FILE,imaplib.IMAP4_SSL,SOURCE_NETWORK,socketserver.UnixDatagramServer,SINK_NETWORK
+asyncio.StreamReader.readline(),SOURCE_NETWORK,plistlib.writePlistToResource,SINK_FILE,imaplib.IMAP4_stream,SOURCE_NETWORK,socketserver.BaseServer,SINK_NETWORK
+asyncio.StreamReader.readexactly(n),SOURCE_NETWORK,io.IOBase.writelines(lines),SINK_FILE,nntplib.NNTP,SOURCE_NETWORK,socketserver.ForkingTCPServer,SINK_NETWORK
+asyncio.StreamReader.readuntil(separator=b'\n'),SOURCE_NETWORK,io.RawIOBase.write(b),SINK_FILE,smtplib.SMTP,SOURCE_NETWORK,socketserver.ForkingUDPServer,SINK_NETWORK
+asyncio.StreamWriter.write(data),SOURCE_NETWORK,io.BufferedIOBase.write(b),SINK_FILE,smtplib.LMTP,SOURCE_NETWORK,socketserver.ThreadingTCPServer,SINK_NETWORK
+asyncio.StreamWriter.writelines(data),SOURCE_NETWORK,io.TextIOBase.write(s),SINK_FILE,smtplib.SMTP_SSL,SOURCE_NETWORK,socketserver.ThreadingUDPServer,SINK_NETWORK
+input,SOURCE_USER_INPUT,tempfile.mkstemp,SINK_FILE,telnetlib.Telnet,SOURCE_NETWORK,asyncio.start_server,SINK_NETWORK
+raw_input,SOURCE_USER_INPUT,tempfile.mkdtemp,SINK_FILE,socket.create_connection,SOURCE_NETWORK,asyncio.start_unix_server,SINK_NETWORK
+"os.pread(fd, n, offset)",SOURCE_FILE,tempfile.TemporaryFile,SINK_FILE,socket.socket,SOURCE_NETWORK,asyncore.dispatcher,SINK_NETWORK
+"os.preadv(fd, buffers, offset, flags=0)",SOURCE_FILE,tempfile.NamedTemporaryFile,SINK_FILE,socket.socketpair,SOURCE_NETWORK,asyncore.dispatcher_with_send,SINK_NETWORK
+"os.read(fd, n)",SOURCE_FILE,tempfile.SpooledTemporaryFile,SINK_FILE,ssl.SSLSocket,SOURCE_NETWORK,asynchat.async_chat,SINK_NETWORK
+fileinput.input,SOURCE_FILE,,,asyncio.open_connection,SOURCE_NETWORK,urllib.request.build_opener,SINK_NETWORK
+fileinput.FileInput,SOURCE_FILE,,,asyncio.open_unix_connection,SOURCE_NETWORK,http.server.HTTPServer,SINK_NETWORK
+filecmp.cmp,SOURCE_FILE,,,http.client.HTTPConnection,SOURCE_NETWORK,http.server.ThreadingHTTPServer,SINK_NETWORK
+filecmp.cmpfiles,SOURCE_FILE,,,http.client.HTTPSConnection,SOURCE_NETWORK,xmlrpc.client.ServerProxy,SINK_NETWORK
+filecmp.dircmp,SOURCE_FILE,,,urllib.request.urlopen,SOURCE_NETWORK,xmlrpc.server.SimpleXMLRPCServer,SINK_NETWORK
+linecache.getline,SOURCE_FILE,,,urllib.request.URLopener,SOURCE_NETWORK,xmlrpc.server.DocXMLRPCServer,SINK_NETWORK
+plistlib.readPlist,SOURCE_FILE,,,urllib.request.FancyURLopener,SOURCE_NETWORK,"os.rename(src, dst, *, src_dir_fd=None, dst_dir_fd=None)",SINK_FILE
+plistlib.readPlistFromResource,SOURCE_FILE,,,open,SOURCE_FILE,"os.replace(src, dst, *, src_dir_fd=None, dst_dir_fd=None)",SINK_FILE
+io.IOBase.readline(size=-1),SOURCE_FILE,,,file,SOURCE_FILE,os.remove,SINK_FILE
+io.IOBase.readlines(hint=-1),SOURCE_FILE,,,os.fdopen,SOURCE_FILE,os.removedirs,SINK_FILE
+mailbox.Mailbox,SOURCE_FILE,,,os.open,SOURCE_FILE,os.renames,SINK_FILE
+mailbox.Maildir,SOURCE_FILE,,,os.openpty(),SOURCE_FILE,os.rmdir,SINK_FILE
+mailbox.mbox,SOURCE_FILE,,,shelve.DbfilenameShelf,SOURCE_FILE,os.unlink,SINK_FILE
+mailbox.MH,SOURCE_FILE,,,shelve.open,SOURCE_FILE,shutil.copyfileobj,SINK_FILE
+mailbox.Babyl,SOURCE_FILE,,,anydbm.open,SOURCE_FILE,shutil.copyfile,SINK_FILE
+mailbox.MMDF,SOURCE_FILE,,,dbm.open,SOURCE_FILE,shutil.copy,SINK_FILE
+cookielib.FileCookieJar,SOURCE_FILE,,,gdbm.open,SOURCE_FILE,shutil.copy2,SINK_FILE
+cookielib.MozillaCookieJar,SOURCE_FILE,,,dbhash.open,SOURCE_FILE,shutil.copytree,SINK_FILE
+cookielib.LWPCookieJar,SOURCE_FILE,,,bsddb.hashopen,SOURCE_FILE,shutil.rmtree,SINK_FILE
+spwd.getspnam,SOURCE_ACCOUNT,,,bsddb.btopen,SOURCE_FILE,shutil.move,SINK_FILE
+spwd.getspall,SOURCE_ACCOUNT,,,bsddb.rnopen,SOURCE_FILE,shutil.make_archive,SINK_FILE
+pwd.getpwuid,SOURCE_ACCOUNT,,,dumbdbm.open,SOURCE_FILE,pathlib.Path.rename,SINK_FILE
+pwd.getpwnam,SOURCE_ACCOUNT,,,sqlite3.connect,SOURCE_FILE,pathlib.Path.rmdir,SINK_FILE
+pwd.getpwall,SOURCE_ACCOUNT,,,gzip.open,SOURCE_FILE,pathlib.Path.unlink,SINK_FILE
+_winreg.ConnectRegistry,SOURCE_SETTINGS,,,gzip.GzipFile,SOURCE_FILE,os.abort(),SINK_PROCESS_OPERATION
+macostools.copy,SOURCE_FILE,,,bz2.BZ2File,SOURCE_FILE,"os.execl(path, arg0, arg1, ...)",SINK_PROCESS_OPERATION
+macostools.copytree,SOURCE_FILE,,,zipfile.ZipFile,SOURCE_FILE,"os.execle(path, arg0, arg1, ..., env)",SINK_PROCESS_OPERATION
+macostools.mkalias,SOURCE_FILE,,,tarfile.open,SOURCE_FILE,"os.execlp(file, arg0, arg1, ...)",SINK_PROCESS_OPERATION
+findertools.copy,SOURCE_FILE,,,tarfile.TarFile,SOURCE_FILE,"os.execlpe(file, arg0, arg1, ..., env)",SINK_PROCESS_OPERATION
+findertools.move,SOURCE_FILE,,,tarfile.TarFileCompat,SOURCE_FILE,"os.execv(path, args)",SINK_PROCESS_OPERATION
+lzma.open,SOURCE_FILE,,,io.open,SOURCE_FILE,"os.execve(path, args, env)",SINK_PROCESS_OPERATION
+lzma.LZMAFile,SOURCE_FILE,,,io.FileIO,SOURCE_FILE,"os.execvp(file, args)",SINK_PROCESS_OPERATION
+pathlib.Path.replace,SOURCE_FILE,,,aifc.open,SOURCE_FILE,"os.execvpe(file, args, env)",SINK_PROCESS_OPERATION
+http.cookiejar.FileCookieJar,SOURCE_FILE,,,sunau.open,SOURCE_FILE,os._exit(n),SINK_PROCESS_OPERATION
+http.cookiejar.MozillaCookieJar,SOURCE_FILE,,,sunau.openfp,SOURCE_FILE,os.fork(),SINK_PROCESS_OPERATION
+http.cookiejar.LWPCookieJar,SOURCE_FILE,,,wave.open,SOURCE_FILE,os.forkpty(),SINK_PROCESS_OPERATION
+winreg.ConnectRegistry,SOURCE_SETTINGS,,,wave.openfp,SOURCE_FILE,"os.kill(pid, sig)",SINK_PROCESS_OPERATION
+base64.b64decode,SOURCE_OBFUSCATION,,,ossaudiodev.open,SOURCE_FILE,"os.killpg(pgid, sig)",SINK_PROCESS_OPERATION
+base64.standard_b64decode,SOURCE_OBFUSCATION,,,,,"os.spawnl(mode, path, ...)",SINK_PROCESS_OPERATION
+base64.urlsafe_b64decode,SOURCE_OBFUSCATION,,,,,"os.spawnle(mode, path, ..., env)",SINK_PROCESS_OPERATION
+base64.b32decode,SOURCE_OBFUSCATION,,,,,"os.spawnlp(mode, file, ...)",SINK_PROCESS_OPERATION
+base64.b16decode,SOURCE_OBFUSCATION,,,,,"os.spawnlpe(mode, file, ..., env)",SINK_PROCESS_OPERATION
+base64.decode,SOURCE_OBFUSCATION,,,,,"os.spawnv(mode, path, args)",SINK_PROCESS_OPERATION
+base64.decodestring,SOURCE_OBFUSCATION,,,,,"os.spawnve(mode, path, args, env)",SINK_PROCESS_OPERATION
+,,,,,,"os.spawnvp(mode, file, args)",SINK_PROCESS_OPERATION
+,,,,,,"os.spawnvpe(mode, file, args, env)",SINK_PROCESS_OPERATION
+,,,,,,"os.startfile(path[, operation])",SINK_PROCESS_OPERATION
+,,,,,,os.system(command),SINK_PROCESS_OPERATION
+,,,,,,os.register_at_fork,SINK_PROCESS_OPERATION
+,,,,,,os.popen(...),SINK_PROCESS_OPERATION
+,,,,,,os.popen2(...),SINK_PROCESS_OPERATION
+,,,,,,os.popen3(...),SINK_PROCESS_OPERATION
+,,,,,,os.popen4(...),SINK_PROCESS_OPERATION
+,,,,,,subprocess.run,SINK_PROCESS_OPERATION
+,,,,,,subprocess.call,SINK_PROCESS_OPERATION
+,,,,,,subprocess.check_call,SINK_PROCESS_OPERATION
+,,,,,,subprocess.check_output,SINK_PROCESS_OPERATION
+,,,,,,subprocess.Popen,SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.Process,SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.connection.Connection,SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.connection.Connection.recv(),SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.connection.Connection.recv_bytes([maxlength]),SINK_PROCESS_OPERATION
+,,,,,,"multiprocessing.connection.Connection.recv_bytes_into(buffer[, offset])",SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.connection.Connection.send(obj),SINK_PROCESS_OPERATION
+,,,,,,"multiprocessing.connection.Connection.send_bytes(buffer[, offset[, size]])",SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.Manager,SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.managers.BaseManager,SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.managers.SyncManager,SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.Pool,SINK_PROCESS_OPERATION
+,,,,,,multiprocessing.pool.Pool,SINK_PROCESS_OPERATION
+,,,,,,signal.alarm,SINK_PROCESS_OPERATION
+,,,,,,signal.pause,SINK_PROCESS_OPERATION
+,,,,,,signal.siginterrupt,SINK_PROCESS_OPERATION
+,,,,,,signal.signal,SINK_PROCESS_OPERATION
+,,,,,,popen2.popen2,SINK_PROCESS_OPERATION
+,,,,,,popen2.popen3,SINK_PROCESS_OPERATION
+,,,,,,popen2.popen4,SINK_PROCESS_OPERATION
+,,,,,,popen2.Popen3,SINK_PROCESS_OPERATION
+,,,,,,popen2.Popen4,SINK_PROCESS_OPERATION
+,,,,,,sys.exit,SINK_PROCESS_OPERATION
+,,,,,,commands.getstatusoutput,SINK_PROCESS_OPERATION
+,,,,,,commands.getoutput,SINK_PROCESS_OPERATION
+,,,,,,commands.getstatus,SINK_PROCESS_OPERATION
+,,,,,,pipes.Template,SINK_PROCESS_OPERATION
+,,,,,,pty.fork,SINK_PROCESS_OPERATION
+,,,,,,pty.openpty,SINK_PROCESS_OPERATION
+,,,,,,pty.spawn,SINK_PROCESS_OPERATION
+,,,,,,threading.Thread,SINK_PROCESS_OPERATION
+,,,,,,asyncio.create_subprocess_exec,SINK_PROCESS_OPERATION
+,,,,,,asyncio.create_subprocess_shell,SINK_PROCESS_OPERATION
+,,,,,,concurrent.futures.Executor,SINK_PROCESS_OPERATION
+,,,,,,concurrent.futures.ThreadPoolExecutor,SINK_PROCESS_OPERATION
+,,,,,,concurrent.futures.ProcessPoolExecutor,SINK_PROCESS_OPERATION
+,,,,,,concurrent.futures.Future,SINK_PROCESS_OPERATION
+,,,,,,subprocess.getstatusoutput,SINK_PROCESS_OPERATION
+,,,,,,subprocess.getoutput,SINK_PROCESS_OPERATION
+,,,,,,eval,SINK_CODE_GENERATION
+,,,,,,execfile,SINK_CODE_GENERATION
+,,,,,,__import__,SINK_CODE_GENERATION
+,,,,,,getattr,SINK_CODE_GENERATION
+,,,,,,delattr,SINK_CODE_GENERATION
+,,,,,,setattr,SINK_CODE_GENERATION
+,,,,,,compile,SINK_CODE_GENERATION
+,,,,,,exec,SINK_CODE_GENERATION
+,,,,,,ctypes.CDLL,SINK_CODE_GENERATION
+,,,,,,ctypes.OleDLL,SINK_CODE_GENERATION
+,,,,,,ctypes.WinDLL,SINK_CODE_GENERATION
+,,,,,,ctypes.PyDLL,SINK_CODE_GENERATION
+,,,,,,sys.exitfunc,SINK_CODE_GENERATION
+,,,,,,sys.settrace,SINK_CODE_GENERATION
+,,,,,,sys.setprofile,SINK_CODE_GENERATION
+,,,,,,code.interact,SINK_CODE_GENERATION
+,,,,,,code.compile_command,SINK_CODE_GENERATION
+,,,,,,code.InteractiveInterpreter,SINK_CODE_GENERATION
+,,,,,,code.InteractiveConsole,SINK_CODE_GENERATION
+,,,,,,codeop.compile_command,SINK_CODE_GENERATION
+,,,,,,codeop.Compile,SINK_CODE_GENERATION
+,,,,,,codeop.CommandCompiler,SINK_CODE_GENERATION
+,,,,,,imp.load_module,SINK_CODE_GENERATION
+,,,,,,imp.load_compiled,SINK_CODE_GENERATION
+,,,,,,imp.load_dynamic,SINK_CODE_GENERATION
+,,,,,,importlib.import_module,SINK_CODE_GENERATION
+,,,,,,zipimport.zipimporter,SINK_CODE_GENERATION
+,,,,,,pkgutil.ImpImporter,SINK_CODE_GENERATION
+,,,,,,pkgutil.ImpLoader,SINK_CODE_GENERATION
+,,,,,,pkgutil.find_loader,SINK_CODE_GENERATION
+,,,,,,pkgutil.get_importer,SINK_CODE_GENERATION
+,,,,,,pkgutil.get_loader,SINK_CODE_GENERATION
+,,,,,,modulefinder.AddPackagePath,SINK_CODE_GENERATION
+,,,,,,modulefinder.ReplacePackage,SINK_CODE_GENERATION
+,,,,,,runpy.run_module,SINK_CODE_GENERATION
+,,,,,,runpy.run_path,SINK_CODE_GENERATION
+,,,,,,parser.expr,SINK_CODE_GENERATION
+,,,,,,parser.suite,SINK_CODE_GENERATION
+,,,,,,py_compile.compile,SINK_CODE_GENERATION
+,,,,,,py_compile.main,SINK_CODE_GENERATION
+,,,,,,compileall.compile_dir,SINK_CODE_GENERATION
+,,,,,,compileall.compile_file,SINK_CODE_GENERATION
+,,,,,,compileall.compile_path,SINK_CODE_GENERATION
+,,,,,,dl.open,SINK_CODE_GENERATION
+,,,,,,atexit.register,SINK_CODE_GENERATION

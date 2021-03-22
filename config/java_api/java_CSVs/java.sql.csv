@@ -1,0 +1,8 @@
+Package/Class,Method,Classification,Type,Resource,Potential Exploit(s)
+java.sql.PreparedStatement,execute(),Sink/Questionable,SINK_DATABASE,CodeMaster,SQL Injection
+java.sql.PreparedStatement,executeQuery(),Sink/Questionable,SINK_DATABASE,CodeMaster,SQL Injection
+java.sql.PreparedStatement,executeUpdate(),Sink/Questionable,SINK_DATABASE,CodeMaster,SQL Injection
+java.sql.PreparedStatement,executeLargeUpdate(),Sink/Questionable,SINK_DATABASE,CodeMaster,SQL Injection
+java.sql.PreparedStatement,addBatch(),Sink/Questionable,SINK_DATABASE,CodeMaster,SQL Injection
+java.sql.Connection,prepareStatement(),Sink/Questionable,SINK_DATABASE,CodeMaster,SQL Injection
+java.sql.Connection,prepareCall(),Sink/Questionable,SINK_DATABASE,CodeMaster,SQL Injection

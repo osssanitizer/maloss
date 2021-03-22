@@ -1,0 +1,9 @@
+{
+    "name": "Example",
+    "description": "Example of use of Progpilot",
+    "require": {
+        "php": "^7.0.25",
+        "designsecurity/progpilot": "@dev",
+        "ircmaxell/php-cfg": "@dev"
+    }
+} 

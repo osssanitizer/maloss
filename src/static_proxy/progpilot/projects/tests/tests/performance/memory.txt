@@ -1,0 +1,94 @@
+/home/eric/T&eacute;l&eacute;chargements/DVWA-master/external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier.includes.php
+/srv/www/htdocs/phpMyAdmin/prefs_manage.php
+/srv/www/htdocs/phpMyAdmin/db_central_columns.php
+
+Time & defs (computekill):
+/srv/www/htdocs/phpMyAdmin/vendor/tecnickcom/tcpdf/fonts/dejavusans.php
+
+/srv/www/htdocs/phpMyAdmin/ (without hardrules) :
+real    11m55,636s
+user    10m30,884s
+sys     0m1,153s
+
+/srv/www/htdocs/phpMyAdmin/ (with hardrules) :
+real    13m1,293s
+user    11m12,556s
+sys     0m1,254s
+
+/srv/www/htdocs/phpMyAdmin/ (07/07/2018 : 3000 defs & 500ko) :
+real    10m20,371s
+user    9m57,704s
+sys     0m1,577s
+
+
+
+good test, a lot of defs and includes :
+/home/eric/dev/scripts/drupal/core/includes/install.core.inc
+
+exhausted memory good test:
+/srv/www/htdocs/phpMyAdmin/libraries/DisplayResults.php 
+/srv/www/htdocs/phpMyAdmin/vendor/tecnickcom/tcpdf/tcpdf.php
+
+drupal last version (0.3.1) :
+real    10m50,612s
+user    7m54,834s
+sys     0m3,183s
+
+/srv/www/htdocs/phpMyAdmin/ (0.3.2) :
+real    15m5,136s
+user    14m10,438s
+sys     0m1,402s
+
+/srv/www/htdocs/phpMyAdmin/ (25/09/2018 : 3000 defs & 500ko) :
+real    12m11,888s
+user    11m6,008s
+sys     0m1,150s
+
+drupal   (0.3.2) :
+real    10m16,104s
+user    6m37,777s
+sys     0m2,393s
+
+drupal last version  (0.3.3) :(25/09/2018 : 3000 defs & 500ko) :
+real    11m52,976s
+user    7m56,919s
+sys     0m2,874s
+
+
+good test nikic :
+/home/eric/dev/perso/designsecurity/progpilot/.git/
+PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home/eric/dev/perso/designsecurity/progpilot/projects/example_config/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php on line 2237
+
+
+
+
+
+======================
+last version of drupal and phpmyadmin 15/10/2018
+======================
+WITH MEMORY_LIMIT PHP = 512M
+======================
+
+new good tests TWIG (very low) :
+/srv/www/htdocs/phpMyAdmin/vendor/twig/
+and
+/home/eric/Téléchargements/drupal-8.6.1/vendor/easyrdf/easyrdf/lib/EasyRdf/Parser/Turtle.php
+
+
+progpilot 0.4.1
+/srv/www/htdocs/phpMyAdmin/
+real    8m39,357s
+user    6m24,374s
+sys     0m2,285s
+
+
+/home/eric/Téléchargements/drupal-8.6.1/
+real    19m29,446s
+user    11m53,642s
+sys     0m5,072s
+
+
+progpilot 0.5.0
+real    20m35,733s
+user    12m40,166s
+sys     0m4,823s

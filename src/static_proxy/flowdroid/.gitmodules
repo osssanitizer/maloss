@@ -1,0 +1,6 @@
+[submodule "droidbench"]
+	path = droidbench
+	url = https://github.com/secure-software-engineering/DroidBench.git
+[submodule "xsd2thrift"]
+	path = xsd2thrift
+	url = https://github.com/tranchis/xsd2thrift.git

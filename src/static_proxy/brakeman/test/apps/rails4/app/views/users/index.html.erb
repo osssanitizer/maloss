@@ -1,0 +1,19 @@
+<%= raw User.find(params[:id]).to_json %>
+
+<%= raw inside_something(User.find(params[:id]).to_json) %>
+
+<%= raw call_something(params).to_json %>
+
+<%= raw params[:stuff].to_json %>
+
+<%= number_to_currency(params[:cost], params[:currency]) %>
+
+<%= number_to_human(params[:cost], format: h(params[:format])) %> Should not warn
+
+<%= number_to_percentage(params[:cost], negative_format: params[:format]) %>
+
+<%= render Thing.new(content: render(partial: "stuff")) %>
+
+<%== params[:double] %>
+
+<%== params[:x] == 1 %>

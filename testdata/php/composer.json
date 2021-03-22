@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/polyfill-mbstring": "^1.8",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

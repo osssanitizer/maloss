@@ -1,0 +1,743 @@
+{
+  "sources": [
+    {
+      "is_array": true, 
+      "name": "_GET", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "_POST", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "_COOKIE", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "_REQUEST", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "_FILES", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "_SERVER", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "HTTP_GET_VARS", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "HTTP_POST_VARS", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "HTTP_COOKIE_VARS", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "HTTP_REQUEST_VARS", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "HTTP_POST_FILES", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "HTTP_SERVER_VARS", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "HTTP_RAW_POST_DATA", 
+      "language": "php"
+    }, 
+    {
+      "name": "argc", 
+      "language": "php"
+    }, 
+    {
+      "is_array": true, 
+      "name": "argv", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "shell_exec", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "language": "php", 
+      "name": "exec", 
+      "parameters": [
+        {
+          "is_array": true, 
+          "id": 2, 
+          "array_index": 0
+        }
+      ]
+    }, 
+    {
+      "is_function": true, 
+      "name": "fgets", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "fread", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "bzread", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "dio_read", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "exif_imagetype", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "exif_read_data", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "exif_thumbnail", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "fgetss", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "file", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "file_get_contents", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "get_meta_tags", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "glob", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "gzread", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "readdir", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "read_exif_data", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "scandir", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "zip_read", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "mysql_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "mysql_fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "type": "TODO", 
+      "name": "mysql_fetch_object", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "mysql_fetch_row", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "mysqli_fetch_all", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "mysqli_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "mysqli_fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "type": "TODO", 
+      "name": "mysqli_fetch_object", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "mysqli_fetch_row", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "mysqli_result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "fetch_all", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "mysqli_result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "mysqli_result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "mysqli_result", 
+      "is_function": true, 
+      "name": "fetch_object", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "instanceof": "mysqli_result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "fetch_row", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "pg_fetch_all", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "pg_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "pg_fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "type": "TODO", 
+      "name": "pg_fetch_object", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "is_function": true, 
+      "name": "pg_fetch_result", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "pg_fetch_row", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "sqlite_fetch_all", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "sqlite_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "type": "TODO", 
+      "name": "sqlite_fetch_object", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "is_function": true, 
+      "name": "sqlite_fetch_single", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "sqlite_fetch_string", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "SQLite3Result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "fetchArray", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "cubrid_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "cubrid_fetch", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "db2_fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "db2_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "db2_fetch_both", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "db2_fetch_object", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "db2_fetch_row ", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "maxdb_fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "maxdb_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "maxdb_fetch_row", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "maxdb_fetch", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "maxdb_fetch_object ", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "instanceof": "maxdb_result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "maxdb_fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "maxdb_result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "maxdb_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "maxdb_result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "maxdb_fetch_row", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "maxdb_result", 
+      "is_function": true, 
+      "is_array": true, 
+      "name": "maxdb_fetch", 
+      "language": "php"
+    }, 
+    {
+      "instanceof": "maxdb_result", 
+      "is_function": true, 
+      "name": "maxdb_fetch_object ", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "ingres_fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "ingres_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "ingres_fetch_object", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "ingres_fetch_row ", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "fbsql_fetch_assoc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "fbsql_fetch_array", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "fbsql_fetch_object", 
+      "language": "php", 
+      "is_object": true
+    }, 
+    {
+      "is_function": true, 
+      "is_array": true, 
+      "name": "fbsql_fetch_row", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "stream_get_contents", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "system", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "get_headers", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "getallheaders", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "get_browser", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "getenv", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "gethostbyaddr", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "runkit_superglobals", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "import_request_variables", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "ftp_fget", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "ftp_get", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "ftp_nb_fget", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "ftp_nb_get", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "socket_read", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "socket_recv", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "socket_recvfrom", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "socket_recvmsg", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "ssh2_fetch_stream", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "ssh2_scp_recv", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "stream_socket_recvfrom", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "stream_get_line", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "apc_bin_loadfile", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "instanceof": "PharFileInfo", 
+      "name": "getContent", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "instanceof": "Phar", 
+      "name": "addFromString", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "instanceof": "PharData", 
+      "name": "addFromString", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "zip_entry_read", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "instanceof": "ZipArchive", 
+      "name": "addFile", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "instanceof": "ZipArchive", 
+      "name": "addFromString", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "fgetc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "fgetcsv", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "fscanf", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "move_uploaded_file", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "eio_read", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "eio_readdir", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "eio_readahead", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "swoole_async_read", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "swoole_async_readfile", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "swoole_load_module", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "gzfile", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "gzgetc", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "gzgets", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "gzgetss", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "readfile", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "readgzfile", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "readlink", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "highlight_file", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "show_source", 
+      "language": "php"
+    }, 
+    {
+      "is_function": true, 
+      "name": "base64_decode", 
+      "language": "php"
+    }
+  ]
+}

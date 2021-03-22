@@ -1,0 +1,27 @@
+{
+  "info": "Modern concurrency tools including agents, futures, promises, thread pools, actors, supervisors, and more.\nInspired by Erlang, Clojure, Go, JavaScript, actors, and classic concurrency patterns.\n", 
+  "changelog_uri": null, 
+  "project_uri": "https://rubygems.org/gems/concurrent-ruby", 
+  "name": "concurrent-ruby", 
+  "sha": "8ee1206d0145a51f9ebdf735e4b5d6a957e085323b9db32e9b04f557dcd774a0", 
+  "downloads": 84399374, 
+  "version_downloads": 58502391, 
+  "gem_uri": "https://rubygems.org/gems/concurrent-ruby-1.0.5.gem", 
+  "bug_tracker_uri": "https://github.com/ruby-concurrency/concurrent-ruby/issues", 
+  "platform": "ruby", 
+  "version": "1.0.5", 
+  "documentation_uri": "http://ruby-concurrency.github.io/concurrent-ruby/frames.html", 
+  "source_code_uri": "https://github.com/ruby-concurrency/concurrent-ruby", 
+  "authors": "Jerry D'Antonio, Petr Chalupa, The Ruby Concurrency Team", 
+  "licenses": [
+    "MIT"
+  ], 
+  "wiki_uri": "", 
+  "homepage_uri": "http://www.concurrent-ruby.com", 
+  "mailing_list_uri": "https://groups.google.com/forum/#!forum/concurrent-ruby", 
+  "dependencies": {
+    "development": [], 
+    "runtime": []
+  }, 
+  "metadata": {}
+}

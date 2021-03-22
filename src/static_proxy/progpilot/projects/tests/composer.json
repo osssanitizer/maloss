@@ -1,0 +1,25 @@
+{
+    "name": "progpilot/project",
+    "description": "progpilot for designsecurity",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Therond",
+            "email": "eric.therond.fr@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../package"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "progpilot/package": "@dev",
+        "ircmaxell/php-cfg": "^0.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+} 

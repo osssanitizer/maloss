@@ -1,0 +1,22 @@
+<h1>Home#test_params</h1>
+<p>Find me in app/views/home/test_params.html.erb</p>
+
+Jello, <%= @name %>
+
+More: <%= @indirect %>
+
+And: <%= params[:x][:y] %>
+
+Should not warn: <%= link_to h(params[:blah]), "some_url" %>
+
+Not-so-dangerous href: <%= link_to "some text", ensure_valid_proto!(params[:not_so_bad], :js) %>
+
+Dangerous href: <%= link_to "more text", params[:dangerous] %>
+
+Not going to warn: <%= link_to "donkey", not_safe(params[:bad_robot]) %>
+
+Not completely safe: <%= link_to "Helvetica hoodie bushwick", h(params[:js_xss]) %>
+
+Should not warn <%= u(params[:w00t]) %>
+
+Should not warn <%= link_to u(params[:w00t]), "some_url" %>

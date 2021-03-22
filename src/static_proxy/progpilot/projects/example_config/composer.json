@@ -1,0 +1,15 @@
+{
+    "name": "Example",
+    "description": "Example of use of Progpilot",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../package"
+        }
+    ],
+    "require": {
+        "php": "^7.0.25",
+        "progpilot/package": "@dev",
+        "ircmaxell/php-cfg": "@dev"
+    }
+} 

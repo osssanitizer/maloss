@@ -1,0 +1,52 @@
+package name,downloads
+acqusition,{}
+telnet,{}
+apidev-coop,{}
+urlib3,{}
+django-server,{}
+pwd,{}
+setup-tools,{}
+crypt,{}
+bzip,{}
+urllib,{}
+ssh-decorate,"{'overall': 21, u'last_month': 2, u'last_week': 0, u'last_day': 0}"
+colourama,"{'overall': 7, u'last_month': 1, u'last_week': 0, u'last_day': 0}"
+timeit,"{'overall': 6, u'last_month': 2, u'last_week': 1, u'last_day': 0}"
+smplejson ,{}
+pkgutil ,{}
+mybiubiubiu,{}
+djago,"{'overall': 1, u'last_month': 1, u'last_week': 0, u'last_day': 0}"
+diango,"{'overall': 1, u'last_month': 1, u'last_week': 0, u'last_day': 0}"
+dajngo,"{'overall': 1, u'last_month': 1, u'last_week': 0, u'last_day': 0}"
+pyconau-funtimes,{}
+libpeshka,{}
+easyinstall,{}
+djanga,{}
+libcurl,{}
+libhtml5,{}
+mateplotlib,{}
+nmap-python,{}
+numipy,{}
+openvc,{}
+pysprak,{}
+python-mongo,{}
+python-mysql,{}
+python-openssl,{}
+PyYMAL,{}
+junkeldat,{}
+mumpy,{}
+python-ftp,{}
+python-mysqldb,{}
+python-sqlite,{}
+pythonkafka,{}
+virtualnv,{}
+libpeshnx,"{'overall': 486, u'last_month': 18, u'last_week': 1, u'last_day': 0}"
+libpesh,"{'overall': 486, u'last_month': 19, u'last_week': 2, u'last_day': 0}"
+libari,"{'overall': 1165, u'last_month': 28, u'last_week': 2, u'last_day': 0}"
+jajajejejiji,{}
+rstseuqe,{}
+fleshh,"{'overall': 2603, u'last_month': 14, u'last_week': 0, u'last_day': 0}"
+my_project100,"{'overall': 393, u'last_month': 4, u'last_week': 0, u'last_day': 0}"
+my_project10101,"{'overall': 387, u'last_month': 3, u'last_week': 0, u'last_day': 0}"
+my_project101011,"{'overall': 395, u'last_month': 4, u'last_week': 0, u'last_day': 0}"
+pip_security,"{'overall': 4328, u'last_month': 77, u'last_week': 30, u'last_day': 2}"

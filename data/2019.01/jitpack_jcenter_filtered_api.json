@@ -1,0 +1,232 @@
+{
+  "com.github.florent37/materialviewpager": {
+    "1.1.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "694ecf4b9762ce7e3a875b477fb889b528fda114"
+    }, 
+    "1.1.3": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "7f79fd91bcb023c5e602cd63d115d356dab9d574"
+    }, 
+    "1.1.2": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "4f335fc7e0a73f6793f6fa3d4ccfaa58fe028c72"
+    }
+  }, 
+  "com.github.ajitsing/sherlock": {
+    "1.0.4": {
+      "jitpack": "7e601fe6fa356893e1a04a0bfbe100dca5e090fe", 
+      "jcenter": "9fe5fae5a28125d09884362c1fda902faae90c5c"
+    }, 
+    "1.0.2": {
+      "jitpack": "37af50c317ce932919bbdaa126fd612811b89efc", 
+      "jcenter": "b6c4538a21f27d19d5f03990593e9933ac1db6e3"
+    }, 
+    "1.0.3": {
+      "jitpack": "143ffb78ec1fdc3ee4bd39d848e43f85fec5c3de", 
+      "jcenter": "3680ac44359b012d4eb72ac8d6e29ab6c413a73c"
+    }
+  }, 
+  "com.github.jruby-gradle/jruby-gradle-plugin": {
+    "1.6.0": {
+      "jitpack": "a18bfb9a90b2b2031380605a58179f8b12144e85", 
+      "jcenter": "e7eacb0633e0f5afd4d3fb95be0f0b55c4023bd8"
+    }
+  }, 
+  "com.github.debop/hibernate-redis": {
+    "1.6.0": {
+      "jitpack": "255e65b400c73104b5226a686b4896bf7aba0531", 
+      "jcenter": "1d8268c5737971aeb6683b63fb383e100f302ff8"
+    }, 
+    "1.6.1": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "5fd91b8d6bd68c6c0982b961bc48969ab5d18d71"
+    }
+  }, 
+  "com.github.teletha/antibug": {
+    "0.3": {
+      "jitpack": "7aaf1344fb5f5f1dd5a9c9eeb41985b161496a71", 
+      "jcenter": "9235e995e4cc202aec36427830b9de2144ea905a"
+    }
+  }, 
+  "com.github.vitess/rxbus": {
+    "2.0.3": {
+      "jitpack": "bbbc59432a0f417c16999bd21f121e5f71b97b95", 
+      "jcenter": "bfdf12b5ad5efff4f7c588db28fcdde1162f8623"
+    }, 
+    "2.0.1": {
+      "jitpack": "200b62a6ab7845e8ac0dc2fa21739cdadbe7c51e", 
+      "jcenter": "865bfb69c1db47bdc63606a9dbe09e2718b2fed1"
+    }
+  }, 
+  "com.vikingsen/pocketbus": {
+    "1.1.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "693c5c7256d6907468801c107e5a65fb218b4bc6"
+    }, 
+    "1.0.0": {
+      "jitpack": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33", 
+      "jcenter": "92dedda3d7ffc590abbacbe62c1f5d51257a3f27"
+    }
+  }, 
+  "com.github.mjdev/libaums": {
+    "0.4.0": {
+      "jitpack": "ed370c8a22f042c5a49f37a835871f64d48d99a6", 
+      "jcenter": "4ca561a6594a7e0535e561fb45816ed0f6fe2b72"
+    }, 
+    "0.6.0": {
+      "jitpack": "686a47d8cd8cb6e2bf19fa85cbbcc7f43330cc00", 
+      "jcenter": "161204ea0e63538a50370c74c5e1aedf5bab0af2"
+    }, 
+    "0.5.0": {
+      "jitpack": "130033d5596f6e1b7105da7d352bd6bf07a0762a", 
+      "jcenter": "3c6a714b3854e2448ca87441d67209a5b098ee51"
+    }
+  }, 
+  "com.github.stephanenicolas/butterknife": {
+    "10.0.0.4": {
+      "jitpack": "466b21740c9dc45596fee0bf0b0374d8682ea494", 
+      "jcenter": "f1dc2b976ee3e7323881adb0dd80860ce6339723"
+    }, 
+    "10.0.0.3": {
+      "jitpack": "67d5f8754a601431621d11ec15250ae0f263dab5", 
+      "jcenter": "ef23e06a01df0e99a3a4878bcb1f1c857075d74d"
+    }
+  }, 
+  "com.github.matthiasrobbers/shortbread": {
+    "1.0.1": {
+      "jitpack": "0f5327e271143ea168266864b2d34bef85a1ea59", 
+      "jcenter": "fae9750761926a3c6c0b1d62d6554035265eb14c"
+    }
+  }, 
+  "com.github.zellius/rxlocationmanager": {
+    "1.0.0": {
+      "jitpack": "b698e4001e35f0bb995ca9c53e3f11fe7c68fdc6", 
+      "jcenter": "92dc66fffd97ef827964bc892eee70d3d9f9b25c"
+    }
+  }, 
+  "com.github.leonardoxh/keystore-ultimate": {
+    "1.3.0": {
+      "jitpack": "a7ebd771c3b42d189d8b2129ce519e1dc034270d", 
+      "jcenter": "e0e6ab775afcaf95ddd42401dcecd86fc6c3779d"
+    }, 
+    "1.2.1": {
+      "jitpack": "5d3c2774fc28b3dbccfb5c9c7bd9c0f1a11a2c0b", 
+      "jcenter": "ed4dcfe06c6abc7f13563b4b9ce947a5da1909e0"
+    }
+  }, 
+  "org.rm3l/now4j": {
+    "1.0.0": {
+      "jitpack": "3fc21824680425b8091f62926a4219eca338e29a", 
+      "jcenter": "56b88921310866610c05ad2c1f2da2c228d2de0b"
+    }
+  }, 
+  "com.github.florent37/viewanimator": {
+    "1.0.3": {
+      "jitpack": "527be5461ecc50a7a81c6db98d1b684782849249", 
+      "jcenter": "9c3bad26f8c454e3a2c926042d545df100313824"
+    }
+  }, 
+  "com.github.florent37/camerafragment": {
+    "1.0.7": {
+      "jitpack": "51e43576558090fecd1f5f19d9053fdb03913b5a", 
+      "jcenter": "f3f401e3edfc3ef54f79cac85e1b01531f486719"
+    }
+  }, 
+  "com.github.qingmei2/rximagepicker": {
+    "0.2.0": {
+      "jitpack": "0db2dce7cbc4a462a035c7ffa7df1be48cdd5b93", 
+      "jcenter": "97413953b34a48ce131c4bed894b1a693e02dbee"
+    }, 
+    "0.4.0": {
+      "jitpack": "5ee674db85d633b831f0d99b8e646c4884ff7810", 
+      "jcenter": "fdbd2a49325cab10abf38648d8700bf1364d441f"
+    }, 
+    "2.4.2": {
+      "jitpack": "b9c07e0db303ae8cffdb5ec91a3fdd36a14e0300", 
+      "jcenter": "54b329a3f95e6fbb13b2f382ded0f851701b8c61"
+    }, 
+    "2.4.1": {
+      "jitpack": "cfe22210257351e60b8d31f737c52d29f95c46d4", 
+      "jcenter": "3eb81f909c44b317924bebc7571a0cf18fe485b3"
+    }, 
+    "2.3.0-alpha03": {
+      "jitpack": "3828cc94b9d1bb54ac31eec4deadf936858ef64a", 
+      "jcenter": "f40daa224398fc937f7811c3b3f645828c635361"
+    }, 
+    "2.3.0-alpha01": {
+      "jitpack": "731294b58809a07b22bba52f730f390b211c3f15", 
+      "jcenter": "e79080be5447d520dc9e64241f260dcf64ac41a8"
+    }
+  }, 
+  "com.github.piasy/rxandroidaudio": {
+    "1.6.0": {
+      "jitpack": "f9a84de5b4636bf9f05d15aa5e99bc9a3146e156", 
+      "jcenter": "560e75f1ebf4dc557e504a0a733e29be09ae63fc"
+    }, 
+    "1.5.3": {
+      "jitpack": "291b5f4e1c3e5ba4db98dc6b2c3eee851093e447", 
+      "jcenter": "16e9dc544a9f5f65b361e5327c2c51376a78fe05"
+    }
+  }, 
+  "com.github.omribromberg/elasticsearch-datemath": {
+    "0.4.2": {
+      "jitpack": "33891c14dd802fb6148e26028c2162ecb458bcd0", 
+      "jcenter": "f0b20a3401a61b992d667f22f22435623d943cdf"
+    }
+  }, 
+  "org.rm3l/maoni": {
+    "6.0.0": {
+      "jitpack": "b52d6ec291d030d8da6c6be3d8bc5077a775ec6d", 
+      "jcenter": "2fb6a3aee11a71a4285a7be5cc487e4d3a11f03a"
+    }, 
+    "4.1.2": {
+      "jitpack": "62d7587229810efc7dee31cb2af9cc25d1fe7328", 
+      "jcenter": "8dfa4701bd212843e8b8fdf78500893c2f954e04"
+    }
+  }, 
+  "io.github.sporklibrary/spork-android": {
+    "3.0.0": {
+      "jitpack": "e6def72775c11bf8243e5c1dc51756ac715ecb96", 
+      "jcenter": "ffb008c09c5c51f6f113f6accb6796601ec082d8"
+    }
+  }, 
+  "com.github.jmatsu/multipreference": {
+    "0.1": {
+      "jitpack": "21c1743ad47fee658a1f637b0283ac16c1e09501", 
+      "jcenter": "f90bf61b84d3ed97a7c7117384560a15de713731"
+    }, 
+    "0.2": {
+      "jitpack": "8e9a83ce74544c05204cd79c1c2f1a121e86d987", 
+      "jcenter": "e8c74775bb3aeae4c1f38c5cd6e6a9d83fe93d7a"
+    }
+  }, 
+  "com.github.twitch4j/twitch4j": {
+    "v0.10.0": {
+      "jitpack": "2124546fb65eddc8f3c2f31a549f1835345161ab", 
+      "jcenter": "c89d9abe4ad3780ec7644c5dbe1d3c323e706c54"
+    }, 
+    "v0.11.2": {
+      "jitpack": "02dc2a171bcfa75a6c591998447f2ae72fa6936c", 
+      "jcenter": "3b4e6dfcc2b3e5ae08ecc71d7578083a01b8baaf"
+    }
+  }, 
+  "com.github.fszeng2011/fileselector": {
+    "1.1.9": {
+      "jitpack": "a381460bd1481eb40f25d2ddde1ee36060c987c8", 
+      "jcenter": "93521d92073be7277e6d840aa7fc97d018c09ac4"
+    }
+  }, 
+  "com.github.teletha/sinobu": {
+    "1.0": {
+      "jitpack": "2538c6d6cf68da01cc35ea1c69de1a6cd2d67977", 
+      "jcenter": "eb17124bfb87d90d420be3d1c63563c224a04c17"
+    }
+  }, 
+  "com.github.michaelbel/material": {
+    "0.0.5": {
+      "jitpack": "e91cbf0303d39b4139fc32422b14aa757341aac5", 
+      "jcenter": "2b8d2c56b7b468237ef6804251d399596329ee98"
+    }
+  }
+}

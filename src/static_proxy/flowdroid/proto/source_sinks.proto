@@ -1,0 +1,109 @@
+package proto.flowdroid;
+
+message UnspecifiedType
+{
+	required string baseObjectType = 1;
+	required bytes object = 2;
+}
+
+message pathElementType
+{
+	required string field = 1;
+	required string type = 2;
+}
+
+message metaPath
+{
+	optional bool isSink = 1;
+	optional bool isSource = 2;
+	repeated pathElementType pathElement = 3;
+}
+
+message apElement
+{
+	repeated metaPath accessPath = 1;
+	optional string description = 2;
+	optional int32 index = 3;
+	optional string type = 4;
+}
+
+message apElementWithIndex
+{
+	repeated metaPath accessPath = 1;
+	optional string description = 2;
+	required int32 index = 3;
+	optional string type = 4;
+}
+
+message fieldType
+{
+	optional metaPath accessPath = 1;
+	optional string description = 2;
+	required string signature = 3;
+}
+
+message methodType
+{
+	optional apElement base = 1;
+	enum callType
+	{
+		callType_callback = 1;
+		callType_methodCall = 2;
+	}
+	optional callType _callType = 2;
+	repeated apElementWithIndex param = 3;
+	optional apElement return = 4;
+	required string signature = 5;
+}
+
+message categoryType
+{
+	optional string customId = 1;
+	optional string description = 2;
+	optional fieldType field = 3;
+	enum categoryEnum
+	{
+		categoryEnum_ACCOUNT_INFORMATION = 1;
+		categoryEnum_ACCOUNT_SETTINGS = 2;
+		categoryEnum_ALL = 3;
+		categoryEnum_AUDIO = 4;
+		categoryEnum_BLUETOOTH = 5;
+		categoryEnum_BLUETOOTH_INFORMATION = 6;
+		categoryEnum_BROWSER_INFORMATION = 7;
+		categoryEnum_CALENDAR_INFORMATION = 8;
+		categoryEnum_CONTACT_INFORMATION = 9;
+		categoryEnum_DATABASE_INFORMATION = 10;
+		categoryEnum_EMAIL = 11;
+		categoryEnum_EMAIL_INFORMATION = 12;
+		categoryEnum_EMAIL_SETTINGS = 13;
+		categoryEnum_FILE = 14;
+		categoryEnum_FILE_INFORMATION = 15;
+		categoryEnum_HARDWARE_INFO = 16;
+		categoryEnum_IMAGE = 17;
+		categoryEnum_INTER_APP_COMMUNINCATION = 18;
+		categoryEnum_LOCATION_INFORMATION = 19;
+		categoryEnum_LOG = 20;
+		categoryEnum_NETWORK = 21;
+		categoryEnum_NETWORK_INFORMATION = 22;
+		categoryEnum_NFC = 23;
+		categoryEnum_NO_CATEGORY = 24;
+		categoryEnum_PHONE_CONNECTION = 25;
+		categoryEnum_PHONE_INFORMATION = 26;
+		categoryEnum_PHONE_STATE = 27;
+		categoryEnum_SMS_MMS = 28;
+		categoryEnum_SYNCHRONIZATION_DATA = 29;
+		categoryEnum_SYSTEM_SETTINGS = 30;
+		categoryEnum_UNIQUE_IDENTIFIER = 31;
+		categoryEnum_VIDEO = 32;
+		categoryEnum_VOIP = 33;
+		categoryEnum_VOIP_INFORMATION = 34;
+	}
+	required categoryEnum id = 4;
+	optional methodType method = 5;
+}
+
+message sinkSourcesType
+{
+	repeated categoryType category = 1;
+}
+

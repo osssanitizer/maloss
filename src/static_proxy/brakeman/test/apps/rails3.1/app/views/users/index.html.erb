@@ -1,0 +1,23 @@
+<h1>Listing users</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Bio</th>
+    <th>Password</th>
+    <th>Email</th>
+    <th>Role</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <%= render 'user', :collection => @users %>
+</table>
+
+<br />
+
+<%= link_to 'New User', new_user_path %>
+
+<%= @something = params["something_bad"] %>
+<%= render :layout => "test_layout" %>

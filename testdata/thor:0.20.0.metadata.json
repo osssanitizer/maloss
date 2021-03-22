@@ -1,0 +1,32 @@
+{
+  "info": "Thor is a toolkit for building powerful command-line interfaces.", 
+  "changelog_uri": null, 
+  "project_uri": "https://rubygems.org/gems/thor", 
+  "name": "thor", 
+  "sha": "b47dad86e151c08921cf935c1ad2be4d9982e435784d6bc223530b62a4bfb85a", 
+  "downloads": 202175876, 
+  "version_downloads": 34161633, 
+  "gem_uri": "https://rubygems.org/gems/thor-0.20.0.gem", 
+  "bug_tracker_uri": "https://github.com/wycats/thor/issues", 
+  "platform": "ruby", 
+  "version": "0.20.0", 
+  "documentation_uri": "http://rdoc.info/github/wycats/thor", 
+  "source_code_uri": "https://github.com/wycats/thor", 
+  "authors": "Yehuda Katz, Jos\u00e9 Valim", 
+  "licenses": [
+    "MIT"
+  ], 
+  "wiki_uri": "https://github.com/wycats/thor/wiki", 
+  "homepage_uri": "http://whatisthor.com/", 
+  "mailing_list_uri": "", 
+  "dependencies": {
+    "development": [
+      {
+        "requirements": "~> 1.0", 
+        "name": "bundler"
+      }
+    ], 
+    "runtime": []
+  }, 
+  "metadata": {}
+}

@@ -1,0 +1,15 @@
+19153 : 2018-09-11 11:20:58,370 : INFO : telemetry.main : Attempt start. Configuration directory [/home/ruian/.azure].
+19153 : 2018-09-11 11:20:58,370 : INFO : telemetry.check : Positive: The /home/ruian/.azure/telemetry.txt does not exist.
+19153 : 2018-09-11 11:20:58,370 : DEBUG : telemetry.note : acquiring lock
+19153 : 2018-09-11 11:20:58,370 : DEBUG : telemetry.note : acquired lock
+19153 : 2018-09-11 11:20:58,371 : INFO : telemetry.note : Update the note mtime to 2018-09-11 11:20:58.371006
+19153 : 2018-09-11 11:20:58,371 : WARNING : telemetry.note : Fail to parse or read the timestamp 'N/A' in the note file. Set the last send time to minimal. Reason: File not open for reading
+19153 : 2018-09-11 11:20:58,371 : INFO : telemetry.records : No cache to be uploaded.
+19153 : 2018-09-11 11:20:58,371 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+19153 : 2018-09-11 11:20:58,371 : ERROR : telemetry.main : Unexpected Error year=1 is before 1900; the datetime strftime() methods require year >= 1900. Exit 2.
+19153 : 2018-09-11 11:20:58,372 : ERROR : telemetry.main : year=1 is before 1900; the datetime strftime() methods require year >= 1900
+Traceback (most recent call last):
+  File "/tmp/pip-install-ojxssM/azure-cli-telemetry/azure/cli/telemetry/__init__.py", line 101, in main
+  File "/home/ruian/.local/lib/python2.7/site-packages/azure/cli/telemetry/components/telemetry_note.py", line 54, in update_telemetry_note
+    self.fh.write(next_send.strftime('%Y-%m-%dT%H:%M:%S'))
+ValueError: year=1 is before 1900; the datetime strftime() methods require year >= 1900

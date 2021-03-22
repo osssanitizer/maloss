@@ -1,0 +1,32 @@
+{
+  "info": "New wave Internationalization support for Ruby.", 
+  "changelog_uri": null, 
+  "project_uri": "https://rubygems.org/gems/i18n", 
+  "name": "i18n", 
+  "sha": "b9cadce8a3ceaa1a815ab5e2e4a127b653b2ac13363c545dde5ac32014adfb5e", 
+  "downloads": 210372381, 
+  "version_downloads": 2534587, 
+  "gem_uri": "https://rubygems.org/gems/i18n-1.1.0.gem", 
+  "bug_tracker_uri": "http://i18n.lighthouseapp.com", 
+  "platform": "ruby", 
+  "version": "1.1.0", 
+  "documentation_uri": "http://rails-i18n.org", 
+  "source_code_uri": "http://github.com/svenfuchs/i18n", 
+  "authors": "Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller, Saimon Moore, Ryan Bigg", 
+  "licenses": [
+    "MIT"
+  ], 
+  "wiki_uri": "", 
+  "homepage_uri": "http://github.com/svenfuchs/i18n", 
+  "mailing_list_uri": "http://groups.google.com/group/rails-i18n", 
+  "dependencies": {
+    "development": [], 
+    "runtime": [
+      {
+        "requirements": "~> 1.0", 
+        "name": "concurrent-ruby"
+      }
+    ]
+  }, 
+  "metadata": {}
+}

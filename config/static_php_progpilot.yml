@@ -1,0 +1,46 @@
+inputs:
+    setDev: false
+    setLanguages:
+        - php
+    setFrameworks: 
+        - suitecrm
+        - codeigniter
+        - wordpress
+        - prestashop
+        - symfony
+    setSources: ../../config/static_php_sources.json
+    setSinks: ../../config/static_php_sinks.json
+    setValidators: ../../config/static_php_validators.json
+    setSanitizers: ../../config/static_php_sanitizers.json
+    setCustomRules: ../../config/static_php_rules.json
+    setIncludes: ~
+    setExcludes: 
+        exclude_files:
+            - "/srv/www/htdocs/phpMyAdmin/libraries/tcpdf/fonts/dejavusans.php"
+        exclude_folders: 
+            - "/srv/www/htdocs/phpMyAdmin/themes/original/"
+            - "/home/maloss/prestashop/vendor/"
+            - "/home/maloss/prestashop/localization/"
+    setFolder: "/home/maloss/drupal-8.6.1/"
+    setFile: ~
+    setCode: ~
+    setResolvedIncludes: ~
+    setFalsePositives: ~
+    
+outputs:
+    taintedFlow: true
+    resolveIncludes: false
+    resolveIncludesFile: ~
+    setOutfile: ./output.json
+    
+options:
+    setAnalyzeIncludes: true
+    setAnalyzeFunctions: true
+    setAnalyzeHardRules: true
+    setPrintFile: true
+    setPrintWarning: false
+    setPrettyPrint: true
+    setLimitTime: 10000
+    setLimitDefs: 3000000
+    setLimitSize: 500000000
+

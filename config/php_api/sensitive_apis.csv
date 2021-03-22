@@ -1,0 +1,79 @@
+Sources,SourceType,Sinks,SinkType,Dangers,DangerType
+ftp_fget ,SOURCE_NETWORK,radius_send_request:1,SINK_NETWORK,setproctitle:1,SINK_PROCESS_OPERATION
+ftp_get ,SOURCE_NETWORK,ftp_fput:3,SINK_NETWORK,setthreadtitle:1,SINK_PROCESS_OPERATION
+ftp_nb_fget,SOURCE_NETWORK,ftp_put:3,SINK_NETWORK,expect_expectl:1,SINK_PROCESS_OPERATION
+ftp_nb_get,SOURCE_NETWORK,ftp_nb_fput:3,SINK_NETWORK,expect_popen:1,SINK_PROCESS_OPERATION
+socket_read,SOURCE_NETWORK,ftp_nb_put:3,SINK_NETWORK,pcntl_exec:1,SINK_PROCESS_OPERATION
+socket_recv,SOURCE_NETWORK,socket_send:2,SINK_NETWORK,pcntl_fork,SINK_PROCESS_OPERATION
+socket_recvfrom,SOURCE_NETWORK,socket_sendmsg:2,SINK_NETWORK,pcntl_signal,SINK_PROCESS_OPERATION
+socket_recvmsg,SOURCE_NETWORK,socket_sendto:2:5,SINK_NETWORK,posix_getlogin,SINK_PROCESS_OPERATION
+ssh2_fetch_stream,SOURCE_NETWORK,socket_write:2,SINK_NETWORK,exec:1,SINK_PROCESS_OPERATION
+ssh2_scp_recv,SOURCE_NETWORK,ssh2_scp_send:2,SINK_NETWORK,popen:1,SINK_PROCESS_OPERATION
+stream_socket_recvfrom,SOURCE_NETWORK,stream_socket_sendto:2:4,SINK_NETWORK,passthru:1,SINK_PROCESS_OPERATION
+stream_get_contents,SOURCE_NETWORK,apc_bin_dumpfile:1:2,SINK_FILE,proc_open:1,SINK_PROCESS_OPERATION
+stream_get_line,SOURCE_NETWORK,bzwrite:2,SINK_FILE,shell_exec:1,SINK_PROCESS_OPERATION
+apc_bin_loadfile,SOURCE_FILE,gzwrite:2,SINK_FILE,system:1,SINK_PROCESS_OPERATION
+bzread,SOURCE_FILE,gzputs:2,SINK_FILE,Threaded::run,SINK_PROCESS_OPERATION
+PharFileInfo::getContent ,SOURCE_FILE,dio_write:2,SINK_FILE,Thread::start,SINK_PROCESS_OPERATION
+Phar::addFromString ,SOURCE_FILE,file_put_contents:2,SINK_FILE,Pool::submit,SINK_PROCESS_OPERATION
+PharData::addFromString,SOURCE_FILE,fputcsv:2,SINK_FILE,pht\Thread::start,SINK_PROCESS_OPERATION
+zip_entry_read,SOURCE_FILE,fputs:2,SINK_FILE,pht\Runnable::run,SINK_PROCESS_OPERATION
+zip_read,SOURCE_FILE,fwrite:2,SINK_FILE,ftp_rmdir:2,SINK_NETWORK
+ZipArchive::addFile,SOURCE_FILE,eio_write:2,SINK_FILE,ftp_delete:2,SINK_NETWORK
+ZipArchive::addFromString,SOURCE_FILE,swoole_async_write:2,SINK_FILE,ftp_raw:2,SINK_NETWORK
+gzread,SOURCE_FILE,swoole_async_writefile:2,SINK_FILE,ftp_exec:2,SINK_NETWORK
+dio_read ,SOURCE_FILE,fprintf:1:3,SINK_FILE,curl_exec:1,SINK_NETWORK
+readdir,SOURCE_FILE,vfprintf:1:3,SINK_FILE,curl_multi_exec:1,SINK_NETWORK
+file,SOURCE_FILE,yaml_emit_file:1:2,SINK_FILE,ssh2_connect:1:2,SINK_NETWORK
+file_get_contents,SOURCE_FILE,yaml_parse:1,SINK_FILE,ssh2_shell,SINK_NETWORK
+fgetc,SOURCE_FILE,yaml_parse_file:1,SINK_FILE,ssh2_tunnel:2:3,SINK_NETWORK
+fgetcsv ,SOURCE_FILE,mb_send_mail:1:2:3:4:5,SINK_FILE,ssh2_exec:2,SINK_NETWORK
+fgets ,SOURCE_FILE,mail:1:2:3:4:5,SINK_NETWORK,ssh2_sftp_unlink:2,SINK_NETWORK
+fgetss ,SOURCE_FILE,fpassthru:1,SINK_NETWORK,apc_delete_file:1,SINK_FILE
+fread,SOURCE_FILE,gzpassthru:1,SINK_FILE,link:2,SINK_FILE
+fscanf,SOURCE_FILE,fopen:1,SINK_FILE,delete:1,SINK_FILE
+move_uploaded_file,SOURCE_FILE,zip_open:1,SINK_FILE,unlink:1,SINK_FILE
+eio_read,SOURCE_FILE,fdf_open:1,SINK_FILE,rmdir:1,SINK_FILE
+eio_readdir,SOURCE_FILE,,,eio_unlink:1,SINK_FILE
+eio_readahead,SOURCE_FILE,,,eio_rmdir:1,SINK_FILE
+swoole_async_read ,SOURCE_FILE,,,apc_compile_file:1,SINK_CODE_GENERATION
+swoole_async_readfile,SOURCE_FILE,,,override_function:1:3,SINK_CODE_GENERATION
+swoole_load_module,SOURCE_FILE,,,bcompiler_load_exe:1,SINK_CODE_GENERATION
+exif_read_data,SOURCE_FILE,,,bcompiler_load:1,SINK_CODE_GENERATION
+read_exif_data,SOURCE_FILE,,,bcompiler_parse_class ,SINK_CODE_GENERATION
+gzfile,SOURCE_FILE,,,bcompiler_read:1,SINK_CODE_GENERATION
+gzgetc,SOURCE_FILE,,,Reflection,SINK_CODE_GENERATION
+gzgets,SOURCE_FILE,,,ReflectionClass,SINK_CODE_GENERATION
+gzgetss,SOURCE_FILE,,,ReflectionZendExtension,SINK_CODE_GENERATION
+readfile,SOURCE_FILE,,,ReflectionExtension,SINK_CODE_GENERATION
+readgzfile,SOURCE_FILE,,,ReflectionFunction,SINK_CODE_GENERATION
+readlink,SOURCE_FILE,,,ReflectionMethod,SINK_CODE_GENERATION
+highlight_file,SOURCE_FILE,,,opcache_compile_file:1,SINK_CODE_GENERATION
+show_source,SOURCE_FILE,,,uopz_add_function:1,SINK_CODE_GENERATION
+base64_decode,SOURCE_OBFUSCATION,,,classkit_import:1,SINK_CODE_GENERATION
+,,,,classkit_method_add:4,SINK_CODE_GENERATION
+,,,,classkit_method_redefine:4,SINK_CODE_GENERATION
+,,,,eval:1,SINK_CODE_GENERATION
+,,,,parsekit_compile_file:1,SINK_CODE_GENERATION
+,,,,parsekit_compile_string:1,SINK_CODE_GENERATION
+,,,,Lua::call,SINK_CODE_GENERATION
+,,,,Lua::eval:1,SINK_CODE_GENERATION
+,,,,Lua::include:1,SINK_CODE_GENERATION
+,,,,assert:1,SINK_CODE_GENERATION
+,,,,preg_replace,SINK_CODE_GENERATION
+,,,,preg_filter,SINK_CODE_GENERATION
+,,,,preg_replace_callback,SINK_CODE_GENERATION
+,,,,mb_eregi_replace,SINK_CODE_GENERATION
+,,,,mb_ereg_replace,SINK_CODE_GENERATION
+,,,,create_function:2,SINK_CODE_GENERATION
+,,,,include:1,SINK_CODE_GENERATION
+,,,,php_check_syntax:1,SINK_CODE_GENERATION
+,,,,runkit_import:1,SINK_CODE_GENERATION
+,,,,runkit_function_add:3,SINK_CODE_GENERATION
+,,,,runkit_constant_add:2,SINK_CODE_GENERATION
+,,,,runkit_method_add:4,SINK_CODE_GENERATION
+,,,,runkit_function_redefine:3,SINK_CODE_GENERATION
+,,,,runkit_constant_redefine:2,SINK_CODE_GENERATION
+,,,,runkit_method_redefine:4,SINK_CODE_GENERATION
+,,,,virtual:1,SINK_CODE_GENERATION
+,,,,dl:1,SINK_CODE_GENERATION

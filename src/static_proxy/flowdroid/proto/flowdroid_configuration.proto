@@ -1,0 +1,151 @@
+package proto.flowdroid;
+
+message UnspecifiedType
+{
+	required string baseObjectType = 1;
+	required bytes object = 2;
+}
+
+message androidConfigType
+{
+	optional int32 callbackAnalysisTimeout = 1;
+	enum callbackSourceModeType
+	{
+		callbackSourceModeType_AllParametersAsSources = 1;
+		callbackSourceModeType_NoParametersAsSources = 2;
+		callbackSourceModeType_SourceListOnly = 3;
+	}
+	optional callbackSourceModeType callbackSourceMode = 2;
+	optional bool enableCallbacks = 3;
+	optional bool filterThreadCallbacks = 4;
+	enum layoutMatchingModeType
+	{
+		layoutMatchingModeType_MatchAll = 1;
+		layoutMatchingModeType_MatchSensitiveOnly = 2;
+		layoutMatchingModeType_NoMatch = 3;
+	}
+	optional layoutMatchingModeType layoutMatchingMode = 5;
+	optional int32 maxCallbackDepth = 6;
+	optional int32 maxCallbacksPerComponent = 7;
+	optional bool mergeDexFiles = 8;
+}
+
+message dataFlowConfigType
+{
+	optional int32 dataFlowTimeout = 1;
+	optional bool enableArraySizeTainting = 2;
+	optional bool enableArrays = 3;
+	optional bool enableExceptions = 4;
+	optional bool enableReflection = 5;
+	optional bool enableStaticFields = 6;
+	optional bool flowSensitiveAliasing = 7;
+	enum implicitFlowMode
+	{
+		implicitFlowMode_AllImplicitFlows = 1;
+		implicitFlowMode_ArrayAccesses = 2;
+		implicitFlowMode_NoImplicitFlows = 3;
+	}
+	optional implicitFlowMode _implicitFlowMode = 8;
+	optional bool logSourcesAndSinks = 9;
+	optional int32 maxCallStackSize = 10;
+	optional int32 maxCalleesPerCallSite = 11;
+	optional int32 maxJoinPointAbstractions = 12;
+	optional int32 maxPathLength = 13;
+	optional int32 maxPathsPerAbstraction = 14;
+	optional bool pathAgnosticResults = 15;
+	optional int32 pathReconstructionBatchSize = 16;
+	enum pathReconstructionMode
+	{
+		pathReconstructionMode_Fast = 1;
+		pathReconstructionMode_NoPaths = 2;
+		pathReconstructionMode_Precise = 3;
+	}
+	optional pathReconstructionMode _pathReconstructionMode = 17;
+	optional int32 pathReconstructionTimeout = 18;
+	optional bool writeOutputFiles = 19;
+}
+
+message iccConfigType
+{
+	optional bool enableICCTracking = 1;
+	optional string modelFile = 2;
+	optional bool purifyResults = 3;
+}
+
+message inputFilesType
+{
+	optional string androidPlatform = 1;
+	optional string outputFile = 2;
+	optional string sourceSinkFile = 3;
+	optional string targetAPK = 4;
+}
+
+message sourcesSinksElementType
+{
+	optional string customId = 1;
+	enum predefinedCategoryId
+	{
+		predefinedCategoryId_ACCOUNT_INFORMATION = 1;
+		predefinedCategoryId_ACCOUNT_SETTINGS = 2;
+		predefinedCategoryId_AUDIO = 3;
+		predefinedCategoryId_BLUETOOTH = 4;
+		predefinedCategoryId_BLUETOOTH_INFORMATION = 5;
+		predefinedCategoryId_BROWSER_INFORMATION = 6;
+		predefinedCategoryId_CALENDAR_INFORMATION = 7;
+		predefinedCategoryId_CONTACT_INFORMATION = 8;
+		predefinedCategoryId_DATABASE_INFORMATION = 9;
+		predefinedCategoryId_EMAIL = 10;
+		predefinedCategoryId_EMAIL_INFORMATION = 11;
+		predefinedCategoryId_EMAIL_SETTINGS = 12;
+		predefinedCategoryId_FILE = 13;
+		predefinedCategoryId_FILE_INFORMATION = 14;
+		predefinedCategoryId_HARDWARE_INFO = 15;
+		predefinedCategoryId_IMAGE = 16;
+		predefinedCategoryId_INTER_APP_COMMUNICATION = 17;
+		predefinedCategoryId_LOCATION_INFORMATION = 18;
+		predefinedCategoryId_LOG = 19;
+		predefinedCategoryId_NETWORK = 20;
+		predefinedCategoryId_NETWORK_INFORMATION = 21;
+		predefinedCategoryId_NFC = 22;
+		predefinedCategoryId_NO_CATEGORY = 23;
+		predefinedCategoryId_PHONE_CONNECTION = 24;
+		predefinedCategoryId_PHONE_INFORMATION = 25;
+		predefinedCategoryId_PHONE_STATE = 26;
+		predefinedCategoryId_SMS_MMS = 27;
+		predefinedCategoryId_SYNCHRONIZATION_DATA = 28;
+		predefinedCategoryId_SYSTEM_SETTINGS = 29;
+		predefinedCategoryId_UNIQUE_IDENTIFIER = 30;
+		predefinedCategoryId_VIDEO = 31;
+		predefinedCategoryId_VOIP = 32;
+		predefinedCategoryId_VOIP_INFORMATION = 33;
+	}
+	required predefinedCategoryId id = 2;
+	enum categoryModeType
+	{
+		categoryModeType_Exclude = 1;
+		categoryModeType_Include = 2;
+	}
+	required categoryModeType mode = 3;
+}
+
+message sourcesSinksSpecType
+{
+	required sourcesSinksElementType category = 1;
+	enum defaultSourceSinkModeType
+	{
+		defaultSourceSinkModeType_UseAllButExcluded = 1;
+		defaultSourceSinkModeType_UseOnlyIncluded = 2;
+	}
+	optional defaultSourceSinkModeType defaultMode = 2;
+}
+
+message configurationType
+{
+	optional androidConfigType androidConfiguration = 1;
+	optional dataFlowConfigType dataFlowConfiguration = 2;
+	optional iccConfigType iccConfiguration = 3;
+	required inputFilesType inputFiles = 4;
+	optional sourcesSinksSpecType sinks = 5;
+	optional sourcesSinksSpecType sources = 6;
+}
+

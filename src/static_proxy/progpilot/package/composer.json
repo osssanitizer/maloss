@@ -1,0 +1,25 @@
+{    
+    "name": "progpilot/package",
+    "description": "A Static Analyser for security (package for local dev)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Therond",
+            "email": "eric.therond.fr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "ircmaxell/php-cfg": "^0.5",
+        "symfony/yaml": ">=3.3.6",
+        "symfony/console": ">=3.3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "progpilot": "src"
+        }
+    }
+} 

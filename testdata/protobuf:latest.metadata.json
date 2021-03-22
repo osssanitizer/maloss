@@ -1,0 +1,93 @@
+{
+  "info": "Google Protocol Buffers serialization and RPC implementation for Ruby.", 
+  "changelog_uri": null, 
+  "project_uri": "https://rubygems.org/gems/protobuf", 
+  "name": "protobuf", 
+  "sha": "ef50595a87e24526c4c05c2c10a123b6a5e98dfe7f9f8baecd820d944d27b0af", 
+  "downloads": 1460017, 
+  "version_downloads": 188381, 
+  "gem_uri": "https://rubygems.org/gems/protobuf-3.8.4.gem", 
+  "bug_tracker_uri": "", 
+  "platform": "ruby", 
+  "version": "3.8.4", 
+  "documentation_uri": "http://rubydoc.info/gems/protobuf/1.1.2/frames", 
+  "source_code_uri": "https://github.com/localshred/protobuf", 
+  "authors": "BJ Neilsen, Brandon Dewitt, Devin Christensen, Adam Hutchison", 
+  "licenses": [
+    "MIT"
+  ], 
+  "wiki_uri": "", 
+  "homepage_uri": "https://github.com/localshred/protobuf", 
+  "mailing_list_uri": "", 
+  "dependencies": {
+    "development": [
+      {
+        "requirements": ">= 0", 
+        "name": "ffi-rzmq"
+      }, 
+      {
+        "requirements": "= 2.3.0.6", 
+        "name": "parser"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "pry-byebug"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "pry-stack_explorer"
+      }, 
+      {
+        "requirements": "< 11.0", 
+        "name": "rake"
+      }, 
+      {
+        "requirements": ">= 3.0", 
+        "name": "rspec"
+      }, 
+      {
+        "requirements": "~> 0.38.0", 
+        "name": "rubocop"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "ruby-prof"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "simplecov"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "timecop"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "varint"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "yard"
+      }
+    ], 
+    "runtime": [
+      {
+        "requirements": ">= 3.2", 
+        "name": "activesupport"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "middleware"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "thor"
+      }, 
+      {
+        "requirements": ">= 0", 
+        "name": "thread_safe"
+      }
+    ]
+  }, 
+  "metadata": {}
+}

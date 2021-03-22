@@ -1,0 +1,50 @@
+{
+  "info": "Generalized implementation of the middleware abstraction for Ruby.", 
+  "changelog_uri": null, 
+  "project_uri": "https://rubygems.org/gems/middleware", 
+  "name": "middleware", 
+  "sha": "b4a79afb58c3c5031eb5706cdc59219c9f1671e904b04032e6e18c2ddcb4031c", 
+  "downloads": 2157277, 
+  "version_downloads": 2157277, 
+  "gem_uri": "https://rubygems.org/gems/middleware-0.1.0.gem", 
+  "bug_tracker_uri": null, 
+  "platform": "ruby", 
+  "version": "0.1.0", 
+  "documentation_uri": "http://www.rubydoc.info/gems/middleware/0.1.0", 
+  "source_code_uri": null, 
+  "authors": "Mitchell Hashimoto", 
+  "licenses": null, 
+  "wiki_uri": null, 
+  "homepage_uri": "https://github.com/mitchellh/middleware", 
+  "mailing_list_uri": null, 
+  "dependencies": {
+    "development": [
+      {
+        "requirements": ">= 0", 
+        "name": "rake"
+      }, 
+      {
+        "requirements": "~> 2.1.0", 
+        "name": "redcarpet"
+      }, 
+      {
+        "requirements": "~> 2.8.0", 
+        "name": "rspec-core"
+      }, 
+      {
+        "requirements": "~> 2.8.0", 
+        "name": "rspec-expectations"
+      }, 
+      {
+        "requirements": "~> 2.8.0", 
+        "name": "rspec-mocks"
+      }, 
+      {
+        "requirements": "~> 0.7.5", 
+        "name": "yard"
+      }
+    ], 
+    "runtime": []
+  }, 
+  "metadata": {}
+}

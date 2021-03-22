@@ -1,0 +1,40 @@
+{
+  "info": "A collection of data structures and utilities to make thread-safe programming in Ruby easier", 
+  "changelog_uri": null, 
+  "project_uri": "https://rubygems.org/gems/thread_safe", 
+  "name": "thread_safe", 
+  "sha": "9ed7072821b51c57e8d6b7011a8e282e25aeea3a4065eab326e43f66f063b05a", 
+  "downloads": 156535077, 
+  "version_downloads": 59735225, 
+  "gem_uri": "https://rubygems.org/gems/thread_safe-0.3.6.gem", 
+  "bug_tracker_uri": "https://github.com/ruby-concurrency/thread_safe/issues", 
+  "platform": "ruby", 
+  "version": "0.3.6", 
+  "documentation_uri": "http://ruby-concurrency.github.io/thread_safe/frames.html", 
+  "source_code_uri": "https://github.com/ruby-concurrency/thread_safe", 
+  "authors": "Charles Oliver Nutter, thedarkone", 
+  "licenses": [
+    "Apache-2.0"
+  ], 
+  "wiki_uri": "", 
+  "homepage_uri": "https://github.com/ruby-concurrency/thread_safe", 
+  "mailing_list_uri": "https://groups.google.com/forum/#!forum/concurrent-ruby", 
+  "dependencies": {
+    "development": [
+      {
+        "requirements": "= 1.1.16", 
+        "name": "atomic"
+      }, 
+      {
+        "requirements": "< 12.0", 
+        "name": "rake"
+      }, 
+      {
+        "requirements": "~> 3.2", 
+        "name": "rspec"
+      }
+    ], 
+    "runtime": []
+  }, 
+  "metadata": {}
+}
