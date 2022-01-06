@@ -1,6 +1,6 @@
 # the latest version has known bug, revert to older versions.
 # https://github.com/celery/celery/issues/5047
-celery==4.1.1
+celery==5.2.2
 tornado==5.1.1
 progressbar==2.5
 docker==4.0.1
