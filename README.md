@@ -532,6 +532,7 @@ This repository is open sourced under MIT license. If you find this repository h
 - [Stanford mirror of pypi](https://nero-mirror.stanford.edu/pypi/simple/my_project101011/)
 - [Mirrors of registries in China](https://github.com/PaicFE/blog/issues/3)
 - [Keeping The npm Registry Awesome: How npmjs works?](https://nodejs.org/en/blog/npm/2013-outage-postmortem/)
+- [Learn Docker in Data Structures](https://www.scaler.com/topics/what-is-docker/)
 - [Query npmjs registry via api](https://stackoverflow.com/questions/34071621/query-npmjs-registry-via-api)
 - [NPM search with history versions](http://npmsearch.com/)
 - [numeric precision matters: how npm download counts work](https://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts)
