@@ -4,7 +4,7 @@ asttokens==1.1.11
 python-magic==0.4.15
 rarfile==3.0
 esprima==4.0.0
-protobuf==3.6.1
+protobuf==3.18.3
 timeout-decorator==0.4.0
 func-timeout==4.3.3
 networkx==2.2
